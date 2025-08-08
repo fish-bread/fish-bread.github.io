@@ -1,0 +1,78 @@
+/* 基础样式 */
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #bdbdbd;
+    background: #262626;
+    font-family: "JetBrains Mono", Consolas, Monaco, 'Andale Mono', monospace;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    tab-size: 4;
+    hyphens: none;
+}
+
+/* 代码块装饰 */
+pre[class*="language-"] {
+    margin: .5em 0;
+    padding: 1em;
+    overflow: auto;
+    border-left: 4px solid #6c95eb;
+    background: #282828;
+}
+
+pre[class*="language-"] > code {
+    background: transparent;
+}
+
+/* 语法高亮 */
+.token.comment,
+.token.prolog,
+.token.doctype {
+    color: #85c46c;
+    font-style: italic;
+}
+
+.token.keyword,
+.token.tag {
+    color: #6c95eb;
+}
+
+.token.string,
+.token.attr-value {
+    color: #c9a26d;
+}
+
+.token.number {
+    color: #ed94c0;
+}
+
+.token.function {
+    color: #39cc9b;
+}
+
+.token.operator,
+.token.punctuation {
+    color: #bdbdbd;
+}
+
+/* 行高亮 */
+.line-highlight {
+    background: rgba(8, 51, 94, 0.2);
+}
+
+/* 错误提示 */
+.token.error {
+    color: #ff5647;
+    text-decoration: underline wavy;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    pre[class*="language-"] {
+        font-size: 14px;
+        padding: 0.8em;
+    }
+}

@@ -1,0 +1,3 @@
+---
+layout: Live2d
+---

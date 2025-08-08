@@ -1,0 +1,3 @@
+import comp from "F:/workall/GitHub/vuepress-my-docs/vuepress-default-Latest/docs/.vuepress/.temp/pages/posts/Issues/Issues_index.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/Issues/Issues_index.html\",\"title\":\"个人在使用各种框架所遇到的问题\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"excerpt\":\"\\n<p>这是一个起始文件</p>\\n<p>复制一段话用于填充背景(每段话会比上段话更短!)</p>\\n<p>复制一段话用于填充背景(每段话会比上段话更短!</p>\\n<p>复制一段话用于填充背景(每段话会比上段话更短</p>\\n<p>复制一段话用于填充背景(每段话会比上段话更</p>\\n<p>复制一段话用于填充背景(每段话会比上段话</p>\\n<p>复制一段话用于填充背景(每段话会比上段</p>\\n<p>复制一段话用于填充背景(每段话会比上</p>\\n<p>复制一段话用于填充背景(每段话会</p>\\n<p>复制一段话用于填充背景(每段话</p>\\n<p>复制一段话用于填充背景(每段</p>\\n<p>复制一段话用于填充背景(每</p>\"}")
+export { comp, data }
