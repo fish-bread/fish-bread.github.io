@@ -98,16 +98,20 @@ export const themes = ref({
 
 //切换颜色
 export const change_theme = () => {
-    if (theme_change.value === 'light') {
-        theme_change.value = 'dark'
-    } else if (theme_change.value === 'dark') {
-        theme_change.value = 'light'
+    // 确保 theme_change 有值
+    if (!theme_change.value) {
+        theme_change.value = 'light';
     }
-    set_change_theme()
-    // 更新HTML属性,用于shiki主题
+
+    // 切换主题
+    theme_change.value = theme_change.value === 'light' ? 'dark' : 'light';
+
+    // 更新存储
+    set_change_theme();
+
+    // 更新HTML属性
     document.documentElement.setAttribute('data-theme', theme_change.value);
 }
-
 //存储主题颜色
 export const set_theme = () => {
     localStorage.setItem("theme", JSON.stringify(themes.value))
@@ -120,14 +124,27 @@ export const set_change_theme = () => {
 }
 //读取主题
 export const get_theme = () => {
-    if (localStorage.getItem('theme')) {
-        console.log('读取主题', JSON.parse(localStorage.getItem('theme')))
-        console.log('读取主题明暗', JSON.parse(localStorage.getItem('theme_change')))
-        themes.value =  JSON.parse(localStorage.getItem('theme'))
-        theme_change.value =  JSON.parse(localStorage.getItem('theme_change'))
+    // 先尝试读取主题明暗设置
+    const savedThemeChange = localStorage.getItem('theme_change');
+
+    if (savedThemeChange) {
+        theme_change.value = JSON.parse(savedThemeChange);
+        console.log('读取主题明暗', theme_change.value);
     } else {
-        console.log('未设置主题')
-        theme_change.value = 'light'
+        console.log('未设置主题明暗，使用默认light模式');
+        theme_change.value = 'light';
+        // 立即保存默认设置到本地存储
+        set_change_theme();
+    }
+
+    // 然后尝试读取主题颜色设置
+    const savedThemes = localStorage.getItem('theme');
+    if (savedThemes) {
+        themes.value = JSON.parse(savedThemes);
+        console.log('读取主题', themes.value);
+    } else {
+        console.log('未设置主题颜色，使用默认设置');
+        // 不需要特别处理，因为 themes 已经有默认值
     }
 }
 

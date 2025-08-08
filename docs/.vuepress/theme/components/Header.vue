@@ -16,7 +16,6 @@ import {onMounted, ref, shallowRef, watchEffect} from "vue";
 import {get_theme, theme_change, change_theme, themes } from '../func/newColor.js'  
 
 onMounted(async () => {
-  
   //读取窗体设置
   window_size_func()
   rotate_button.value.style.animationPlayState = "paused";
