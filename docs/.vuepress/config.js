@@ -19,6 +19,7 @@ export default defineUserConfig({
   head: [
     // 添加图标
     ['link', { rel: 'icon', href: '/images/logo/original2.png' }],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-Ez9OaEuBsd' }]
     //全局注入脚本
   ],
   // 2. 主题配置会传递给自定义主题

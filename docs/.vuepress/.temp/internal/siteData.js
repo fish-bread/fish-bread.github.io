@@ -1,1 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"fishbread的博客\",\"description\":\"fishbread的博客,一个技术菜鸟的博客\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/logo/original2.png\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"fishbread的博客\",\"description\":\"fishbread的博客,一个技术菜鸟的博客\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/logo/original2.png\"}],[\"meta\",{\"name\":\"baidu-site-verification\",\"content\":\"codeva-Ez9OaEuBsd\"}]],\"locales\":{}}")
