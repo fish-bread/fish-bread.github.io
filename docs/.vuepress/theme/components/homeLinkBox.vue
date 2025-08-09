@@ -15,6 +15,7 @@ defineProps({
 <template>
   <div v-for="(item, index) in module_links" :key="index" class="model_link_box home-box" 
        :style="{
+     '--link-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
     '--home-box-back_color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
     '--home-box-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
        }"

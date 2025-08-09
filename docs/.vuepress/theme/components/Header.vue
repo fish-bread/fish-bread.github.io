@@ -59,7 +59,9 @@ const audio_is_playing_func = () => {
 </script>
 
 <template>
-  <div ref="header" class="header" :class="{'header_mobile': is_mobile }">
+  <div ref="header" class="header" :class="{'header_mobile': is_mobile }" :style="{
+    '--link-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
+  }">
     <!--logo-->
     <router-link to='/' class="logo-box">
       <img src="/images/logo/original2.png" alt="" />

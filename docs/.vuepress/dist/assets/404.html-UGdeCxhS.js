@@ -1,1 +1,0 @@
-import{_ as e,c as o,b as n,o as a}from"./app-D1eE5WIy.js";const r={};function s(c,t){return a(),o("div",null,t[0]||(t[0]=[n("p",null,"404 Not Found",-1)]))}const _=e(r,[["render",s]]),d=JSON.parse('{"path":"/404.html","title":"","lang":"zh-CN","frontmatter":{"layout":"NotFound"},"headers":[]}');export{_ as comp,d as data};

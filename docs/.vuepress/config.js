@@ -49,7 +49,7 @@ export default defineUserConfig({
     }),
       //复制代码块
     copyCodePlugin({
-      selector:'.markdown-body .language-bash pre ',
+      selector:'.markdown-body div[class*="language-"] pre ',
       locales: {
         '/posts/Koa/koa.html': {
           copy: '复制',
@@ -70,5 +70,4 @@ export default defineUserConfig({
   ],
   bundler: viteBundler(),
   //修改代码块
-  
 })

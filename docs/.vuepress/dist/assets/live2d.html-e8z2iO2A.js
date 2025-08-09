@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as c}from"./app-pmIVjTQK.js";const o={};function r(a,s){return c(),t("div")}const l=e(o,[["render",r]]),_=JSON.parse('{"path":"/posts/Resource/live2d.html","title":"","lang":"zh-CN","frontmatter":{"layout":"Live2d"},"headers":[],"excerpt":""}');export{l as comp,_ as data};

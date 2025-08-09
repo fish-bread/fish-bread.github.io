@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app-pmIVjTQK.js";const c={};function o(s,a){return r(),t("div")}const _=e(c,[["render",o]]),p=JSON.parse('{"path":"/posts/Resource/resource.html","title":"","lang":"zh-CN","frontmatter":{"layout":"Resource"},"headers":[],"excerpt":""}');export{_ as comp,p as data};

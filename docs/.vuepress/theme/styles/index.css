@@ -15,7 +15,9 @@ body, html {
     border-radius: 20px;
 }
 a {
-    all: unset;
+    color: var(--link-color);
+    text-decoration: none; /* 去除默认的下划线 */
+    outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
 }
 /*代码块样式*/
 .vp-copy-code-button {
@@ -28,7 +30,7 @@ a {
 .vp-copy-code-button::before {
     color: white;
 }
-.language-bash {
+div[class*="language-"] {
     margin-bottom: 20px;
 }
 .line-numbers {

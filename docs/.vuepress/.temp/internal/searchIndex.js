@@ -36,6 +36,27 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/posts/Resource/live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/posts/Resource/resource.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/posts/Resource/themeChoose.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "puppeteer",
     "headers": [
       {
@@ -58,27 +79,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "vue",
     "headers": [
       {
@@ -97,6 +97,42 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Vue/vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "如何在vue3引入live2d",
+    "headers": [
+      {
+        "level": 2,
+        "title": "使用技术",
+        "slug": "使用技术",
+        "link": "#使用技术",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "配置依赖",
+        "slug": "配置依赖",
+        "link": "#配置依赖",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "live2d文件介绍",
+        "slug": "live2d文件介绍",
+        "link": "#live2d文件介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件引入",
+        "slug": "组件引入",
+        "link": "#组件引入",
+        "children": []
+      }
+    ],
+    "path": "/posts/Vue/%E5%A6%82%E4%BD%95%E5%9C%A8vue3%E5%BC%95%E5%85%A5live2d.html",
     "pathLocale": "/",
     "extraFields": []
   },
