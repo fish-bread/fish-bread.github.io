@@ -7,28 +7,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "puppeteer",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是 Puppeteer？",
-        "slug": "什么是-puppeteer",
-        "link": "#什么是-puppeteer",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Puppeteer特性",
-        "slug": "puppeteer特性",
-        "link": "#puppeteer特性",
-        "children": []
-      }
-    ],
-    "path": "/posts/Puppeteer/puppeteer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "koa文档",
     "headers": [
       {
@@ -58,24 +36,24 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "vue",
+    "title": "puppeteer",
     "headers": [
       {
         "level": 2,
-        "title": "什么是 Vue?",
-        "slug": "什么是-vue",
-        "link": "#什么是-vue",
+        "title": "什么是 Puppeteer？",
+        "slug": "什么是-puppeteer",
+        "link": "#什么是-puppeteer",
         "children": []
       },
       {
         "level": 2,
-        "title": "渐进式框架",
-        "slug": "渐进式框架",
-        "link": "#渐进式框架",
+        "title": "Puppeteer特性",
+        "slug": "puppeteer特性",
+        "link": "#puppeteer特性",
         "children": []
       }
     ],
-    "path": "/posts/Vue/vue.html",
+    "path": "/posts/Puppeteer/puppeteer.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -97,6 +75,28 @@ export const SEARCH_INDEX = [
     "title": "",
     "headers": [],
     "path": "/posts/Resource/themeChoose.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是 Vue?",
+        "slug": "什么是-vue",
+        "link": "#什么是-vue",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "渐进式框架",
+        "slug": "渐进式框架",
+        "link": "#渐进式框架",
+        "children": []
+      }
+    ],
+    "path": "/posts/Vue/vue.html",
     "pathLocale": "/",
     "extraFields": []
   },
