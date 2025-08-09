@@ -5,6 +5,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'fishbread的博客',
@@ -66,6 +67,11 @@ export default defineUserConfig({
         light: "rose-pine-dawn",
         dark: 'rose-pine-moon'
       }
+    }),
+      //站点地图
+    sitemapPlugin({
+      // 选项
+      hostname: 'https://fishbread.net/'
     }),
   ],
   bundler: viteBundler(),

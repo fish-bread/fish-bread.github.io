@@ -1,12 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "个人在使用各种框架所遇到的问题",
-    "headers": [],
-    "path": "/posts/Issues/Issues_index.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "koa文档",
     "headers": [
       {
@@ -36,23 +29,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "个人在使用各种框架所遇到的问题",
     "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
+    "path": "/posts/Issues/Issues_index.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -75,6 +54,27 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Puppeteer/puppeteer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/posts/Resource/live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/posts/Resource/resource.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },

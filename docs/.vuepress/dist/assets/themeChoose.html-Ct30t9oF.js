@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app-B7xnDc35.js";const s={};function c(r,a){return o(),t("div")}const h=e(s,[["render",c]]),m=JSON.parse('{"path":"/posts/Resource/themeChoose.html","title":"","lang":"zh-CN","frontmatter":{"layout":"ThemeChoose"},"headers":[],"excerpt":""}');export{h as comp,m as data};
