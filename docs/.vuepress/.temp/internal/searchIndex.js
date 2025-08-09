@@ -1,8 +1,23 @@
 export const SEARCH_INDEX = [
   {
-    "title": "个人在使用各种框架所遇到的问题",
-    "headers": [],
-    "path": "/posts/Issues/Issues_index.html",
+    "title": "puppeteer",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是 Puppeteer？",
+        "slug": "什么是-puppeteer",
+        "link": "#什么是-puppeteer",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Puppeteer特性",
+        "slug": "puppeteer特性",
+        "link": "#puppeteer特性",
+        "children": []
+      }
+    ],
+    "path": "/posts/Puppeteer/puppeteer.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -32,27 +47,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Koa/koa.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "live2d预览",
-    "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "资源相关",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主题切换",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -115,24 +109,30 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "puppeteer",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是 Puppeteer？",
-        "slug": "什么是-puppeteer",
-        "link": "#什么是-puppeteer",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Puppeteer特性",
-        "slug": "puppeteer特性",
-        "link": "#puppeteer特性",
-        "children": []
-      }
-    ],
-    "path": "/posts/Puppeteer/puppeteer.html",
+    "title": "个人在使用各种框架所遇到的问题",
+    "headers": [],
+    "path": "/posts/Issues/Issues_index.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "live2d预览",
+    "headers": [],
+    "path": "/posts/Resource/live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "资源相关",
+    "headers": [],
+    "path": "/posts/Resource/resource.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主题切换",
+    "headers": [],
+    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },
