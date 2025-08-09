@@ -6,6 +6,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import { seoPlugin } from '@vuepress/plugin-seo'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'fishbread的博客',
@@ -72,6 +73,10 @@ export default defineUserConfig({
     sitemapPlugin({
       // 选项
       hostname: 'https://fishbread.net/'
+    }),
+      //seo强化
+    seoPlugin({
+      // 选项
     }),
   ],
   bundler: viteBundler(),

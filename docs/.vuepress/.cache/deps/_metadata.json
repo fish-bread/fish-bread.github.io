@@ -1,0 +1,85 @@
+{
+  "hash": "aca1b49c",
+  "configHash": "e413e51a",
+  "lockfileHash": "7fc9489d",
+  "browserHash": "16e8b244",
+  "optimized": {
+    "@vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "@vue_devtools-api.js",
+      "fileHash": "77add2fb",
+      "needsInterop": false
+    },
+    "@vuepress/shared": {
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
+      "file": "@vuepress_shared.js",
+      "fileHash": "c898e187",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "202e76c3",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "file": "vue-router.js",
+      "fileHash": "4137db93",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "a493864a",
+      "needsInterop": false
+    },
+    "pixi.js": {
+      "src": "../../../../node_modules/pixi.js/lib/index.mjs",
+      "file": "pixi__js.js",
+      "fileHash": "39e76c0d",
+      "needsInterop": false
+    },
+    "pixi-live2d-display": {
+      "src": "../../../../node_modules/pixi-live2d-display/dist/index.es.js",
+      "file": "pixi-live2d-display.js",
+      "fileHash": "39d2d030",
+      "needsInterop": false
+    },
+    "vue-device-detect": {
+      "src": "../../../../node_modules/vue-device-detect/dist/index.mjs",
+      "file": "vue-device-detect.js",
+      "fileHash": "38338f65",
+      "needsInterop": false
+    },
+    "typeit": {
+      "src": "../../../../node_modules/typeit/dist/index.es.js",
+      "file": "typeit.js",
+      "fileHash": "1c653125",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "src": "../../../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "682e03e6",
+      "needsInterop": true
+    },
+    "dayjs/plugin/quarterOfYear": {
+      "src": "../../../../node_modules/dayjs/plugin/quarterOfYear.js",
+      "file": "dayjs_plugin_quarterOfYear.js",
+      "fileHash": "0e5230d2",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-XE4G4XKL": {
+      "file": "chunk-XE4G4XKL.js"
+    },
+    "chunk-HVR2FF6M": {
+      "file": "chunk-HVR2FF6M.js"
+    },
+    "chunk-CPIDATBB": {
+      "file": "chunk-CPIDATBB.js"
+    }
+  }
+}
