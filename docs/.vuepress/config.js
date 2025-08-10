@@ -20,7 +20,8 @@ export default defineUserConfig({
     // 添加图标
     ['link', { rel: 'icon', href: '/images/logo/original2.png' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Ez9OaEuBsd' }], //百度认证
-        ['meta', { name: 'sogou_site_verification', content: 'XiPFYo8kWi' }] //搜狗认值
+    ['meta', { name: 'sogou_site_verification', content: 'XiPFYo8kWi' }], //搜狗认值
+    ['meta', { name: '360-site-verification', content: '46e0d7b8bc77089feb677875441e5b2a' }] //360认值
     //全局注入脚本
   ],
   // 2. 主题配置会传递给自定义主题

@@ -2,8 +2,8 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {} }],
-  ["/posts/Koa/koa.html", { loader: () => import(/* webpackChunkName: "posts_Koa_koa.html" */"F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/pages/posts/Koa/koa.html.js"), meta: {"_blog":{}} }],
   ["/posts/Issues/Issues.html", { loader: () => import(/* webpackChunkName: "posts_Issues_Issues.html" */"F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/pages/posts/Issues/Issues.html.js"), meta: {"_blog":{}} }],
+  ["/posts/Koa/koa.html", { loader: () => import(/* webpackChunkName: "posts_Koa_koa.html" */"F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/pages/posts/Koa/koa.html.js"), meta: {"_blog":{}} }],
   ["/posts/Resource/live2d.html", { loader: () => import(/* webpackChunkName: "posts_Resource_live2d.html" */"F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/pages/posts/Resource/live2d.html.js"), meta: {"_blog":{}} }],
   ["/posts/Resource/resource.html", { loader: () => import(/* webpackChunkName: "posts_Resource_resource.html" */"F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/pages/posts/Resource/resource.html.js"), meta: {"_blog":{}} }],
   ["/posts/Resource/themeChoose.html", { loader: () => import(/* webpackChunkName: "posts_Resource_themeChoose.html" */"F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/pages/posts/Resource/themeChoose.html.js"), meta: {"_blog":{}} }],

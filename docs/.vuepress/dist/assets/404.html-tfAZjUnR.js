@@ -1,0 +1,1 @@
+import{_ as e,c as o,a,o as n}from"./app-CSZoiagd.js";const r={};function s(c,t){return n(),o("div",null,t[0]||(t[0]=[a("p",null,"404 Not Found",-1)]))}const _=e(r,[["render",s]]),d=JSON.parse('{"path":"/404.html","title":"","lang":"zh-CN","frontmatter":{"layout":"NotFound"},"headers":[]}');export{_ as comp,d as data};
