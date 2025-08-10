@@ -32,3 +32,10 @@ index.css设置了代码框样式
 search-box设置了搜索组件样式
 
 github_client.css设置了markdown样式
+
+'--fgColor-default': theme_change === 'light' ? themes.light.color : themes.dark.color,
+'--fgColor-accent': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+'--vp-copy-code-button' : theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+'--vp-copy-code-button-hover':  theme_change === 'light' ? themes.light.hover_color : themes.dark.hover_color,
+'--bgColor-muted': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+'--code-title-back': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,设置git-markdown

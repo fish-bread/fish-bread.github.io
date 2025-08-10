@@ -1,5 +1,5 @@
 // 定义主题配置
-import {ref, watchEffect} from "vue";
+import {ref} from "vue";
 //判断颜色主题 ture为明,false为暗
 export const theme_change =ref('light')
 /**

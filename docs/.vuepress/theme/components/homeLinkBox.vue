@@ -38,6 +38,11 @@ defineProps({
 </template>
 
 <style scoped>
+a {
+  color: var(--link-color);
+  text-decoration: none; /* 去除默认的下划线 */
+  outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
+}
 .reverse {
   flex-direction: row-reverse !important; /* 文字在右,用于翻转图片 */
 }
@@ -73,6 +78,7 @@ defineProps({
   gap: 10px;
   color: currentColor;
   justify-content: center;
+  background-color: transparent;
 }
 .model_link_box_smtextbox {
   all:  unset;

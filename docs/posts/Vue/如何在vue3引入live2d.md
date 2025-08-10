@@ -31,7 +31,7 @@
    1. 动作列表[Motion],**用于记录触发什么动作**
    2. 语言列表[Motion列表下每个动作file路径下的对应的Sound],**用于记录触发相应动作时的音频路径**,
    > 注意:语音无需主动触发,当动作执行时,语音会自动触发,当然,如果有的话
-   3. 表情列表[expressioon],**用于记录触发什么动作**
+   3. 表情列表[expressioon],**用于记录触发什么表情，表情列表不跟随动作一同进行**
    ![motion图片](/markdown_img/vue/motion.png 'motion图片')
    ![express图片](/markdown_img/vue/express.png 'express图片')
 ## 组件引入
@@ -48,8 +48,8 @@ import { Live2DModel } from 'pixi-live2d-display';
 
 ```
 
-2. 创建相关对象  
->其中,model_list用于编写**模型名字**,**模型文件路径**(一般为模型文件下的'模型名.model3.json'或'模型名.model.json'),**模型缩放大小**
+2. 创建相关对象
+> 其中,model_list用于编写**模型名字**,**模型文件路径**(一般为模型文件下的'模型名.model3.json'或'模型名.model.json'),**模型缩放大小**
 ```javascript
 //将 PIXI 暴露到 window 对象，以便运行库能够一次使用全部方法
 window.PIXI = PIXI;
@@ -128,7 +128,7 @@ onBeforeUnmount(() => {
     app?.value.destroy()
 })
 ```
-4. 构建页面
+## 构建页面
 ```vue
 <template>
   <div class="background">

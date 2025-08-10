@@ -32,7 +32,7 @@ const isActiveLink = (link) => {
 
 <template> 
   <div ref="layout_header_left" class="markdown-box-left"  :style="{
-    backgroundColor: theme_change === 'light' ? calculateHoverColor(themes.light.back_color) : calculateHoverColor(themes.dark.back_color),
+    backgroundColor: theme_change === 'light' ? calculateHoverColor(themes.light.back_color, 0.1) : calculateHoverColor(themes.dark.back_color,0.1),
   }">
     <!--隐藏按钮-->
     <button ref="hide_left_button" class="hied_left svg-box" @click="hide_left" :style="{
@@ -77,6 +77,11 @@ const isActiveLink = (link) => {
 </template>
 
 <style scoped>
+a {
+  color: var(--link-color);
+  text-decoration: none; /* 去除默认的下划线 */
+  outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
+}
 .active-link {
   background-color: var(--active-link-bg) !important;
   color: var(--active-link-color) !important;

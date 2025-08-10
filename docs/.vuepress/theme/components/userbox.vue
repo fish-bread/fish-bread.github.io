@@ -90,10 +90,10 @@ onMounted(async ()=>{
   })
   watch(() => theme_change.value, (newValue) => {
         if (newValue === 'light') {
-          alpha_back_color.value = hexToRGBA(themes.value.light.theme_color, 0.6)
+          alpha_back_color.value = hexToRGBA(themes.value.light.theme_color, 0.5)
         } 
         else {
-          alpha_back_color.value = hexToRGBA(themes.value.dark.theme_color, 0.6)
+          alpha_back_color.value = hexToRGBA(themes.value.dark.theme_color, 0.5)
         }
         console.log('执行透明')
       }, {immediate: true})

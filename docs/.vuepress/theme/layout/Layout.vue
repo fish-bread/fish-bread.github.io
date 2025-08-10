@@ -1,9 +1,12 @@
 <script setup>
-import '../styles/github-markdown.css'
+//markdown样式表
+//import '../styles/github-markdown.css'
+import '../styles/spring.css'
+//其他引入
 import Returntop from "../components/returntop.vue";
-import {computed, onMounted, ref, watchEffect} from "vue";
+import {computed, nextTick, onMounted, ref, watch, watchEffect} from "vue";
 import { useRoute } from "vue-router";
-import {useWindowScroll, watchThrottled} from "@vueuse/core"; //实用函数
+import { watchThrottled} from "@vueuse/core"; //实用函数
 import {
   layout_header_left,
   markdown_box,
@@ -11,7 +14,7 @@ import {
 } from '../func/clientchoose.js'
 import {markdown_list} from "../func/markdown_list.js";
 const router = useRoute();
-const { y } = useWindowScroll()
+
 import { themes, theme_change } from '../func/newColor.js'
 //获取当前路径,并设置标题
 const path_name = ref()
@@ -19,8 +22,8 @@ const path_name = ref()
 //获取路由
 import { useRoutes } from 'vuepress/client'
 import {
-  big_title, layout_header,
-  layout_header_left_list, layout_header_title,
+  big_title, headerHeight, layout_header,
+  layout_header_left_list, layout_header_title, y,
 } from "../func/bigHeader.js";
 import BigHeader from "../components/bigHeader.vue";
 import LayoutLeft from "../components/layoutLeft.vue";
@@ -122,32 +125,6 @@ onMounted(() => {
         console.log('list', single_markdown_list.value);
       }, { throttle: 100,immediate: true })
   console.log('读取路由',routePaths.value)
-  //监听滚动节流
-  watchThrottled(
-      () => y.value, // 监听的依赖
-      (newY) => {
-        //导航栏变化函数
-        if (newY > 0) {
-          layout_header.value.style.height = "60px";
-          layout_header_title.value.style.transform = "translateY(-180px)";
-          layout_header_title.value.style.opacity = "0";
-          markdown_box.value.style.paddingTop = "60px";
-          layout_header_left.value.style.padding = "70px 10px 10px 20px";
-          layout_header_left.value.style.height = "calc(100vh)";
-          layout_header_left_list.value.style.height = "100%";
-        } else {
-          layout_header.value.style.height = "";
-          layout_header_title.value.style.transform = "";
-          layout_header_title.value.style.opacity = "";
-          markdown_box.value.style.paddingTop = "";
-          layout_header_left.value.style.padding = "";
-          layout_header_left.value.style.height = "";
-          layout_header_left_list.value.style.height = "";
-          console.log('执行监听')
-        }
-      },
-      { throttle: 100,immediate: true } // 100ms 节流
-  )
 });
 </script>
 

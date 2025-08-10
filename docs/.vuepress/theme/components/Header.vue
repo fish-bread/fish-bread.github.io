@@ -1,7 +1,7 @@
 <!--suppress CssUnresolvedCustomProperty -->
 <script setup>
 //返回首页
-import { RouterLink } from 'vue-router'
+import {RouterLink, useRoute} from 'vue-router'
 import {
   is_mobile,
   window_size_func,
@@ -11,10 +11,10 @@ import {
 } from "../func/clientchoose.js";
 import '../styles/home_client.css'
 import '../styles/themes-color.css'
-import {onMounted, ref, shallowRef, watchEffect} from "vue";
+import { onMounted, ref, shallowRef, watchEffect} from "vue";
 //新主题模块
-import {get_theme, theme_change, change_theme, themes } from '../func/newColor.js'  
-
+import {get_theme, theme_change, change_theme, themes } from '../func/newColor.js'
+const route = useRoute()
 onMounted(async () => {
   //读取窗体设置
   window_size_func()
@@ -97,7 +97,7 @@ const audio_is_playing_func = () => {
           </div>
         </router-link>
         <!--个人琐碎-->
-        <router-link to="/posts/Issues/Issues_index.html" class="box-right-markdown-link-box svg-box">
+        <router-link to="/posts/Issues/Issues.html" class="box-right-markdown-link-box svg-box">
           <div class="box-right-markdown-link-box-svg">
             <svg t="1754647956994" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10101" width="200" height="200"><path d="M336 421m-48 0a48 48 0 1 0 96 0 48 48 0 1 0-96 0Z" p-id="10102"></path><path d="M688 421m-48 0a48 48 0 1 0 96 0 48 48 0 1 0-96 0Z" p-id="10103"></path><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64z m263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2-44.3-18.7-84.1-45.6-118.3-79.8-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8c18.7-44.3 45.6-84.1 79.8-118.3 34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2 44.3 18.7 84.1 45.6 118.3 79.8 34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8c-18.7 44.3-45.6 84.1-79.8 118.2z" p-id="10104"></path><path d="M664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-0.3-4.2-3.9-7.4-8.1-7.4H360c-4.6 0-8.2 3.8-8 8.4 4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6c0.2-4.6-3.4-8.4-8-8.4z" p-id="10105"></path></svg>
           </div>
@@ -140,7 +140,7 @@ const audio_is_playing_func = () => {
         <!--音乐-->
         <button title="播放音乐" ref="rotate_button" @click="play_audio" class="animation_rotate svg-link svg-box">
           <svg t="1754199919301" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4617" width="200" height="200"><path d="M761.216 83.925333l-256 42.666667c-20.565333 3.413333-36.010667 21.76-36.010667 42.666667l-0.426666 449.194666a163.242667 163.242667 0 0 0-84.906667-22.528 170.666667 170.666667 0 1 0 170.666667 170.666667l0.554666-390.912 219.178667-37.12c4.864-0.768 15.957333-4.309333 25.6-14.634667a36.266667 36.266667 0 0 0 10.666667-26.666666v-170.666667c0-26.368-23.338667-47.018667-49.322667-42.666667z m-36.650667 92.586667l0.213334 84.181333-170.24 28.544 0.170666-84.608 169.856-28.16z m-340.693333 504.746667a85.333333 85.333333 0 1 1 0.042667 170.624 85.333333 85.333333 0 0 1 0-170.666667z" fill="#2c2c2c" p-id="4618"></path></svg>
-          <audio @ended="audio_is_playing_func" ref="audio" style="display: none" src="/audio/Scott Joplin - The Entertainer.flac"></audio>
+          <audio @ended="audio_is_playing_func" ref="audio" style="display: none" src="/audio/Koichi Sugii - Dreaming of Home and Mother (旅愁).flac"></audio>
         </button>
         <!--github链接-->
         <a target="_blank" href="https://github.com/fish-bread/fish-bread.github.io" class="svg-link svg-box">
@@ -162,6 +162,11 @@ const audio_is_playing_func = () => {
 </template>
 
 <style scoped>
+a {
+  color: var(--link-color);
+  text-decoration: none; /* 去除默认的下划线 */
+  outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
+}
 .mobile-search {
   width: 150px !important;
 }
@@ -193,8 +198,10 @@ const audio_is_playing_func = () => {
   width: 40px;
   height: 40px;
   cursor: pointer;
+  background-color: transparent;
 }
 .logo-box img {
+  margin: 0;
   width: 100%;
   height: 100%;
 }

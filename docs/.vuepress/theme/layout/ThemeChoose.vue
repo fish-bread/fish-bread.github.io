@@ -59,7 +59,6 @@ const currentTheme = computed(() => themes.value[theme_change.value]);
 .header {
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
 }
-
 .theme-back {
   box-sizing: border-box;
   display: flex;

@@ -9,7 +9,6 @@ import "./theme/styles/index.css"
 import 'vue-color/style.css';
 import Live2d from "./theme/layout/Live2d.vue";
 import {changeTitle_func} from "./theme/func/changeTitle.js";
-//shiki双主题
 
 export default defineClientConfig({
   setup() {

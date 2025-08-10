@@ -14,11 +14,6 @@ body, html {
     background: #888; /* 显式设置滑块颜色，避免继承 */
     border-radius: 20px;
 }
-a {
-    color: var(--link-color);
-    text-decoration: none; /* 去除默认的下划线 */
-    outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
-}
 /*代码块样式*/
 .vp-copy-code-button {
     background-color: var(--vp-copy-code-button);
@@ -35,7 +30,9 @@ div[class*="language-"] {
 }
 .line-numbers {
     box-sizing: border-box;
-    padding-top: 33px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
 }
 .code-block-title {
     background-color: var(--code-title-back) !important;
@@ -48,6 +45,9 @@ div[class*="language-"] {
 .code-block-title-bar .title {
     font-weight: bold !important;
 }
+code {
+    font-size: 15px !important;
+}
 /* 根据theme_change变量切换Shiki主题 */
 .shiki,
 .shiki span {
@@ -58,7 +58,10 @@ div[class*="language-"] {
     text-decoration: var(--shiki-light-text-decoration) !important;
     font-family: 'CustomFont', 'Microsoft YaHei', sans-serif;
 }
-
+.shiki::-webkit-scrollbar {
+    background-color: transparent;
+    height: 5px;
+}
 /* 暗色模式 */
 [data-theme='dark'] .shiki,
 [data-theme='dark'] .shiki span {

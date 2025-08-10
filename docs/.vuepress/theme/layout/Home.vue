@@ -8,7 +8,7 @@ import Userbox from "../components/userbox.vue";
 import Returntop from "../components/returntop.vue";
 import Homedown from "../components/homedown.vue";
 import HomeLinkBox from "../components/homeLinkBox.vue";
-import {theme_change, themes} from '../func/newColor.js'
+import {alpha_back_color, theme_change, themes} from '../func/newColor.js'
 // 动态导入 /docs/.vuepress/public/images/background/ 下的所有图片
 const backgroundImages = ref([]);
 
@@ -36,7 +36,7 @@ onMounted(() => {
 })
 //模块链接
 const module_links = ref([
-  {link_title: '前端探索', link_name: '个人前端探索经历', link_img: '/images/background/link_1.png', link_href: '/posts/Issues/Issues_index.html'},
+  {link_title: '前端探索', link_name: '个人前端探索经历', link_img: '/images/background/link_1.png', link_href: '/posts/Issues/Issues.html'},
   {link_title: 'vue相关', link_name: '有关于vue的探索',  link_img: '/images/background/link_2.png', link_href: '/posts/Vue/vue.html' },
   {link_title: '脚本相关',  link_name: '有关于脚本的探索',  link_img: '/images/background/link_3.png', link_href: '/posts/Puppeteer/puppeteer.html' },
   {link_title: 'koa相关', link_name: '有关于koa的探索' , link_img: '/images/background/link_4.png', link_href: '/posts/Koa/koa.html' },
@@ -58,7 +58,7 @@ const module_links = ref([
          :style="{
       '--home-box-color-hover': theme_change === 'light' ? themes.light.color : themes.dark.color, 
          }">
-      <Header></Header>
+      <Header :style="{ backgroundColor: alpha_back_color }"></Header>
       <!--首页显示-->
       <userbox></userbox>
       <!--列表展示-->
