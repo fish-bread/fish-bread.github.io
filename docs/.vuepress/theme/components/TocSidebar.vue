@@ -33,7 +33,7 @@ const scrollToHeading = (id) => {
   if (heading) {
     const offset = parseFloat(props.headerHeight) || 60
     const offsetPx = `${offset}px`
-    const elementPosition = heading.getBoundingClientRect().top + window.pageYOffset
+    const elementPosition = heading.getBoundingClientRect().top + window.scrollY
     const offsetPosition = elementPosition - offset
 
     window.scrollTo({
@@ -85,7 +85,6 @@ onMounted(() => {
   position: fixed;
   right: 10px;
   top: 260px;
-  width: 200px;
   max-height: 80vh;
   overflow-y: auto;
   padding: 10px 10px 10px 10px;

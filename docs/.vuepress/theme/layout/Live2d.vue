@@ -1,7 +1,7 @@
 
 <script setup>
 import Header from '../components/Header.vue'
-import {onBeforeUnmount, onMounted, ref, shallowRef, watchEffect} from "vue";
+import { onMounted, onUnmounted, ref, shallowRef, watchEffect} from "vue";
 import {theme_change, themes} from "../func/newColor.js";
 import PromptBox from "../components/PromptBox.vue";
 import {showPrompt} from "../func/prompt_box.js";
@@ -219,9 +219,9 @@ onMounted(async () => {
     console.error('初始化失败:', e);
   }
 });
-onBeforeUnmount(() => {
-  model?.value.destroy()
-  app?.value.destroy()
+onUnmounted(() => {
+  model.value?.destroy?.()
+  app.value?.destroy?.()
 })
 </script>
 
@@ -270,6 +270,8 @@ onBeforeUnmount(() => {
 <style scoped>
 .header {
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+  background-color: rgba(237, 237, 238, 0.6);
+  backdrop-filter: blur(5px);
 }
 select {
   cursor: pointer;

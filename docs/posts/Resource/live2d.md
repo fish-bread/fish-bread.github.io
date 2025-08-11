@@ -2,4 +2,4 @@
 layout: Live2d
 ---
 
-# live2d预览
+# vue引入live2d预览

@@ -1,5 +1,12 @@
 export const SEARCH_INDEX = [
   {
+    "title": "零碎文档",
+    "headers": [],
+    "path": "/posts/Issues/Issues.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "koa文档",
     "headers": [
       {
@@ -29,9 +36,30 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "零碎文档",
+    "title": "vue引入deepseek对话预览",
     "headers": [],
-    "path": "/posts/Issues/Issues.html",
+    "path": "/posts/Resource/deepseek.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue引入live2d预览",
+    "headers": [],
+    "path": "/posts/Resource/live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "资源相关",
+    "headers": [],
+    "path": "/posts/Resource/resource.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主题切换",
+    "headers": [],
+    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -54,27 +82,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Puppeteer/puppeteer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "live2d预览",
-    "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "资源相关",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主题切换",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -129,7 +136,29 @@ export const SEARCH_INDEX = [
         "title": "组件引入",
         "slug": "组件引入",
         "link": "#组件引入",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "在你要引入的组件中引入",
+            "slug": "在你要引入的组件中引入",
+            "link": "#在你要引入的组件中引入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "创建相关对象",
+            "slug": "创建相关对象",
+            "link": "#创建相关对象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "创建函数用于加载模型",
+            "slug": "创建函数用于加载模型",
+            "link": "#创建函数用于加载模型",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,

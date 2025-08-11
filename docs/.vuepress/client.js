@@ -4,6 +4,7 @@ import NotFound from "./theme/layout/404.vue";
 import Home from "./theme/layout/Home.vue";
 import Resource from "./theme/layout/resource.vue";
 import ThemeChoose from "./theme/layout/ThemeChoose.vue";
+import DeepSeek from "./theme/layout/deepseek.vue";
 import "./theme/styles/index.css"
 //调色盘样式
 import 'vue-color/style.css';
@@ -24,6 +25,7 @@ export default defineClientConfig({
     Home,
     Resource,
     ThemeChoose,
-    Live2d
+    Live2d,
+    DeepSeek
   },
 })

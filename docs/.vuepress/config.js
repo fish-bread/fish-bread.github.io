@@ -80,6 +80,7 @@ export default defineUserConfig({
       //seo强化
     seoPlugin({
       // 选项
+      hostname: 'https://fishbread.net/'
     }),
   ],
   bundler: viteBundler(),

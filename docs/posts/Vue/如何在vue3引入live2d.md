@@ -36,7 +36,7 @@
    ![express图片](/markdown_img/vue/express.png 'express图片')
 ## 组件引入
 ---
-1. 在你要引入的组件中引入
+### 在你要引入的组件中引入
 ```javascript
 import * as PIXI from 'pixi.js';
 //所有引入
@@ -48,7 +48,7 @@ import { Live2DModel } from 'pixi-live2d-display';
 
 ```
 
-2. 创建相关对象
+### 创建相关对象
 > 其中,model_list用于编写**模型名字**,**模型文件路径**(一般为模型文件下的'模型名.model3.json'或'模型名.model.json'),**模型缩放大小**
 ```javascript
 //将 PIXI 暴露到 window 对象，以便运行库能够一次使用全部方法
@@ -66,7 +66,7 @@ const model_list = ref([
     {model_name: "none", model_path: "none", scale_set: "none"},
 ])
 ```
-3. 创建函数用于加载模型
+### 创建函数用于加载模型
 > 这里我使用了model.value.motion('任意动作对象名称'),用于点击模型触发动画,你也可以自己使用model.value.motion(selectedMotion,motionNum)去绑定你的函数来执行动作
 ```javascript
 // 加载模型的函数

@@ -76,6 +76,7 @@ const currentTheme = computed(() => themes.value[theme_change.value]);
 
 <style scoped>
 .header {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
   background-color: rgba(237, 237, 238, 0.6);
   backdrop-filter: blur(5px);
 }

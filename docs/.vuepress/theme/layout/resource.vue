@@ -13,7 +13,7 @@ const resource_list = ref([
 ])
 const resource_project = ref([
   {resource_name: 'live2d项目预览(占用资源较多)',resource_introduce: 'vue3的里live2d项目预览', resource_link: '/posts/Resource/live2d.html',is_blank: undefined},
-  {resource_name: 'deepseek项目预览(未完工)',resource_introduce: 'vue3的里deepseek项目预览', resource_link: '/posts/Resource/deepseek.html',is_blank: undefined},
+  {resource_name: 'deepseek项目预览',resource_introduce: 'vue3的里deepseek项目预览', resource_link: '/posts/Resource/deepseek.html',is_blank: undefined},
   {resource_name: 'puppeteer项目预览(未完工)',resource_introduce: 'vue3的里puppeteer项目预览', resource_link: '/posts/Resource/puppeteer.html',is_blank: undefined},
   {resource_name: 'vue音乐盒项目预览(未完工)',resource_introduce: 'vue3音乐盒项目预览', resource_link: '/postsResource/music.html',is_blank: undefined},
 ])
@@ -54,6 +54,8 @@ const resource_big_title = ref([
 <style scoped>
 .header {
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+  background-color: rgba(237, 237, 238, 0.6);
+  backdrop-filter: blur(5px);
 }
 .page-back {
   width: 100%;
