@@ -65,7 +65,7 @@ const resource_big_title = ref([
 }
 .page-box {
   box-sizing: border-box;
-  padding: 80px 10% 100px 10%;
+  padding: 0 10% 100px 10%;
   display: flex;
   gap: 30px;
   flex-direction:  column;

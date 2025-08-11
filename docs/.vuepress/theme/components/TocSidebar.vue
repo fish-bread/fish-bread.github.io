@@ -82,6 +82,7 @@ onMounted(() => {
   display: none;
 }
 .toc-sidebar {
+  box-sizing: border-box;
   position: fixed;
   right: 10px;
   top: 260px;
@@ -92,6 +93,7 @@ onMounted(() => {
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  min-width: 220px;
 }
 
 .toc-title {

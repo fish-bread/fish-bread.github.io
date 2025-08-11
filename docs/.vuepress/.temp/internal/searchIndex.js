@@ -36,34 +36,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "vue引入deepseek对话预览",
-    "headers": [],
-    "path": "/posts/Resource/deepseek.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue引入live2d预览",
-    "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "资源相关",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主题切换",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "puppeteer",
     "headers": [
       {
@@ -169,6 +141,34 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Vue/%E5%A6%82%E4%BD%95%E5%9C%A8vue3%E5%BC%95%E5%85%A5live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue引入deepseek对话预览",
+    "headers": [],
+    "path": "/posts/Resource/deepseek.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue引入live2d预览",
+    "headers": [],
+    "path": "/posts/Resource/live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "资源相关",
+    "headers": [],
+    "path": "/posts/Resource/resource.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主题切换",
+    "headers": [],
+    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },
