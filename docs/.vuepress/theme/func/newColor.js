@@ -105,7 +105,10 @@ export const change_theme = () => {
 
     // 切换主题
     theme_change.value = theme_change.value === 'light' ? 'dark' : 'light';
-
+    
+    // 强制重新计算 hover_color
+    themes.value = { ...themes.value };
+    
     // 更新存储
     set_change_theme();
 

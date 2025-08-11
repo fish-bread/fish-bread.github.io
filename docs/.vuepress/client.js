@@ -1,4 +1,4 @@
-import { defineClientConfig } from 'vuepress/client'
+import  { defineClientConfig } from 'vuepress/client'
 import Layout from "./theme/layout/Layout.vue";
 import NotFound from "./theme/layout/404.vue";
 import Home from "./theme/layout/Home.vue";

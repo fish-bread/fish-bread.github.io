@@ -1,8 +1,11 @@
 <template><div><h1 id="koa文档" tabindex="-1"><a class="header-anchor" href="#koa文档"><span>koa文档</span></a></h1>
+<hr>
 <p>这是一个koa起始文件,请在左侧列表中选择文档阅读</p>
 <h2 id="什么是koa" tabindex="-1"><a class="header-anchor" href="#什么是koa"><span>什么是koa</span></a></h2>
+<hr>
 <p>Koa 是一个全新的 web 框架，由 Express 幕后的原班人马打造，致力于成为 web 应用和 API 开发领域中的一个更小、更富有表现力、更健壮的基石。 通过使用异步函数，Koa 帮你丢弃回调函数，并有力地增强错误处理能力。 Koa 并没有捆绑任何中间件，而是提供了一套优雅的方法，帮助您快速而愉快地编写服务端应用程序。</p>
 <h2 id="安装koa" tabindex="-1"><a class="header-anchor" href="#安装koa"><span>安装koa</span></a></h2>
+<hr>
 <p>Koa 需要 node v12.17.0 或更高版本，以满足对 ES2015 和异步函数的支持。</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#575279;--shiki-dark:#e0def4;--shiki-light-bg:#faf4ed;--shiki-dark-bg:#232136"><pre class="shiki shiki-themes rose-pine-dawn rose-pine-moon vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D7827E;--shiki-dark:#EA9A97">$</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> npm</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> install</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> koa</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><div class="code-block-title">
@@ -20,6 +23,7 @@
 <span class="line"><span style="--shiki-light:#D7827E;--shiki-dark:#EA9A97">app.listen(3000</span><span style="--shiki-light:#575279;--shiki-dark:#E0DEF4">)</span><span style="--shiki-light:#797593;--shiki-dark:#908CAA">;</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>
 </div><h2 id="入门koa" tabindex="-1"><a class="header-anchor" href="#入门koa"><span>入门koa</span></a></h2>
+<hr>
 <p><a href="https://github.com/koajs/kick-off-koa" target="_blank" rel="noopener noreferrer">Kick-Off-Koa</a> - 通过一系列自身指引的讲解介绍了 Koa。
 <a href="https://www.koajs.net/guide" target="_blank" rel="noopener noreferrer">指南</a> - 直接去看文档吧。</p>
 </div></template>

@@ -1,10 +1,7 @@
 <script setup>
-//markdown样式表
-//import '../styles/github-markdown.css'
-import '../styles/spring.css'
 //其他引入
 import Returntop from "../components/returntop.vue";
-import {computed, nextTick, onMounted, ref, watch, watchEffect} from "vue";
+import {computed, onMounted, ref, watchEffect} from "vue";
 import { useRoute } from "vue-router";
 import { watchThrottled} from "@vueuse/core"; //实用函数
 import {

@@ -1,12 +1,13 @@
 # puppeteer
-
-这是一个puppeteer起始文件
+---
+这是一个puppeteer起始文件,请在左侧列表中选择文档阅读
 
 ## 什么是 Puppeteer？
-
+---
 Puppeteer 是一个 JavaScript 库，它提供了一个高级 API 来通过 开发工具协议 或 WebDriver 双向 控制 Chrome 或 Firefox。Puppeteer 默认在无头（无可见 UI）浏览器中运行，但可以配置为在可见（“有头”）浏览器中运行。
 
 ## Puppeteer特性
+---
 你可以在浏览器中手动执行的大多数作都可以使用 Puppeteer 完成！以下是一些帮助你入门的示例：
 
 自动化表单提交、UI 测试、键盘输入等。

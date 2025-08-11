@@ -14,7 +14,6 @@ const tempTheme = ref({
 const themeModeText = computed(() => currentMode.value === 'light' ? '暗' : '明');
 const currentThemeStyle = computed(() => ({
   '--text-color': tempTheme.value.color,
-  '--bg-color': tempTheme.value.back_color,
   '--theme-color': tempTheme.value.theme_color,
   '--hover-color': calculateHoverColor(tempTheme.value.theme_color)
 }));
@@ -66,7 +65,11 @@ const resetToDefault = () => {
 };
 //保存主题
 const saveTheme = useDebounceFn(() => {
-  themes.value[currentMode.value] = { ...tempTheme.value };
+  // 使用展开运算符创建新引用，触发响应式更新
+  themes.value[currentMode.value] = {
+    ...tempTheme.value,
+    hover_color: calculateHoverColor(tempTheme.value.theme_color) // 手动重新计算
+  };
   set_theme();
   //弹出保存提示框
   showPrompt('您成功设置了主题', 'success')
@@ -87,7 +90,7 @@ onMounted(() => {
 
 <template>
   <div class="theme-picker" :style="currentThemeStyle">
-      <h3>主题颜色设置</h3>
+      <h1>主题颜色设置</h1>
       <div class="color-picker-group">
         <div class="color-picker">
           <label for="theme-color">主题色:</label>
@@ -118,33 +121,30 @@ onMounted(() => {
       </div>
 
       <div class="actions">
-        <div class="concentrate">注:(重置主题后须保存生效,保存时是明暗主题一起保存)</div>
         <button @click="resetToDefault">重置为默认</button>
         <button @click="saveTheme">保存主题</button>
-      </div>
+      </div> 
+    <div class="concentrate">注:(重置主题后须保存生效,保存时是明暗主题一起保存)</div>
   </div>
 </template>
 
 <style scoped>
 .concentrate {
-  position: absolute;
   color: var(--theme-color);
-  top: 35px;
-  font-size: 13px;
+  font-size: 17px;
+  font-weight: bold;
 }
 .theme-picker {
-  padding: 20px;
+  padding:0 35px 35px 35px;
   border-radius: 8px;
   max-width: 500px;
   margin: 0 auto;
   background-color: var(--bg-color);
   color: var(--text-color);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-}
-.theme-picker:hover {
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
-  transform: translateY(-2px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 h3 {
   margin-top: 0;
@@ -180,8 +180,10 @@ h3 {
 .theme-toggle {
   margin-bottom: 20px;
 }
-
 .theme-toggle button {
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
   padding: 8px 16px;
   background-color: var(--theme-color);
   color: var(--text-color);

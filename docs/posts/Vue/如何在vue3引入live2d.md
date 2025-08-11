@@ -1,11 +1,11 @@
 # 如何在vue3引入live2d
-
+---
 这是一篇关于如何在vue3部署liv2d的文档  
 基于guansss大佬开发的[pixi-live2d-display@0.5.0-beta](https://github.com/guansss/pixi-live2d-display)库来构建  
 
 
 ## 使用技术  
-
+---
 1. vue3
 2. [pixi.js@7.4.3](https://pixijs.com/7.x/guides)
 3. [pixi-live2d-display@0.5.0-beta](https://github.com/guansss/pixi-live2d-display)
@@ -14,7 +14,7 @@
 [live2dcubismcore.min.js的文件链接](https://github.com/fish-bread/vue-live2d/blob/main/src/live2dcubismcore.min.js)
 
 ## 配置依赖
-
+---
 1. 首先将需要的包进行下载  
 ```bash
  npm install pixi.js@7.4.3
@@ -26,7 +26,7 @@
 4. 将你所需要运行的单个live2d文件放在public文件夹中
 
 ## live2d文件介绍
-
+---
 1. model3.json文件(或model.json文件),本次部署live2d模型的**核心文件**.在该文件中记录;了有关live2d模型的  
    1. 动作列表[Motion],**用于记录触发什么动作**
    2. 语言列表[Motion列表下每个动作file路径下的对应的Sound],**用于记录触发相应动作时的音频路径**,
@@ -35,7 +35,7 @@
    ![motion图片](/markdown_img/vue/motion.png 'motion图片')
    ![express图片](/markdown_img/vue/express.png 'express图片')
 ## 组件引入
-
+---
 1. 在你要引入的组件中引入
 ```javascript
 import * as PIXI from 'pixi.js';
@@ -129,6 +129,7 @@ onBeforeUnmount(() => {
 })
 ```
 ## 构建页面
+---
 ```vue
 <template>
   <div class="background">

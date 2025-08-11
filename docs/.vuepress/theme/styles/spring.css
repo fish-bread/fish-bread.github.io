@@ -10,7 +10,7 @@
      * - start:        Align start        行首对齐
      * - end:          Align end          行尾对齐
      **************************************************************************************************/
-    --text-align: justify;
+    --text-align: left;
 
     /************************* Interactive animation configuration 交互动画配置 ************************
      **************************************************************************************************
@@ -367,7 +367,6 @@ content #write>h5.md-focus:before {
     transform: scaleX(0);
     transform-origin: center;
     z-index: -1;
-    display: calc(var(--h1-hover-effect) * var(--use-dynamic-effect));
 }
 
 #write h1:hover {
@@ -454,6 +453,7 @@ p {
     font-size: 1rem;
     padding: 0 0.3rem;
     transition: all 0.25s ease;
+    border-radius: 5px;
 }
 
 p:not(:has(img)):hover {
@@ -1231,7 +1231,10 @@ a:hover {
 a img {
     border: none;
 }
-
+/*h标签中的a标签静止*/
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    text-decoration: unset;
+}
 /* code fences */
 .md-fences {
     font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;

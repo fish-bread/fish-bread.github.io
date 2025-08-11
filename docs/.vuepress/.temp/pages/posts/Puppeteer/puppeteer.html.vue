@@ -1,8 +1,11 @@
 <template><div><h1 id="puppeteer" tabindex="-1"><a class="header-anchor" href="#puppeteer"><span>puppeteer</span></a></h1>
-<p>这是一个puppeteer起始文件</p>
+<hr>
+<p>这是一个puppeteer起始文件,请在左侧列表中选择文档阅读</p>
 <h2 id="什么是-puppeteer" tabindex="-1"><a class="header-anchor" href="#什么是-puppeteer"><span>什么是 Puppeteer？</span></a></h2>
+<hr>
 <p>Puppeteer 是一个 JavaScript 库，它提供了一个高级 API 来通过 开发工具协议 或 WebDriver 双向 控制 Chrome 或 Firefox。Puppeteer 默认在无头（无可见 UI）浏览器中运行，但可以配置为在可见（“有头”）浏览器中运行。</p>
 <h2 id="puppeteer特性" tabindex="-1"><a class="header-anchor" href="#puppeteer特性"><span>Puppeteer特性</span></a></h2>
+<hr>
 <p>你可以在浏览器中手动执行的大多数作都可以使用 Puppeteer 完成！以下是一些帮助你入门的示例：</p>
 <p>自动化表单提交、UI 测试、键盘输入等。</p>
 <p>使用最新的 JavaScript 和浏览器功能创建自动化测试环境。</p>

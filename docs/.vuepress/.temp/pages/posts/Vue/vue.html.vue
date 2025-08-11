@@ -1,6 +1,8 @@
 <template><div><h1 id="vue" tabindex="-1"><a class="header-anchor" href="#vue"><span>vue</span></a></h1>
-<p>这是一个vue起始文件</p>
+<hr>
+<p>这是一个vue起始文件,请在左侧列表中选择文档阅读</p>
 <h2 id="什么是-vue" tabindex="-1"><a class="header-anchor" href="#什么是-vue"><span>什么是 Vue?</span></a></h2>
+<hr>
 <p>Vue (发音为 /vjuː/，类似 view) 是一款用于构建用户界面的 JavaScript 框架。它基于标准 HTML、CSS 和 JavaScript 构建，并提供了一套声明式的、组件化的编程模型，帮助你高效地开发用户界面。无论是简单还是复杂的界面，Vue 都可以胜任。</p>
 <p>下面是一个最基本的示例：</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#575279;--shiki-dark:#e0def4;--shiki-light-bg:#faf4ed;--shiki-dark-bg:#232136"><pre class="shiki shiki-themes rose-pine-dawn rose-pine-moon vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D7827E;--shiki-dark:#EA9A97">import</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> {</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> createApp,</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> ref</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> }</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> from</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177"> 'vue'</span></span>
@@ -19,6 +21,7 @@
 <span class="line"><span style="--shiki-light:#286983;--shiki-dark:#3E8FB0">  &#x3C;</span><span style="--shiki-light:#D7827E;--shiki-dark:#EA9A97">/button</span><span style="--shiki-light:#575279;--shiki-dark:#E0DEF4">></span></span>
 <span class="line"><span style="--shiki-light:#286983;--shiki-dark:#3E8FB0">&#x3C;</span><span style="--shiki-light:#575279;--shiki-dark:#E0DEF4">/div</span><span style="--shiki-light:#286983;--shiki-dark:#3E8FB0">></span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="渐进式框架" tabindex="-1"><a class="header-anchor" href="#渐进式框架"><span>渐进式框架</span></a></h2>
+<hr>
 <p>Vue 是一个框架，也是一个生态。其功能覆盖了大部分前端开发常见的需求。但 Web 世界是十分多样化的，不同的开发者在 Web 上构建的东西可能在形式和规模上会有很大的不同。考虑到这一点，Vue 的设计非常注重灵活性和“可以被逐步集成”这个特点。根据你的需求场景，你可以用不同的方式使用 Vue：</p>
 <p>无需构建步骤，渐进式增强静态的 HTML
 在任何页面中作为 Web Components 嵌入

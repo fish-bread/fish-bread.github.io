@@ -1,7 +1,9 @@
 <template><div><h1 id="如何在vue3引入live2d" tabindex="-1"><a class="header-anchor" href="#如何在vue3引入live2d"><span>如何在vue3引入live2d</span></a></h1>
+<hr>
 <p>这是一篇关于如何在vue3部署liv2d的文档<br>
 基于guansss大佬开发的<a href="https://github.com/guansss/pixi-live2d-display" target="_blank" rel="noopener noreferrer">pixi-live2d-display@0.5.0-beta</a>库来构建</p>
 <h2 id="使用技术" tabindex="-1"><a class="header-anchor" href="#使用技术"><span>使用技术</span></a></h2>
+<hr>
 <ol>
 <li>vue3</li>
 <li><a href="https://pixijs.com/7.x/guides" target="_blank" rel="noopener noreferrer">pixi.js@7.4.3</a></li>
@@ -11,6 +13,7 @@
 <a href="https://github.com/fish-bread/vue-live2d/blob/main/src/live2dcubismcore.min.js" target="_blank" rel="noopener noreferrer">live2dcubismcore.min.js的文件链接</a></li>
 </ol>
 <h2 id="配置依赖" tabindex="-1"><a class="header-anchor" href="#配置依赖"><span>配置依赖</span></a></h2>
+<hr>
 <ol>
 <li>首先将需要的包进行下载</li>
 </ol>
@@ -23,6 +26,7 @@
 <li>将你所需要运行的单个live2d文件放在public文件夹中</li>
 </ol>
 <h2 id="live2d文件介绍" tabindex="-1"><a class="header-anchor" href="#live2d文件介绍"><span>live2d文件介绍</span></a></h2>
+<hr>
 <ol>
 <li>model3.json文件(或model.json文件),本次部署live2d模型的<strong>核心文件</strong>.在该文件中记录;了有关live2d模型的
 <ol>
@@ -40,6 +44,7 @@
 </li>
 </ol>
 <h2 id="组件引入" tabindex="-1"><a class="header-anchor" href="#组件引入"><span>组件引入</span></a></h2>
+<hr>
 <ol>
 <li>在你要引入的组件中引入</li>
 </ol>
@@ -135,6 +140,7 @@
 <span class="line"><span style="--shiki-light:#575279;--shiki-light-font-style:italic;--shiki-dark:#E0DEF4;--shiki-dark-font-style:italic">    app</span><span style="--shiki-light:#286983;--shiki-dark:#3E8FB0">?.</span><span style="--shiki-light:#575279;--shiki-light-font-style:italic;--shiki-dark:#E0DEF4;--shiki-dark-font-style:italic">value</span><span style="--shiki-light:#286983;--shiki-dark:#3E8FB0">.</span><span style="--shiki-light:#D7827E;--shiki-dark:#EA9A97">destroy</span><span style="--shiki-light:#575279;--shiki-dark:#E0DEF4">()</span></span>
 <span class="line"><span style="--shiki-light:#797593;--shiki-dark:#908CAA">}</span><span style="--shiki-light:#575279;--shiki-dark:#E0DEF4">)</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="构建页面" tabindex="-1"><a class="header-anchor" href="#构建页面"><span>构建页面</span></a></h2>
+<hr>
 <div class="language-vue line-numbers-mode" data-highlighter="shiki" data-ext="vue" style="--shiki-light:#575279;--shiki-dark:#e0def4;--shiki-light-bg:#faf4ed;--shiki-dark-bg:#232136"><pre class="shiki shiki-themes rose-pine-dawn rose-pine-moon vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#9893A5;--shiki-dark:#6E6A86">&#x3C;</span><span style="--shiki-light:#56949F;--shiki-dark:#9CCFD8">template</span><span style="--shiki-light:#9893A5;--shiki-dark:#6E6A86">></span></span>
 <span class="line"><span style="--shiki-light:#9893A5;--shiki-dark:#6E6A86">  &#x3C;</span><span style="--shiki-light:#56949F;--shiki-dark:#9CCFD8">div</span><span style="--shiki-light:#907AA9;--shiki-light-font-style:italic;--shiki-dark:#C4A7E7;--shiki-dark-font-style:italic"> class</span><span style="--shiki-light:#797593;--shiki-dark:#908CAA">=</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177">"background"</span><span style="--shiki-light:#9893A5;--shiki-dark:#6E6A86">></span></span>
 <span class="line"><span style="--shiki-light:#9893A5;--shiki-dark:#6E6A86">    &#x3C;</span><span style="--shiki-light:#56949F;--shiki-dark:#9CCFD8">div</span><span style="--shiki-light:#907AA9;--shiki-light-font-style:italic;--shiki-dark:#C4A7E7;--shiki-dark-font-style:italic"> class</span><span style="--shiki-light:#797593;--shiki-dark:#908CAA">=</span><span style="--shiki-light:#EA9D34;--shiki-dark:#F6C177">"live2d-box"</span><span style="--shiki-light:#9893A5;--shiki-dark:#6E6A86">></span></span>

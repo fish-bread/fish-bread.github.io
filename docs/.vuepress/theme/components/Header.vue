@@ -164,7 +164,7 @@ const audio_is_playing_func = () => {
 <style scoped>
 a {
   color: var(--link-color);
-  text-decoration: none; /* 去除默认的下划线 */
+  text-decoration: none !important; /* 去除默认的下划线 */
   outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
 }
 .mobile-search {
