@@ -32,6 +32,7 @@
     "pixi.js": "^7.4.3",
     "typeit": "^8.8.7",
     "vue-color": "^3.3.1",
-    "vue-device-detect": "^1.0.3"
+    "vue-device-detect": "^1.0.3",
+    "vue-router": "^4.5.1"
   }
 }

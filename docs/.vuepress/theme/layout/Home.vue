@@ -26,6 +26,7 @@ onMounted(() => {
   //动态导入图片
   if (typeof window !== 'undefined') {
     // Vite 动态导入语法
+    //警告可以忽略
     const images = import.meta.glob('../../public/images/background/[0-9]*.png', { eager: true });
     backgroundImages.value = Object.keys(images).map(path => {
       // 提取文件名并拼接为正确的公开路径

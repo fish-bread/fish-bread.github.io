@@ -1,41 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "零碎文档",
-    "headers": [],
-    "path": "/posts/Issues/Issues.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "koa文档",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是koa",
-        "slug": "什么是koa",
-        "link": "#什么是koa",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "安装koa",
-        "slug": "安装koa",
-        "link": "#安装koa",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "入门koa",
-        "slug": "入门koa",
-        "link": "#入门koa",
-        "children": []
-      }
-    ],
-    "path": "/posts/Koa/koa.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "puppeteer",
     "headers": [
       {
@@ -54,6 +18,41 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Puppeteer/puppeteer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "零碎文档",
+    "headers": [],
+    "path": "/posts/Issues/Issues.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue引入deepseek对话预览",
+    "headers": [],
+    "path": "/posts/Resource/deepseek.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue引入live2d预览",
+    "headers": [],
+    "path": "/posts/Resource/live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "资源相关",
+    "headers": [],
+    "path": "/posts/Resource/resource.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主题切换",
+    "headers": [],
+    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -145,30 +144,31 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "vue引入deepseek对话预览",
-    "headers": [],
-    "path": "/posts/Resource/deepseek.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue引入live2d预览",
-    "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "资源相关",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主题切换",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
+    "title": "koa文档",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是koa",
+        "slug": "什么是koa",
+        "link": "#什么是koa",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装koa",
+        "slug": "安装koa",
+        "link": "#安装koa",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "入门koa",
+        "slug": "入门koa",
+        "link": "#入门koa",
+        "children": []
+      }
+    ],
+    "path": "/posts/Koa/koa.html",
     "pathLocale": "/",
     "extraFields": []
   },

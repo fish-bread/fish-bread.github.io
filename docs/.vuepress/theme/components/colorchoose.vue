@@ -124,15 +124,17 @@ onMounted(() => {
         <button @click="resetToDefault">重置为默认</button>
         <button @click="saveTheme">保存主题</button>
       </div> 
-    <div class="concentrate">注:(重置主题后须保存生效,保存时是明暗主题一起保存)</div>
+    <div class="concentrate" :style="{
+    }">注:(重置主题后须保存生效,保存时是明暗主题一起保存)</div>
   </div>
 </template>
 
 <style scoped>
 .concentrate {
-  color: var(--theme-color);
+  color: var(--text-color);
   font-size: 17px;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 .theme-picker {
   padding:0 35px 35px 35px;
