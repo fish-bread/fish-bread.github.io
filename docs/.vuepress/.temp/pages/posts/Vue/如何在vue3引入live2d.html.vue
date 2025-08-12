@@ -1,4 +1,5 @@
 <template><div><h1 id="如何在vue3引入live2d" tabindex="-1"><a class="header-anchor" href="#如何在vue3引入live2d"><span>如何在vue3引入live2d</span></a></h1>
+<p><mark>原创</mark><mark>2025/8/11</mark><mark>fishbread</mark></p>
 <hr>
 <p>这是一篇关于如何在vue3部署liv2d的文档<br>
 基于guansss大佬开发的<a href="https://github.com/guansss/pixi-live2d-display" target="_blank" rel="noopener noreferrer">pixi-live2d-display@0.5.0-beta</a>库来构建</p>
@@ -163,9 +164,8 @@
 <span class="line"><span style="--shiki-light:#797593;--shiki-light-font-style:italic;--shiki-dark:#908CAA;--shiki-dark-font-style:italic">.</span><span style="--shiki-light:#907AA9;--shiki-light-font-style:italic;--shiki-dark:#C4A7E7;--shiki-dark-font-style:italic">live2d-box-canvas</span><span style="--shiki-light:#797593;--shiki-dark:#908CAA"> {</span></span>
 <span class="line"><span style="--shiki-light:#56949F;--shiki-dark:#9CCFD8">    height</span><span style="--shiki-light:#797593;--shiki-dark:#908CAA">:</span><span style="--shiki-light:#D7827E;--shiki-dark:#EA9A97"> 100</span><span style="--shiki-light:#286983;--shiki-dark:#3E8FB0">%</span><span style="--shiki-light:#797593;--shiki-dark:#908CAA">;</span></span>
 <span class="line"><span style="--shiki-light:#797593;--shiki-dark:#908CAA">}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="5">
-<li>在vue中开始运行你的live2d模型吧! 😃 🎉</li>
-</ol>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="结束" tabindex="-1"><a class="header-anchor" href="#结束"><span>结束</span></a></h2>
+<p>在vue中开始运行你的live2d模型吧! 😃 🎉</p>
 </div></template>
 
 

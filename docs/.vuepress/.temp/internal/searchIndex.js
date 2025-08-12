@@ -1,5 +1,41 @@
 export const SEARCH_INDEX = [
   {
+    "title": "零碎文档",
+    "headers": [],
+    "path": "/posts/Issues/Issues.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "koa文档",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是koa",
+        "slug": "什么是koa",
+        "link": "#什么是koa",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装koa",
+        "slug": "安装koa",
+        "link": "#安装koa",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "入门koa",
+        "slug": "入门koa",
+        "link": "#入门koa",
+        "children": []
+      }
+    ],
+    "path": "/posts/Koa/koa.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "puppeteer",
     "headers": [
       {
@@ -22,41 +58,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "零碎文档",
-    "headers": [],
-    "path": "/posts/Issues/Issues.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue引入deepseek对话预览",
-    "headers": [],
-    "path": "/posts/Resource/deepseek.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue引入live2d预览",
-    "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "资源相关",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主题切换",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "vue",
     "headers": [
       {
@@ -75,6 +76,63 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Vue/vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "从零构建自己的vuepress主题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "使用技术",
+        "slug": "使用技术",
+        "link": "#使用技术",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "构建vuepress默认主题",
+        "slug": "构建vuepress默认主题",
+        "link": "#构建vuepress默认主题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "选择默认配置",
+        "slug": "选择默认配置",
+        "link": "#选择默认配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "vuepress项目解释",
+        "slug": "vuepress项目解释",
+        "link": "#vuepress项目解释",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "去除vuepress默认配置",
+        "slug": "去除vuepress默认配置",
+        "link": "#去除vuepress默认配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解析文件用途",
+        "slug": "解析文件用途",
+        "link": "#解析文件用途",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "结束",
+        "slug": "结束",
+        "link": "#结束",
+        "children": []
+      }
+    ],
+    "path": "/posts/Vue/%E4%BB%8E%E9%9B%B6%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84vuepress%E4%B8%BB%E9%A2%98.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -137,6 +195,13 @@ export const SEARCH_INDEX = [
         "slug": "构建页面",
         "link": "#构建页面",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "结束",
+        "slug": "结束",
+        "link": "#结束",
+        "children": []
       }
     ],
     "path": "/posts/Vue/%E5%A6%82%E4%BD%95%E5%9C%A8vue3%E5%BC%95%E5%85%A5live2d.html",
@@ -144,31 +209,30 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "koa文档",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是koa",
-        "slug": "什么是koa",
-        "link": "#什么是koa",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "安装koa",
-        "slug": "安装koa",
-        "link": "#安装koa",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "入门koa",
-        "slug": "入门koa",
-        "link": "#入门koa",
-        "children": []
-      }
-    ],
-    "path": "/posts/Koa/koa.html",
+    "title": "vue引入deepseek对话预览",
+    "headers": [],
+    "path": "/posts/Resource/deepseek.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue引入live2d预览",
+    "headers": [],
+    "path": "/posts/Resource/live2d.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "资源相关",
+    "headers": [],
+    "path": "/posts/Resource/resource.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主题切换",
+    "headers": [],
+    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },

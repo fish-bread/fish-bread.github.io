@@ -74,6 +74,8 @@ onMounted(() => {
      : `linear-gradient(90deg, ${themes.dark.theme_color}, ${themes.dark.hover_color}, ${themes.dark.theme_color})`,
      '--ul-marker-color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
      '--ol-hover-marker-color':theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+     '--mark-bg-color':theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+     '--mark-hover-bg-color':theme_change === 'light' ? themes.light.hover_color : themes.dark.hover_color,
       }"></Content>
     </div>
     <!--新增的目录侧边栏-->

@@ -1,4 +1,7 @@
 # 如何在vue3引入live2d
+
+<mark>原创</mark><mark>2025/8/11</mark><mark>fishbread</mark>
+
 ---
 这是一篇关于如何在vue3部署liv2d的文档  
 基于guansss大佬开发的[pixi-live2d-display@0.5.0-beta](https://github.com/guansss/pixi-live2d-display)库来构建  
@@ -163,5 +166,6 @@ onBeforeUnmount(() => {
     height: 100%;
 }
 ```
-5. 在vue中开始运行你的live2d模型吧! :smiley: 🎉
+## 结束
+在vue中开始运行你的live2d模型吧! :smiley: 🎉
 
