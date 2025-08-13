@@ -1,7 +1,7 @@
 <template><div><h1 id="从零构建自己的vuepress主题" tabindex="-1"><a class="header-anchor" href="#从零构建自己的vuepress主题"><span>从零构建自己的vuepress主题</span></a></h1>
 <p><mark>原创</mark><mark>2025/8/12</mark><mark>fishbread</mark></p>
 <hr>
-<p>这是一篇关于如何在vue3部署liv2d的文档</p>
+<p>这是一篇关于如何构建vuepress自定义主题的文档</p>
 <h2 id="使用技术" tabindex="-1"><a class="header-anchor" href="#使用技术"><span>使用技术</span></a></h2>
 <hr>
 <ol>
