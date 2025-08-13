@@ -69,6 +69,7 @@ a {
   width: 100%;
   height: 100%;
   background-size: cover;
+  margin: 0;
 }
 .model_link_box_textbox {
   flex: 1;
