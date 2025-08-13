@@ -4,7 +4,8 @@
 
 ---
 
-这是一篇关于如何在vue3部署liv2d的文档
+这是一篇关于如何在vue3部署liv2d的文档  
+如需立即获得一个live2d基础框架,请点击该网址,[fish-bread的live2d项目](https://github.com/fish-bread/vue-live2d)
 ## 使用技术
 ---
 1. vue3
