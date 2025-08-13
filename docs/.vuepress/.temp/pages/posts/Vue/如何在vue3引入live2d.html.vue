@@ -2,7 +2,8 @@
 <p><mark>原创</mark><mark>2025/8/11</mark><mark>fishbread</mark></p>
 <hr>
 <p>这是一篇关于如何在vue3部署liv2d的文档<br>
-基于guansss大佬开发的<a href="https://github.com/guansss/pixi-live2d-display" target="_blank" rel="noopener noreferrer">pixi-live2d-display@0.5.0-beta</a>库来构建</p>
+基于guansss大佬开发的<a href="https://github.com/guansss/pixi-live2d-display" target="_blank" rel="noopener noreferrer">pixi-live2d-display@0.5.0-beta</a>库来构建<br>
+如需立即获得一个live2d基础框架,请点击该网址,<a href="https://github.com/fish-bread/vue-live2d" target="_blank" rel="noopener noreferrer">fish-bread的live2d项目</a></p>
 <h2 id="使用技术" tabindex="-1"><a class="header-anchor" href="#使用技术"><span>使用技术</span></a></h2>
 <hr>
 <ol>
