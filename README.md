@@ -6,6 +6,10 @@
 
 ## 全局样式设置备忘:
 
+修改ani-cursor.js中为
+import * as riff from 'riff-file';
+const RIFFFile = riff.RIFFFile;
+
 主题色: pink
 明色: while
 暗色: #7a86bd

@@ -27,7 +27,7 @@
     "@vuepress/plugin-shiki": "^2.0.0-rc.91",
     "@vuepress/utils": "^2.0.0-rc.20",
     "@vueuse/core": "^13.6.0",
-   
+    "ani-cursor.js": "^1.0.2",
     "axios": "^1.11.0",
     "dayjs": "^1.11.13",
     "pixi-live2d-display": "^0.5.0-beta",

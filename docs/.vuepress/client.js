@@ -11,18 +11,17 @@ import 'vue-color/style.css';
 import Live2d from "./theme/layout/Live2d.vue";
 import {changeTitle_func} from "./theme/func/changeTitle.js";
 //鼠标光标
-
 export default defineClientConfig({ 
   enhance({ app, router}) {
     console.log('注册客户端')
     //注册全局组件
-    
   },
   setup() {
     changeTitle_func()
   },
   //用于直接注册并启用在根组件
- 
+  rootComponents: [
+  ],
   // we provide some blog layouts
   layouts: {
     Layout,

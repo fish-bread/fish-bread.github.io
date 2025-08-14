@@ -16,6 +16,7 @@ import { onMounted, ref, shallowRef, watchEffect} from "vue";
 import {get_theme, theme_change, change_theme, themes } from '../func/newColor.js'
 import { setBoxRef, moveUnderline, underlineRef, is_link_hover } from "../func/header.js";
 import UserMouse from "./anime/userMouse.vue";
+import GlobalCursor from "./anime/GlobalCursor.vue";
 const navLinks = ref([
   {
     path: '/posts/Resource/themeChoose.html',
@@ -64,6 +65,7 @@ defineProps({
 }
 })
 onMounted(async () => {
+  if (rotate_button.value) rotate_button.value.style.animationPlayState = "paused";
   //读取窗体设置
   window_size_func()
   //读取新主题
@@ -79,7 +81,6 @@ onMounted(async () => {
       document.documentElement.style.setProperty('--scrollbar-track-color', themes.value.dark.scrollbar_color);
     }
   })
-  if (rotate_button.value) rotate_button.value.style.animationPlayState = "paused";
 })
 const audio = ref()
 const rotate_button = shallowRef()
@@ -114,6 +115,8 @@ const audio_is_playing_func = () => {
     backgroundColor: back_color,
     boxShadow: box_shadow,
   }">
+        <!--光标更换-->
+        <global-cursor></global-cursor>
         <!--鼠标拖尾-->
         <user-mouse></user-mouse>
         <!--logo-->
