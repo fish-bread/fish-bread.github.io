@@ -1,12 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "零碎文档",
-    "headers": [],
-    "path": "/posts/Issues/Issues.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "koa文档",
     "headers": [
       {
@@ -97,6 +90,13 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Puppeteer/puppeteer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "零碎文档",
+    "headers": [],
+    "path": "/posts/Issues/Issues.html",
     "pathLocale": "/",
     "extraFields": []
   },

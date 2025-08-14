@@ -11,7 +11,7 @@ import {
 } from "../func/clientchoose.js";
 import '../styles/home_client.css'
 import '../styles/themes-color.css'
-import { onMounted, ref, shallowRef, watchEffect} from "vue";
+import {onMounted, ref, shallowRef, watch, watchEffect} from "vue";
 //新主题模块
 import {get_theme, theme_change, change_theme, themes } from '../func/newColor.js'
 import { setBoxRef, moveUnderline, underlineRef, is_link_hover } from "../func/header.js";
@@ -64,8 +64,10 @@ defineProps({
     type: String,
 }
 })
+const audio = ref()
+const rotate_button = shallowRef()
+const is_playing_audio = ref(false)
 onMounted(async () => {
-  if (rotate_button.value) rotate_button.value.style.animationPlayState = "paused";
   //读取窗体设置
   window_size_func()
   //读取新主题
@@ -81,10 +83,16 @@ onMounted(async () => {
       document.documentElement.style.setProperty('--scrollbar-track-color', themes.value.dark.scrollbar_color);
     }
   })
+  //监听初始旋转
+  watch(
+      () => is_playing_audio.value,
+      () => {
+        if (is_playing_audio.value === false) {
+          rotate_button.value.style.animationPlayState = "paused";
+        }
+      }, { immediate: true }
+  )
 })
-const audio = ref()
-const rotate_button = shallowRef()
-const is_playing_audio = ref(false)
 const play_audio = () => {
   if (is_playing_audio.value) {
     is_playing_audio.value = false
