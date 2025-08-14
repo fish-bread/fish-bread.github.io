@@ -50,7 +50,17 @@ export default defineUserConfig({
         },
       },
       // 排除页面
-      isSearchable: (page) => page.path !== '/',
+      isSearchable: (page) => {
+        const excludedPaths = [
+          '/',
+          '/posts/Resource/themeChoose.html',
+          '/posts/Resource/resource.html',
+          '/posts/Resource/deepseek.html',
+          '/posts/Resource/live2d.html'
+        ]
+        return !excludedPaths.includes(page.path)
+      },
+      maxSuggestions: 10,
     }),
       //复制代码块
     copyCodePlugin({

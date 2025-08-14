@@ -35,7 +35,12 @@ const resource_big_title = ref([
     backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
     color: theme_change === 'light' ? themes.light.color : themes.dark.color
   }">
-    <Header></Header>
+    <Header
+        :position_name="'relative'"
+        :back_color="'rgba(237, 237, 238, 0.6)'"
+        :box_shadow="'0 0 10px 0 rgba(0,0,0,0.4)'"
+        :backdrop_filter="'blur(5px)'"
+    ></Header>
     <!--盒子页面-->
     <div class="page-box">
       <div style="display: flex;flex-direction: row; gap: 30px">
@@ -52,11 +57,6 @@ const resource_big_title = ref([
 </template>
 
 <style scoped>
-.header {
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
-  background-color: rgba(237, 237, 238, 0.6);
-  backdrop-filter: blur(5px);
-}
 .page-back {
   width: 100%;
   height: auto;

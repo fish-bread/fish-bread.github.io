@@ -55,7 +55,7 @@ onMounted(() => {
 <template>
   <!--头部-->
   <div ref="layout_header" class="layout-header font_size" :style="{ backgroundImage: currentBg, backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color, }">
-    <Header></Header>
+    <Header :position_name="'relative'"></Header>
     <!--显示是哪个版块-->
     <div ref="layout_header_title" class="layout-header-section" :style="{
        color: theme_change === 'light' ? themes.light.color : themes.dark.color,

@@ -142,7 +142,6 @@ const return_top_func = () => {
   position: fixed;
   width: 40px;
   height: 40px;
-  cursor: pointer;
   right: 30px;
   bottom: 30px;
   border-radius: 50%;

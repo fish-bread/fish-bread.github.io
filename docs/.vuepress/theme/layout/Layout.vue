@@ -11,7 +11,6 @@ import {
 } from '../func/clientchoose.js'
 import {markdown_list} from "../func/markdown_list.js";
 const router = useRoute();
-
 import { themes, theme_change } from '../func/newColor.js'
 //获取当前路径,并设置标题
 const path_name = ref()

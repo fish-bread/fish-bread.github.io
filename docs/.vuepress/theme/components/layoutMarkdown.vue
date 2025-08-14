@@ -6,9 +6,9 @@ import { markdown_body, markdown_box, is_mobile } from "../func/clientchoose.js"
 import {themes, theme_change, calculateHoverColor} from "../func/newColor.js";
 import {nextTick, onMounted, watch, watchEffect} from "vue";
 import {headerHeight,} from "../func/bigHeader.js";
-import TocSidebar from "./TocSidebar.vue";
-import {watchThrottled} from "@vueuse/core";
-import {useRoute} from "vue-router";  
+import TocSidebar from "./layoutTocSidebar.vue";
+import {useRoute} from "vue-router";
+import Footer from "./Footer.vue";  
 const route = useRoute()
 // 提取标题和添加类名的函数
 const extractHeadingsAndAddClasses = () => {
@@ -77,13 +77,14 @@ onMounted(() => {
      '--mark-bg-color':theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
      '--mark-hover-bg-color':theme_change === 'light' ? themes.light.hover_color : themes.dark.hover_color,
       }"></Content>
-    </div>
-    <!--新增的目录侧边栏-->
-    <toc-sidebar :header-height="headerHeight"
-        :style="{
+      <!--新增的目录侧边栏-->
+      <toc-sidebar :header-height="headerHeight"
+                   :style="{
       '--toc-bg': theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
       '--toc-hover-color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
     }"></toc-sidebar>
+    </div>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -105,10 +106,11 @@ onMounted(() => {
 .markdown {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  padding: 80px 20% 150px 20%;
+  flex-direction: row;
   background-color: transparent;
   overflow: hidden;
+  gap: 10px;
+  justify-content: center;
 }
 .markdown_mobile {
   padding: 0 0 150px 10px !important;

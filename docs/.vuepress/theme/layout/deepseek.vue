@@ -12,7 +12,12 @@ import {is_user_setting, newTitle, userToken} from "../components/deepseekcompon
     backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
     color: theme_change === 'light' ? themes.light.color : themes.dark.color,
   }">
-    <Header></Header>
+    <Header
+        :position_name="'fixed'"
+        :back_color="'rgba(237, 237, 238, 0.6)'"
+        :box_shadow="'0 0 10px 0 rgba(0,0,0,0.4)'"
+        :backdrop_filter="'blur(5px)'"
+    ></Header>
     <div ref="homeAll" class="home_all" >
       <home-left></home-left>
       <home-body v-show="!newTitle"></home-body>
@@ -67,12 +72,6 @@ import {is_user_setting, newTitle, userToken} from "../components/deepseekcompon
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.header {
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
-  background-color: rgba(237, 237, 238, 0.6);
-  backdrop-filter: blur(5px);
-  position: fixed;
 }
 .background {
   height: 100vh;

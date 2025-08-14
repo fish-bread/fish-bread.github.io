@@ -55,7 +55,6 @@ onMounted(() => {
   width:  40px;
   height:  40px;
   border-radius: 5px;
-  cursor: pointer;
   animation: move_up_down 1s linear infinite alternate;
 }
 

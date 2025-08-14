@@ -1,27 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "puppeteer",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是 Puppeteer？",
-        "slug": "什么是-puppeteer",
-        "link": "#什么是-puppeteer",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Puppeteer特性",
-        "slug": "puppeteer特性",
-        "link": "#puppeteer特性",
-        "children": []
-      }
-    ],
-    "path": "/posts/Puppeteer/puppeteer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "零碎文档",
     "headers": [],
     "path": "/posts/Issues/Issues.html",
@@ -97,6 +75,28 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Koa/%E4%BB%8E%E9%9B%B6%E9%85%8D%E7%BD%AEkoa.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "puppeteer",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是 Puppeteer？",
+        "slug": "什么是-puppeteer",
+        "link": "#什么是-puppeteer",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Puppeteer特性",
+        "slug": "puppeteer特性",
+        "link": "#puppeteer特性",
+        "children": []
+      }
+    ],
+    "path": "/posts/Puppeteer/puppeteer.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -248,34 +248,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Vue/%E5%A6%82%E4%BD%95%E5%9C%A8vue3%E5%BC%95%E5%85%A5live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue引入deepseek对话预览",
-    "headers": [],
-    "path": "/posts/Resource/deepseek.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue引入live2d预览",
-    "headers": [],
-    "path": "/posts/Resource/live2d.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "资源相关",
-    "headers": [],
-    "path": "/posts/Resource/resource.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主题切换",
-    "headers": [],
-    "path": "/posts/Resource/themeChoose.html",
     "pathLocale": "/",
     "extraFields": []
   },

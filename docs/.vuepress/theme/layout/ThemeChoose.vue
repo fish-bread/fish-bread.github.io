@@ -16,7 +16,12 @@ const currentTheme = computed(() => themes.value[theme_change.value]);
   <div class="back-page font_size" :style="{
     backgroundColor: currentTheme.back_color
   }">
-    <Header ></Header>
+    <Header
+        :position_name="'absolute'"
+        :back_color="'rgba(237, 237, 238, 0.6)'"
+        :box_shadow="'0 0 10px 0 rgba(0,0,0,0.4)'"
+        :backdrop_filter="'blur(5px)'"
+    ></Header>
     <div class="theme-back"  :class="{'theme-back_mobile': is_mobile }">
       <!--主题演示-->
       <div class="choose-color" :style="{
@@ -75,11 +80,6 @@ const currentTheme = computed(() => themes.value[theme_change.value]);
 </template>
 
 <style scoped>
-.header {
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
-  background-color: rgba(237, 237, 238, 0.6);
-  backdrop-filter: blur(5px);
-}
 .back-page {
   background-color: var(--back-color);
 }

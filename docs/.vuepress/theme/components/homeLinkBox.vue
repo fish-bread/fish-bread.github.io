@@ -87,7 +87,6 @@ a {
   box-sizing: border-box;
   padding: 10px;
   border-radius: 5px;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 10px;

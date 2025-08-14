@@ -104,7 +104,6 @@ a {
   position: absolute;
   width: 30px;
   height: 30px;
-  cursor: pointer;
   right: 10px;
   transition:all 0.5s ease;
 }
@@ -151,7 +150,6 @@ a {
   width: 100%;
   height: 36px;
   padding: 8px 5px 8px 5px;
-  cursor: pointer;
   border-radius: 5px;
   transition: color 0.3s ease;
   overflow: hidden;

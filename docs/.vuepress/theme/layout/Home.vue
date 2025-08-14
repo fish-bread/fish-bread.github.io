@@ -11,7 +11,6 @@ import HomeLinkBox from "../components/homeLinkBox.vue";
 import {alpha_back_color, theme_change, themes} from '../func/newColor.js'
 // 动态导入 /docs/.vuepress/public/images/background/ 下的所有图片
 const backgroundImages = ref([]);
-
 // 2. 当前背景图（响应式变量）
 const currentBg = ref('')
 // 3. 随机切换背景函数
@@ -23,8 +22,6 @@ const changeBackground = () => {
   console.log('切换图片',currentBg.value)
 }
 onMounted(() => {
-  //动态导入图片
-  if (typeof window !== 'undefined') {
     // Vite 动态导入语法
     //警告可以忽略
     const images = import.meta.glob('../../public/images/background/[0-9]*.png', { eager: true });
@@ -33,7 +30,6 @@ onMounted(() => {
       return path.replace('../../public', '');
     });
     changeBackground(); // 初始化背景
-  }
 })
 //模块链接
 const module_links = ref([
@@ -46,8 +42,8 @@ const module_links = ref([
 </script>
 
 <template>
-  <!--背景图片不动款-->
-  <div ref="back" class="back" :style="{ 
+    <!--背景图片不动款-->
+    <div ref="back" class="back" :style="{ 
     backgroundImage: currentBg,
     backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
   }"></div>
@@ -55,11 +51,11 @@ const module_links = ref([
     <returntop></returntop>
     <!--移动到下面-->
     <homedown></homedown>
-    <div class="home-in-box home-box font_size" 
+    <div class="home-in-box home-box font_size"
          :style="{
       '--home-box-color-hover': theme_change === 'light' ? themes.light.color : themes.dark.color, 
          }">
-      <Header :style="{ backgroundColor: alpha_back_color }"></Header>
+      <Header :back_color="alpha_back_color" :position_name="'absolute'"></Header>
       <!--首页显示-->
       <userbox></userbox>
       <!--列表展示-->
@@ -74,6 +70,7 @@ const module_links = ref([
       <!--底部-->
       <Footer></Footer>
     </div>
+  
 </template>
 
 <style scoped>

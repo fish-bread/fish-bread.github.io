@@ -119,13 +119,11 @@ onMounted(async ()=>{
     }
   }).go();
   // 动态导入sm_开头的图片
-  if (typeof window !== 'undefined') {
     const images = import.meta.glob('../../public/images/user_head/head_[0-9]*.png', { eager: true });
     backgroundImages.value = Object.keys(images).map(path => {
       return path.replace('../../public', '');
     });
     changeBackground(); // 初始化背景
-  }
   console.log('头像', current_head.value);
 })
 onUnmounted(() => {
@@ -262,7 +260,6 @@ onUnmounted(() => {
   height: 25px;
   overflow: hidden;
   border: 3px solid #d4d4d4;
-  cursor: pointer;
 }
 .show-button-ball {
   width: 20px;
@@ -297,7 +294,6 @@ onUnmounted(() => {
 .quick-links-box {
   height: 100%;
   width: 30px;
-  cursor: pointer;
   position: relative;
 }
 .v-enter-active,
