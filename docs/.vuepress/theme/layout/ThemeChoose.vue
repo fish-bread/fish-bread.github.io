@@ -97,7 +97,8 @@ const currentTheme = computed(() => themes.value[theme_change.value]);
   display: flex;
   flex-direction: row;
   gap: 20px;
-  padding: 20px;
+  padding: 80px 20px 20px 20px;
+  height: auto;
 }
 
 .choose-color {
