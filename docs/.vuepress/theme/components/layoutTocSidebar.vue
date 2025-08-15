@@ -92,7 +92,6 @@ onMounted(() => {
   min-width: 300px;
   height: 100%;
   right: 0;
-  z-index: 1000;
 }
 
 .toc-title {

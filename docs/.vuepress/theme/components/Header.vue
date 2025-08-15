@@ -87,7 +87,7 @@ onMounted(async () => {
   watch(
       () => is_playing_audio.value,
       () => {
-        if (is_playing_audio.value === false) {
+        if (is_playing_audio.value === false && rotate_button.value) {
           rotate_button.value.style.animationPlayState = "paused";
         }
       }, { immediate: true }

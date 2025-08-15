@@ -20,40 +20,9 @@ dayjs.extend(quarterOfYear)
 //时间
 import { useDateTime } from '../func/useDateTime';
 const { data_time, data_season } = useDateTime();
-const set_time_setInterval_id = ref()
 //引入vueuse用于检测用户是否活动
 import {useIdle} from '@vueuse/core'
 import Usertimebox from "./usertimebox.vue";
-//设置时间
-const set_time_setInterval = () => {
-  if (set_time_setInterval_id.value) {
-    clearInterval(set_time_setInterval_id.value)
-    set_time_setInterval_id.value = null;
-  } else {
-    set_time_setInterval_id.value = setInterval(() => {
-      data_time.value = dayjs().format('YYYY-MM-DD HH:mm:ss'); // 格式化年月日时分秒
-    }, 1000);
-  }
-}
-//设置季节
-const set_season = () => {
-  const now_num = dayjs().quarter()
-  switch (now_num) {
-    case 1:
-      data_season.value = '春季';
-      break;
-    case 2:
-      data_season.value = '夏季';
-      break;
-    case 3:
-      data_season.value = '秋季';
-      break;
-    case 4:
-      data_season.value = '冬季';
-      break;
-  }
-  console.log('当前季节:', data_season.value);// 返回 1-4（1=春, 2=夏, 3=秋, 4=冬）
-}
 const current_head = ref(''); // 添加背景状态
 // 动态获取背景图片
 const backgroundImages = ref([]);
@@ -73,10 +42,6 @@ onMounted(async ()=>{
   }, {
     immediate: true
       })
-  //设置时间
-  set_time_setInterval()
- //设置季节
-  set_season()
   //监视盒子的隐藏
   watchEffect(()=>{
     if (is_hide_user_box.value === true) {
@@ -125,9 +90,6 @@ onMounted(async ()=>{
     });
     changeBackground(); // 初始化背景
   console.log('头像', current_head.value);
-})
-onUnmounted(() => {
-  clearInterval(set_time_setInterval_id.value)
 })
 
 </script>

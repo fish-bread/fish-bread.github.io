@@ -3,6 +3,8 @@
 import {RouterLink} from "vue-router";
 import {is_mobile, link_imgs } from "../func/clientchoose.js";
 import { theme_change, themes } from "../func/newColor.js";
+import { onScroll, animate,stagger } from 'animejs';
+import {onMounted} from "vue";
 defineProps({
   module_links: {
     type: Array,
@@ -10,6 +12,17 @@ defineProps({
   }
 })
 
+onMounted(() => {
+  animate( '.model_link_box',{
+    y: { from:200, to: 0,duration: 1000 },
+        loop: false,
+        autoplay: onScroll(),
+        delay: stagger(200),
+        ease: 'easeInCirc',
+        playbackRate: 2,
+  },
+  )
+})
 </script>
 
 <template>
@@ -58,6 +71,7 @@ a {
   /*padding: 10px;*/
   border-radius: 10px;
   gap: 10px;
+  overflow: hidden;
 }
 .model_link_box_img {
   width: 500px;

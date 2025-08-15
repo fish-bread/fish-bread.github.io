@@ -115,6 +115,7 @@ const module_links = ref([
   align-items: center;
   gap: 20px;
   /*background-color: aquamarine;*/
+  overflow: hidden;
 }
 
 </style>
