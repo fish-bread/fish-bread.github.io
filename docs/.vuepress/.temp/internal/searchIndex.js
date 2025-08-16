@@ -7,28 +7,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "puppeteer",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是 Puppeteer？",
-        "slug": "什么是-puppeteer",
-        "link": "#什么是-puppeteer",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Puppeteer特性",
-        "slug": "puppeteer特性",
-        "link": "#puppeteer特性",
-        "children": []
-      }
-    ],
-    "path": "/posts/Puppeteer/puppeteer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "koa文档",
     "headers": [
       {
@@ -97,6 +75,28 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/Koa/%E4%BB%8E%E9%9B%B6%E9%85%8D%E7%BD%AEkoa.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "puppeteer",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是 Puppeteer？",
+        "slug": "什么是-puppeteer",
+        "link": "#什么是-puppeteer",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Puppeteer特性",
+        "slug": "puppeteer特性",
+        "link": "#puppeteer特性",
+        "children": []
+      }
+    ],
+    "path": "/posts/Puppeteer/puppeteer.html",
     "pathLocale": "/",
     "extraFields": []
   },

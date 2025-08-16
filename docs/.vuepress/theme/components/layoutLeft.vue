@@ -118,11 +118,13 @@ a {
 .markdown-box-left-list-title {
   font-size: 20px;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 5px;
+  border-bottom: 1px solid #2c2c2c;
 }
 .markdown-box-left-list {
   width:  100%;

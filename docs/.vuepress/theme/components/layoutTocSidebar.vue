@@ -98,7 +98,7 @@ onMounted(() => {
   font-weight: bold;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #2c2c2c;
 }
 
 .toc-list {

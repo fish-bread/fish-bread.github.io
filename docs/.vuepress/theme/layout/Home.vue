@@ -21,6 +21,14 @@ const changeBackground = () => {
   }
   console.log('切换图片',currentBg.value)
 }
+//模块链接
+const module_links = ref([
+  {link_title: '前端探索', link_name: '个人前端探索经历', link_img: '/images/background/link_1.png', link_href: '/posts/Issues/Issues.html'},
+  {link_title: 'vue相关', link_name: '有关于vue的探索',  link_img: '/images/background/link_2.png', link_href: '/posts/Vue/vue.html' },
+  {link_title: '脚本相关',  link_name: '有关于脚本的探索',  link_img: '/images/background/link_3.png', link_href: '/posts/Puppeteer/puppeteer.html' },
+  {link_title: 'koa相关', link_name: '有关于koa的探索' , link_img: '/images/background/link_4.png', link_href: '/posts/Koa/koa.html' },
+  {link_title: '资源收集', link_name: '个人搜集的资源',  link_img: '/images/background/link_5.png', link_href: '/posts/Resource/resource.html' }
+])
 onMounted(() => {
     // Vite 动态导入语法
     //警告可以忽略
@@ -31,14 +39,6 @@ onMounted(() => {
     });
     changeBackground(); // 初始化背景
 })
-//模块链接
-const module_links = ref([
-  {link_title: '前端探索', link_name: '个人前端探索经历', link_img: '/images/background/link_1.png', link_href: '/posts/Issues/Issues.html'},
-  {link_title: 'vue相关', link_name: '有关于vue的探索',  link_img: '/images/background/link_2.png', link_href: '/posts/Vue/vue.html' },
-  {link_title: '脚本相关',  link_name: '有关于脚本的探索',  link_img: '/images/background/link_3.png', link_href: '/posts/Puppeteer/puppeteer.html' },
-  {link_title: 'koa相关', link_name: '有关于koa的探索' , link_img: '/images/background/link_4.png', link_href: '/posts/Koa/koa.html' },
-  {link_title: '资源收集', link_name: '个人搜集的资源',  link_img: '/images/background/link_5.png', link_href: '/posts/Resource/resource.html' }
-])
 </script>
 
 <template>

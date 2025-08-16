@@ -10,7 +10,6 @@ import "./theme/styles/index.css"
 import 'vue-color/style.css';
 import Live2d from "./theme/layout/Live2d.vue";
 import {changeTitle_func} from "./theme/func/changeTitle.js";
-//鼠标光标
 export default defineClientConfig({ 
   enhance({ app, router}) {
     console.log('注册客户端')
