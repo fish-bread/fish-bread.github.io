@@ -2,8 +2,8 @@
 <script setup>
 import Header from "../components/Header.vue";
 import Colorchoose from "../components/colorchoose.vue";
-import {themes, theme_change, alpha_back_color} from "../func/newColor.js";
-import {is_mobile } from "../func/clientchoose.js";
+import {themes, theme_change } from "../func/newColor.js";
+import { is_mobile} from "../func/clientchoose.js";
 import { computed } from 'vue';
 import PromptBox from "../components/PromptBox.vue";
 import Returntop from "../components/returntop.vue";
@@ -18,7 +18,6 @@ const currentTheme = computed(() => themes.value[theme_change.value]);
   }">
     <Header
         :position_name="'absolute'"
-        :back_color="'rgba(237, 237, 238, 0.6)'"
         :box_shadow="'0 0 10px 0 rgba(0,0,0,0.4)'"
         :backdrop_filter="'blur(5px)'"
     ></Header>

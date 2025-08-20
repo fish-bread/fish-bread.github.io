@@ -1,3 +1,6 @@
+---
+layout: Layout
+---
 # 如何在vue3引入live2d
 
 <mark>原创</mark><mark>2025/8/11</mark><mark>fishbread</mark>

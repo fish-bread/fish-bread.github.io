@@ -88,7 +88,7 @@ onMounted(() => {
   padding: 10px 10px 10px 10px;
   background: var(--toc-bg, transparent);
   border-radius: 4px;
-  border-left: solid 1px #2c2c2c;
+  /*border-left: solid 1px #2c2c2c;*/
   min-width: 300px;
   height: 100%;
   right: 0;

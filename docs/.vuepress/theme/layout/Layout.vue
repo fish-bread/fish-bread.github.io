@@ -5,8 +5,6 @@ import {computed, onMounted, ref, watchEffect} from "vue";
 import { useRoute } from "vue-router";
 import { watchThrottled} from "@vueuse/core"; //实用函数
 import {
-  layout_header_left,
-  markdown_box,
   single_markdown_list
 } from '../func/clientchoose.js'
 import {markdown_list} from "../func/markdown_list.js";
@@ -18,11 +16,9 @@ const path_name = ref()
 //获取路由
 import { useRoutes } from 'vuepress/client'
 import {
-  big_title, headerHeight, layout_header,
-  layout_header_left_list, layout_header_title, y,
+  big_title
 } from "../func/bigHeader.js";
 import BigHeader from "../components/bigHeader.vue";
-import LayoutLeft from "../components/layoutLeft.vue";
 import LayoutMarkdown from "../components/layoutMarkdown.vue";
 const routes = useRoutes()
 const routePaths = computed(() => Object.keys(routes.value))
@@ -125,15 +121,13 @@ onMounted(() => {
 </script>
 
 <template>
-  <div  class="markdown-typesetting font_size" :style="{
+  <div class="markdown-typesetting font_size" :style="{
     color: theme_change === 'light' ? themes.light.color : themes.dark.color, 
   backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color
   }" >
     <returntop></returntop>
     <!--头部-->
     <big-header></big-header>
-    <!--左边-->
-    <layout-left></layout-left>
     <!--文档-->
     <layout-markdown></layout-markdown>
   </div>

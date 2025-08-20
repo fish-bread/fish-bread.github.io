@@ -4,19 +4,18 @@
 import {RouterLink} from 'vue-router'
 import {
   is_mobile,
-  window_size_func,
   markdown_link_ref,
-  header,
-  vue_device_detect
+  header, show_sidebar
 } from "../func/clientchoose.js";
 import '../styles/home_client.css'
 import '../styles/themes-color.css'
-import {onMounted, ref, shallowRef, watch, watchEffect} from "vue";
+import { ref,} from "vue";
 //新主题模块
-import {get_theme, theme_change, change_theme, themes } from '../func/newColor.js'
+import { theme_change, change_theme, themes } from '../func/newColor.js'
 import { setBoxRef, moveUnderline, underlineRef, is_link_hover } from "../func/header.js";
 import UserMouse from "./anime/userMouse.vue";
 import GlobalCursor from "./anime/GlobalCursor.vue";
+import Sidebar from "./Sidebar.vue";
 const navLinks = ref([
   {
     path: '/posts/Resource/themeChoose.html',
@@ -64,81 +63,41 @@ defineProps({
     type: String,
 }
 })
-const audio = ref()
-const rotate_button = shallowRef()
-const is_playing_audio = ref(false)
-onMounted(async () => {
-  //读取窗体设置
-  window_size_func()
-  //读取新主题
-  get_theme()
-  //读取客户端
-  await vue_device_detect()
-  //监听并更新滚动条颜色
-  watchEffect(()=> {
-    if (theme_change.value === 'light') {
-      document.documentElement.style.setProperty('--scrollbar-track-color', themes.value.light.scrollbar_color);
-    }
-    else if (theme_change.value === 'dark') {
-      document.documentElement.style.setProperty('--scrollbar-track-color', themes.value.dark.scrollbar_color);
-    }
-  })
-  //监听初始旋转
-  watch(
-      () => is_playing_audio.value,
-      () => {
-        if (is_playing_audio.value === false && rotate_button.value) {
-          rotate_button.value.style.animationPlayState = "paused";
-        }
-      }, { immediate: true }
-  )
-})
-const play_audio = () => {
-  if (is_playing_audio.value) {
-    is_playing_audio.value = false
-    audio.value.pause()
-    rotate_button.value.style.animationPlayState = "paused";
-    console.log('执行1')
-  } else {
-    is_playing_audio.value = true
-    audio.value.play()
-    rotate_button.value.style.animationPlayState = "running"; 
-    console.log('执行2')
-  }
-}
-//监听音乐是否结束
-const audio_is_playing_func = () => {
-  //加载时禁止
-  rotate_button.value.style.animationPlayState = "paused";
-  rotate_button.value.style.transform = 'rotate(0)';
-  console.log('未播放音乐或播放已结束', audio.value.ended)
-}
+
 </script>
 
 <template>
-  <ClientOnly>
-      <div ref="header" class="header" :class="{'header_mobile': is_mobile }" :style="{
+  <!--侧边栏-->
+  <Sidebar></Sidebar>
+  <div ref="header" class="header" :class="{'header_mobile': is_mobile }" :style="{
     '--link-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
     position: position_name,
     backgroundColor: back_color,
     boxShadow: box_shadow,
   }">
+      <ClientOnly>
         <!--光标更换-->
         <global-cursor></global-cursor>
         <!--鼠标拖尾-->
         <user-mouse></user-mouse>
-        <!--logo-->
-        <router-link to='/' class="logo-box">
-          <img src="/images/logo/original2.png" alt="" />
-          <!--svg t="1754235822407" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="26469" width="200" height="200"><path d="M902.9 344.4L527.3 67.6c-7.2-5.3-17-5.4-24.3-0.3L107.1 344.4c-5.6 3.9-8.9 10.3-8.9 17.1v552.1c0 11.5 9.3 20.8 20.8 20.8h250.2c11.5 0 20.8-9.3 20.8-20.8V793.7c0-68.5 52.8-128.2 121.2-130.3 70.8-2.1 128.9 54.7 128.9 125v125.1c0 11.5 9.3 20.8 20.8 20.8h229.3c11.5 0 20.8-9.3 20.8-20.8V361.1c0.4-6.6-2.8-12.8-8.1-16.7z" fill="#2c2c2c" p-id="26470"></path></svg-->
-        </router-link>
+      </ClientOnly>
+        <!--左侧盒子合集-->
+        <div class="left-box">
+          <!--侧边栏-->
+          <button @click="show_sidebar" class="logo-box">
+            <svg t="1755665232078" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11707" width="200" height="200"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zM904 784H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zM904 472H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" p-id="11708"></path></svg>
+          </button>
+          <!--logo-->
+          <router-link to='/' class="logo-box">
+            <img src="/images/logo/original2.png" alt="" />
+            <!--svg t="1754235822407" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="26469" width="200" height="200"><path d="M902.9 344.4L527.3 67.6c-7.2-5.3-17-5.4-24.3-0.3L107.1 344.4c-5.6 3.9-8.9 10.3-8.9 17.1v552.1c0 11.5 9.3 20.8 20.8 20.8h250.2c11.5 0 20.8-9.3 20.8-20.8V793.7c0-68.5 52.8-128.2 121.2-130.3 70.8-2.1 128.9 54.7 128.9 125v125.1c0 11.5 9.3 20.8 20.8 20.8h229.3c11.5 0 20.8-9.3 20.8-20.8V361.1c0.4-6.6-2.8-12.8-8.1-16.7z" fill="#2c2c2c" p-id="26470"></path></svg-->
+          </router-link>
+        </div>
         <!--右侧盒子集合-->
-        <div class="box-right"
+        <div class="box-right color"
              :style="{
-      '--svg-box-icon-path-hover': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
-      '--svg-box-hover':theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
-      '--svg-box-path': theme_change === 'light' ? themes.light.color : themes.dark.color,
-      color: theme_change === 'light' ? themes.light.color : themes.dark.color,
+      '--default-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
+      
          }"
         >
           <!--文档链接-->
@@ -150,6 +109,7 @@ const audio_is_playing_func = () => {
           }" v-show="is_link_hover" ref="underlineRef" class="box-right-markdown-link-underline"></div>
             </transition>
             <!-- 动态渲染导航 -->
+            <ClientOnly>
             <router-link
                 v-for="(link, index) in navLinks"
                 :key="index"
@@ -157,28 +117,40 @@ const audio_is_playing_func = () => {
                 :ref="el => setBoxRef(el, index)"
                 @mouseenter="moveUnderline(index)"
                 class="box-right-markdown-link-box svg-box"
+                :style="{
+                  '--default-fill-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
+                  '--default-theme-color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+                }"
             >
               <div class="box-right-markdown-link-box-svg" v-html="link.icon"></div>
               <div class="box-right-markdown-link-box-text">
-                <div>{{ link.text }}</div>
+                {{ link.text }}
               </div>
             </router-link>
-          </div >
+            </ClientOnly>
+          </div>
           <!--功能盒子,github,音乐,明暗切换-->
-          <div class="box-right-function">
+          <div class="box-right-function" >
             <!--明暗-->
-            <div @click="change_theme" class="svg-link svg-box" >
-              <svg v-show="theme_change === 'light'" t="1754199840157" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3033" width="200" height="200"><path d="M512.000213 733.353497c-122.06857 0-221.353283-99.284713-221.353283-221.353284S389.931643 290.64693 512.000213 290.64693 733.353497 389.931643 733.353497 512.000213 634.026117 733.353497 512.000213 733.353497z m0-357.373767A136.148482 136.148482 0 0 0 375.97973 512.000213 136.148482 136.148482 0 0 0 512.000213 648.020697 136.148482 136.148482 0 0 0 648.020697 512.000213 136.148482 136.148482 0 0 0 512.000213 375.97973zM554.666613 171.735673A42.154403 42.154403 0 0 1 512.000213 213.335413c-23.551853 0-42.6664-18.645217-42.6664-41.59974V41.603153A42.154403 42.154403 0 0 1 512.000213 0.003413c23.551853 0 42.6664 18.645217 42.6664 41.59974v130.13252zM554.666613 982.397273A42.154403 42.154403 0 0 1 512.000213 1023.997013c-23.594519 0-42.6664-18.687883-42.6664-41.59974v-130.175186A42.111737 42.111737 0 0 1 512.000213 810.665013c23.551853 0 42.6664 18.60255 42.6664 41.59974v130.13252zM171.735673 469.333813c22.954523 0 41.59974 19.114547 41.59974 42.6664 0 23.594519-18.645217 42.6664-41.59974 42.6664H41.603153A42.154403 42.154403 0 0 1 0.003413 512.000213c0-23.551853 18.645217-42.6664 41.59974-42.6664h130.13252zM982.397273 469.333813c22.954523 0 41.59974 19.114547 41.59974 42.6664 0 23.594519-18.687883 42.6664-41.59974 42.6664h-130.175186A42.111737 42.111737 0 0 1 810.665013 512.000213c0-23.551853 18.60255-42.6664 41.59974-42.6664h130.13252zM241.239239 722.430898a42.06907 42.06907 0 0 1 59.562294 0.767995 42.111737 42.111737 0 0 1 0.767996 59.562295l-92.031425 92.074091a42.154403 42.154403 0 0 1-59.562295-0.853328 42.154403 42.154403 0 0 1-0.767995-59.562294l92.031425-91.988759zM814.462323 149.207814a42.154403 42.154403 0 0 1 59.562294 0.767995 42.154403 42.154403 0 0 1 0.767996 59.562295l-92.031425 92.031425a42.06907 42.06907 0 0 1-59.562295-0.767996 42.111737 42.111737 0 0 1-0.810661-59.562294l92.074091-92.031425zM241.239239 301.526862a42.19707 42.19707 0 0 0 59.604961-0.725329 42.111737 42.111737 0 0 0 0.767995-59.562294L209.538104 149.122481a42.154403 42.154403 0 0 0-59.562295 0.853328 42.111737 42.111737 0 0 0-0.767995 59.562295l92.031425 91.988758zM814.462323 874.792613a42.111737 42.111737 0 0 0 59.562294-0.810662 42.154403 42.154403 0 0 0 0.767996-59.562294l-92.031425-92.031425a42.06907 42.06907 0 0 0-59.562295 0.767995 42.111737 42.111737 0 0 0-0.810661 59.562294l92.074091 92.074092z" fill="#2c2c2c" p-id="3034"></path></svg>
-              <svg v-show="theme_change === 'dark'" t="1754199236883" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8932" width="200" height="200"><path d="M525.963636 93.090909c225.745455 6.981818 404.945455 193.163636 404.945455 418.909091 0 230.4-188.509091 418.909091-418.909091 418.909091-174.545455 0-323.490909-107.054545-386.327273-256H139.636364c230.4 0 418.909091-188.509091 418.909091-418.909091 0-58.181818-11.636364-111.709091-32.581819-162.909091m0-93.090909c-30.254545 0-58.181818 13.963636-76.8 39.563636-18.618182 25.6-20.945455 60.509091-9.309091 88.436364 16.290909 41.890909 25.6 83.781818 25.6 128 0 179.2-146.618182 325.818182-325.818181 325.818182h-11.636364-2.327273c-30.254545 0-58.181818 13.963636-76.8 39.563636-18.618182 25.6-20.945455 60.509091-9.309091 88.436364C121.018182 900.654545 304.872727 1024 512 1024c281.6 0 512-230.4 512-512C1024 235.054545 807.563636 9.309091 528.290909 0h-2.327273z" fill="#2D3548" p-id="8933"></path></svg>
+            <div @click="change_theme" class="svg-link" >
+              <svg :style="{
+                '--default-hover-color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+              '--default-fill-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
+              }"
+                  v-show="theme_change === 'light'" t="1754199840157" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3033" width="200" height="200"><path d="M512.000213 733.353497c-122.06857 0-221.353283-99.284713-221.353283-221.353284S389.931643 290.64693 512.000213 290.64693 733.353497 389.931643 733.353497 512.000213 634.026117 733.353497 512.000213 733.353497z m0-357.373767A136.148482 136.148482 0 0 0 375.97973 512.000213 136.148482 136.148482 0 0 0 512.000213 648.020697 136.148482 136.148482 0 0 0 648.020697 512.000213 136.148482 136.148482 0 0 0 512.000213 375.97973zM554.666613 171.735673A42.154403 42.154403 0 0 1 512.000213 213.335413c-23.551853 0-42.6664-18.645217-42.6664-41.59974V41.603153A42.154403 42.154403 0 0 1 512.000213 0.003413c23.551853 0 42.6664 18.645217 42.6664 41.59974v130.13252zM554.666613 982.397273A42.154403 42.154403 0 0 1 512.000213 1023.997013c-23.594519 0-42.6664-18.687883-42.6664-41.59974v-130.175186A42.111737 42.111737 0 0 1 512.000213 810.665013c23.551853 0 42.6664 18.60255 42.6664 41.59974v130.13252zM171.735673 469.333813c22.954523 0 41.59974 19.114547 41.59974 42.6664 0 23.594519-18.645217 42.6664-41.59974 42.6664H41.603153A42.154403 42.154403 0 0 1 0.003413 512.000213c0-23.551853 18.645217-42.6664 41.59974-42.6664h130.13252zM982.397273 469.333813c22.954523 0 41.59974 19.114547 41.59974 42.6664 0 23.594519-18.687883 42.6664-41.59974 42.6664h-130.175186A42.111737 42.111737 0 0 1 810.665013 512.000213c0-23.551853 18.60255-42.6664 41.59974-42.6664h130.13252zM241.239239 722.430898a42.06907 42.06907 0 0 1 59.562294 0.767995 42.111737 42.111737 0 0 1 0.767996 59.562295l-92.031425 92.074091a42.154403 42.154403 0 0 1-59.562295-0.853328 42.154403 42.154403 0 0 1-0.767995-59.562294l92.031425-91.988759zM814.462323 149.207814a42.154403 42.154403 0 0 1 59.562294 0.767995 42.154403 42.154403 0 0 1 0.767996 59.562295l-92.031425 92.031425a42.06907 42.06907 0 0 1-59.562295-0.767996 42.111737 42.111737 0 0 1-0.810661-59.562294l92.074091-92.031425zM241.239239 301.526862a42.19707 42.19707 0 0 0 59.604961-0.725329 42.111737 42.111737 0 0 0 0.767995-59.562294L209.538104 149.122481a42.154403 42.154403 0 0 0-59.562295 0.853328 42.111737 42.111737 0 0 0-0.767995 59.562295l92.031425 91.988758zM814.462323 874.792613a42.111737 42.111737 0 0 0 59.562294-0.810662 42.154403 42.154403 0 0 0 0.767996-59.562294l-92.031425-92.031425a42.06907 42.06907 0 0 0-59.562295 0.767995 42.111737 42.111737 0 0 0-0.810661 59.562294l92.074091 92.074092z" fill="#2c2c2c" p-id="3034"></path></svg>
+              <svg :style="{
+                '--default-fill-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
+                '--default-hover-color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+              }"
+                  v-show="theme_change === 'dark'" t="1754199236883" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8932" width="200" height="200"><path d="M525.963636 93.090909c225.745455 6.981818 404.945455 193.163636 404.945455 418.909091 0 230.4-188.509091 418.909091-418.909091 418.909091-174.545455 0-323.490909-107.054545-386.327273-256H139.636364c230.4 0 418.909091-188.509091 418.909091-418.909091 0-58.181818-11.636364-111.709091-32.581819-162.909091m0-93.090909c-30.254545 0-58.181818 13.963636-76.8 39.563636-18.618182 25.6-20.945455 60.509091-9.309091 88.436364 16.290909 41.890909 25.6 83.781818 25.6 128 0 179.2-146.618182 325.818182-325.818181 325.818182h-11.636364-2.327273c-30.254545 0-58.181818 13.963636-76.8 39.563636-18.618182 25.6-20.945455 60.509091-9.309091 88.436364C121.018182 900.654545 304.872727 1024 512 1024c281.6 0 512-230.4 512-512C1024 235.054545 807.563636 9.309091 528.290909 0h-2.327273z" fill="#2D3548" p-id="8933"></path></svg>
             </div>
-            <!--音乐-->
-            <button title="播放音乐" ref="rotate_button" @click="play_audio" class="animation_rotate svg-link svg-box">
-              <svg t="1754199919301" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4617" width="200" height="200"><path d="M761.216 83.925333l-256 42.666667c-20.565333 3.413333-36.010667 21.76-36.010667 42.666667l-0.426666 449.194666a163.242667 163.242667 0 0 0-84.906667-22.528 170.666667 170.666667 0 1 0 170.666667 170.666667l0.554666-390.912 219.178667-37.12c4.864-0.768 15.957333-4.309333 25.6-14.634667a36.266667 36.266667 0 0 0 10.666667-26.666666v-170.666667c0-26.368-23.338667-47.018667-49.322667-42.666667z m-36.650667 92.586667l0.213334 84.181333-170.24 28.544 0.170666-84.608 169.856-28.16z m-340.693333 504.746667a85.333333 85.333333 0 1 1 0.042667 170.624 85.333333 85.333333 0 0 1 0-170.666667z" fill="#2c2c2c" p-id="4618"></path></svg>
-              <audio @ended="audio_is_playing_func" ref="audio" style="display: none" src="/audio/Koichi Sugii - Dreaming of Home and Mother (旅愁).flac"></audio>
-            </button>
             <!--github链接-->
-            <a target="_blank" href="https://github.com/fish-bread/fish-bread.github.io" class="svg-link svg-box">
-              <svg t="1754199533592" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8545" width="200" height="200"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9 23.5 23.2 38.1 55.4 38.1 91v112.5c0.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" p-id="8546"></path></svg>
+            <a target="_blank" href="https://github.com/fish-bread/fish-bread.github.io" class="svg-link">
+              <svg :style="{
+                '--default-fill-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
+                '--default-hover-color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
+              }"
+                  t="1754199533592" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8545" width="200" height="200"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9 23.5 23.2 38.1 55.4 38.1 91v112.5c0.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" p-id="8546"></path></svg>
             </a>
           </div>
           <!--搜索组件-->
@@ -193,7 +165,6 @@ const audio_is_playing_func = () => {
     }"></SearchBox>
         </div>
       </div>
-    </ClientOnly>
 </template>
 
 <style scoped>
@@ -211,11 +182,6 @@ a {
 .animation_rotate {
   fill: currentColor;
   color: currentColor;
-  animation: rotate_button 20s linear infinite;
-}
-@keyframes rotate_button {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 .header {
   z-index: 9999;
@@ -228,6 +194,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.left-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap:10px;
 }
 .logo-box {
   width: 40px;
@@ -252,6 +224,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: transparent;
   gap: 30px;
 }
 .box-right-function {

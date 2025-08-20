@@ -1,3 +1,6 @@
+---
+layout: Layout
+---
 # puppeteer
 ---
 这是一个puppeteer起始文件,请在左侧列表中选择文档阅读

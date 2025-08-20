@@ -14,23 +14,22 @@ defineProps({
 
 onMounted(() => {
   animate( '.model_link_box',{
-    y: { from:200, to: 0,duration: 1000 },
+    opacity:{to: [0,1] },
+    y: { from:200, to: 0, },
+        duration: 500,
         loop: false,
         autoplay: onScroll(),
-        delay: stagger(200),
-        ease: 'easeInCirc',
-        playbackRate: 2,
+        delay: stagger(100),
   },
   )
 })
 </script>
 
 <template>
-  <div v-for="(item, index) in module_links" :key="index" class="model_link_box home-box" 
-       :style="{
-     '--link-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
-    '--home-box-back_color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
-    '--home-box-color': theme_change === 'light' ? themes.light.color : themes.dark.color,
+  <div v-for="(item, index) in module_links" :key="index" class="model_link_box" 
+       :style="{ 
+    color: theme_change === 'light' ? themes.light.color : themes.dark.color,
+    backgroundColor: theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
        }"
        :class="{ 'mobile-height': is_mobile, 'reverse': index % 2 !== 0 }"
   >
@@ -40,8 +39,9 @@ onMounted(() => {
     </div>
     <!--链接文本-->
     <div class="model_link_box_textbox">
-      <router-link :to="item.link_href" class="model_link_box_smtextbox hover-box" :style="{
-        '--hover-box-hover': theme_change === 'light' ? themes.light.hover_color : themes.dark.hover_color,
+      <router-link :to="item.link_href" class="model_link_box_smtextbox color" :style="{
+       
+         '--default-hover-color': theme_change === 'light' ? themes.light.hover_color : themes.dark.hover_color,
       }">
         <div class="title_1" >{{ item.link_title }}</div>
         <div class="title_2">{{ item.link_name }}</div>

@@ -2,7 +2,7 @@
 import Header from "../components/Header.vue";
 import ResourceBox  from "../components/rosourcebox.vue";
 import {themes, theme_change } from "../func/newColor.js";
-import { ref } from "vue";
+import {ref} from "vue";
 import Returntop from "../components/returntop.vue";
 const resource_list = ref([
   { resource_name: 'live2d', resource_introduce: 'vue3的web-live2d项目',resource_link: 'https://github.com/fish-bread/vue-live2d',is_blank: '_blank'  },
@@ -37,7 +37,6 @@ const resource_big_title = ref([
   }">
     <Header
         :position_name="'relative'"
-        :back_color="'rgba(237, 237, 238, 0.6)'"
         :box_shadow="'0 0 10px 0 rgba(0,0,0,0.4)'"
         :backdrop_filter="'blur(5px)'"
     ></Header>

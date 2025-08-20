@@ -49,8 +49,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="markdown_box" class="markdown-box" >
-    <div ref="markdown_body" class="markdown" :class="{'markdown_mobile': is_mobile }">
+  <div ref="markdown_box" class="markdown-box" :style="{
+    backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
+  }">
+    <div ref="markdown_body" class="markdown">
       <Content class="markdown-body font_size" 
                :style="{
          '--header-height': headerHeight,
@@ -80,7 +82,6 @@ onMounted(() => {
       <!--新增的目录侧边栏-->
       <toc-sidebar :header-height="headerHeight"
                    :style="{
-      '--toc-bg': theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
       '--toc-hover-color': theme_change === 'light' ? themes.light.theme_color : themes.dark.theme_color,
     }"></toc-sidebar>
     </div>
@@ -111,9 +112,5 @@ onMounted(() => {
   overflow: hidden;
   gap: 10px;
   justify-content: center;
-}
-.markdown_mobile {
-  padding: 0 0 150px 10px !important;
-  width: 95% !important;
 }
 </style>

@@ -1,12 +1,11 @@
 <script setup>
-
-import {alpha_back_color, theme_change, themes} from "../func/newColor.js";
 import {useDateTime} from "../func/useDateTime.js";
-import {onMounted} from "vue";
 import {is_mobile} from "../func/clientchoose.js";
-const { data_time, data_season, greeting } = useDateTime();
-onMounted(() => {
-  console.log('时间段',data_time.value)
+import {alpha_back_color, theme_change, themes} from "../func/newColor.js";
+import {onMounted} from "vue";
+const { data_time, greeting, data_season} = useDateTime()
+onMounted(()=> {
+  
 })
 </script>
 

@@ -41,27 +41,27 @@ onMounted(() => {
 })
 </script>
 
-<template>
-    <!--背景图片不动款-->
+<template> 
+  <!--背景图片不动款客户端渲染-->
     <div ref="back" class="back" :style="{ 
     backgroundImage: currentBg,
-    backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
+    
   }"></div>
-    <!--返回顶部按钮-->
-    <returntop></returntop>
-    <!--移动到下面-->
-    <homedown></homedown>
-    <div class="home-in-box home-box font_size"
-         :style="{
-      '--home-box-color-hover': theme_change === 'light' ? themes.light.color : themes.dark.color, 
-         }">
+    <div class="home-in-box font_size">
+      <!--返回顶部按钮-->
+      <returntop></returntop>
+      <!--移动到下面-->
+      <homedown></homedown>
       <Header :back_color="alpha_back_color" :position_name="'absolute'"></Header>
       <!--首页显示-->
+      <ClientOnly>
       <userbox></userbox>
+      </ClientOnly>
       <!--列表展示-->
-      <div class="home-content home-box" :style="{
-        '--home-box-back_color': theme_change === 'light' ? themes.light.back_color : themes.dark.back_color, 
-      }" >
+      <div class="home-content"
+      :style="{
+          backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
+      }">
         <div class="home-markdown">
           <!--链接盒子-->
           <home-link-box :module_links="module_links"></home-link-box>
@@ -74,10 +74,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.header {
-  position: absolute;
-  z-index: 20;
-}
 .back {
   box-sizing: border-box;
   position: fixed;
@@ -85,12 +81,14 @@ onMounted(() => {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
+  z-index: 1;
 }
 .home-in-box {
   width: 100%;
   height: 100%;
   background-color: transparent;
+  z-index: 2;
+  position: relative;
 }
 .home-content {
   width: 100%;

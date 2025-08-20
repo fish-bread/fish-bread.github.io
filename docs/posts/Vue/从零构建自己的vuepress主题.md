@@ -1,3 +1,6 @@
+---
+layout: Layout
+---
 # 从零构建自己的vuepress主题
 
 <mark>原创</mark><mark>2025/8/12</mark><mark>fishbread</mark>

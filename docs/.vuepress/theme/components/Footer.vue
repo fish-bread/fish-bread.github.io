@@ -7,7 +7,7 @@ import MoeCounter from "./anime/moeCounter.vue";
   
   <div class="footer" :style="{
   color: theme_change === 'light' ? themes.light.color : themes.dark.color,
-  backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
+  backgroundColor: theme_change === 'light' ? themes.light.back_color : themes.dark.back_color
   }">
     <moe-counter></moe-counter>
     <div class="footer-box">

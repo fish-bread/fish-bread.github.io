@@ -5,6 +5,7 @@ import { onMounted, onUnmounted, ref, shallowRef, watchEffect} from "vue";
 import {theme_change, themes} from "../func/newColor.js";
 import PromptBox from "../components/PromptBox.vue";
 import {showPrompt} from "../func/prompt_box.js";
+import {all_watch} from "../func/clientchoose.js";
 //动态引入
 const live2DModel = ref(null);
 const PIXI = ref(null);
@@ -229,7 +230,7 @@ onUnmounted(() => {
   <!--添加确认提示-->
   <prompt-box></prompt-box>
   <div class="home-box font_size" :style="{
-    '--home-box-back_color': theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
+    '--default-back-color': theme_change === 'light' ? themes.light.back_color : themes.dark.back_color,
   }">
     <Header 
         :position_name="'relative'" 
