@@ -92,7 +92,7 @@ onMounted(() => {
 <style scoped>
 .markdown-box {
   box-sizing:  border-box;
-  padding: 240px 0 0 300px;
+  padding: 240px 300px 0 300px;
   transition: padding 0.5s ease;
 }
 .markdown-body :target::before {

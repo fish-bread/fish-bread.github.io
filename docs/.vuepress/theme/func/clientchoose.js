@@ -59,7 +59,7 @@ export const window_size_func = () => {
             }
 
             if (markdown_body.value) {
-                markdown_body.value.style.padding = newX <= 1280 ? "0 0 150px 0" : "0 5% 150px 5%";
+                markdown_body.value.style.padding = newX <= 1280 ? "0 0 150px 0" : "0 5% 150px 0";
             }
             // 4. 独立的状态更新（无需DOM操作）
             is_toc_sidebar.value = newX > 1280;
