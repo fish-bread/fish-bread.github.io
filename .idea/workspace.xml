@@ -17,437 +17,34 @@
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Issues/Issues.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Issues/Issues.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Koa/koa.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Koa/koa.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Koa/从零配置koa.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Koa/从零配置koa.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Puppeteer/puppeteer.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Puppeteer/puppeteer.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/deepseek.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/deepseek.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/live2d.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/live2d.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/resource.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/resource.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/themeChoose.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Resource/themeChoose.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Vue/vue.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Vue/vue.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Vue/从零构建自己的vuepress主题.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Vue/从零构建自己的vuepress主题.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Vue/如何在vue3引入live2d.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/Vue/如何在vue3引入live2d.html.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/about.html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/about.html.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/从零构建自己的vuepress主题.html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/从零构建自己的vuepress主题.html.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/如何在vue3引入live2d.html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/如何在vue3引入live2d.html.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/search.html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/search.html.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/posts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/shiki/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/Sidebar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/1-CrrIUXWn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/10-fzdZnKbO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/11-B1dncgfY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/12-CQExW1cu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/13-CcGWZA0e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/14-DxdI2ddv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/15-CYGBN5tk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/16-BNehtKKX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/17-D4JbNp9z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/18-DERE_YuQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/19-DG3lkCW_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/2-BKfSJ9Ek.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/20-BXZVQou2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/21-DwWIT-82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/22-nJrZrVpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/23-D7tdKlEc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/24-CiZDXgSE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/25-DZc5aoDd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/3-D5mmmJXk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/4-B13A7Pkp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/404.html-hafzUDLe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/5-Dykg2UP9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/6-ComYOIaK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/7-DCI-DEKW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/8-CCVK5gJ7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/9-BVKCejM_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/Issues.html-CcKIdoSw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/JetBrainsMono-Regular-Dh36KTnx.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/app-BHEmCPC4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/deepseek.html-EE4S0NY2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index-Brt7KI_G.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index-qnhvhvXe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.es-C93brfQV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.html-BhrFypym.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/koa.html-CoBgm8PZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/live2d.html-BqrlK-ou.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/puppeteer.html-BzRYnH5c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/resource.html-YwEXpPXn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/settings-e-iXveeC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/sm_1-i6PrOHSI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/sm_4-CPCLJPJE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/sm_5-zxIQaOzD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/style-LNb7iu1q.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/themeChoose.html-CLaUJ29I.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/vue.html-BMgIP0eM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/从零构建自己的vuepress主题.html-BlEs3oVf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/从零配置koa.html-C_2tPvN2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/如何在vue3引入live2d.html-D4rayiUQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/font/JetBrainsMono-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/link_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/link_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/link_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/link_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/link_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/sm_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/sm_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/background/sm_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/busy.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/default.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/disabled.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/link.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/text.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/个人选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/位置选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/作者：bilibili一葉A4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/候选.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/后台运行.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/垂直调整大小.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/帮助选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/手写.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/文本选择 2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/正常选择 2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/水平调整大小.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/沿对角线调整大小 1.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/沿对角线调整大小 2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/移动.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/精确选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/链接选择 3.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/cursors/信浓-鼠标指针/链接选择2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/logo/original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/logo/original1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/logo/original2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/logo/removebg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/user_head/head_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/images/user_head/head_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/js/live2d.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/js/live2dcubismcore.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/complete.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/effect.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/home.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle2.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle3.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle4.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle5.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle6.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle7.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/idle8.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/login.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/mail.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/main_1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/main_2.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/main_3.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/main_4.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/main_5.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/mission.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/mission_complete.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_body.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag10.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag11.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag12.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag13.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag14.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag2.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag3.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag4.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag5.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag6.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag7.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag8.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_drag9.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_head.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_idle1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/touch_special.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/motions/wedding.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/complete.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/expedition.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/home.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/login.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/mail.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/main_1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/main_2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/main_3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/main_4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/main_5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/mission.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/mission_complete.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/touch_body.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/touch_head.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/touch_special.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/sounds/wedding.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/textures/texture_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/textures/texture_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/wuzang_3.moc3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/wuzang_3.model3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/live2d/wuzang_3/wuzang_3.physics3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/koa/koa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/koa/koa_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/motion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vue_live2d_index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Issues/Issues.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Koa/koa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Koa/从零配置koa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Puppeteer/puppeteer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Resource/deepseek.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Resource/live2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Resource/resource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Resource/themeChoose.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Vue/vue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Vue/从零构建自己的vuepress主题.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/Vue/如何在vue3引入live2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/sitemap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/sitemap.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/Sidebar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/link_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/link_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/link_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/link_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/link_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/sm_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/sm_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/background/sm_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/busy.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/default.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/disabled.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/link.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/text.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/个人选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/位置选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/作者：bilibili一葉A4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/候选.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/后台运行.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/垂直调整大小.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/帮助选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/手写.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/文本选择 2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/正常选择 2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/水平调整大小.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/沿对角线调整大小 1.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/沿对角线调整大小 2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/移动.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/精确选择.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/链接选择 3.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/cursors/信浓-鼠标指针/链接选择2.ani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/logo/original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/logo/original1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/logo/original2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/logo/removebg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/user_head/head_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/user_head/head_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/js/live2d.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/js/live2dcubismcore.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/complete.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/effect.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/home.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle2.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle3.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle4.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle5.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle6.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle7.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/idle8.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/login.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/mail.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/main_1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/main_2.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/main_3.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/main_4.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/main_5.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/mission.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/mission_complete.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_body.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag10.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag11.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag12.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag13.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag14.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag2.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag3.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag4.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag5.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag6.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag7.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag8.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_drag9.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_head.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_idle1.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/touch_special.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/motions/wedding.motion3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/complete.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/expedition.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/home.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/login.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/mail.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/main_1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/main_2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/main_3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/main_4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/main_5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/mission.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/mission_complete.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/touch_body.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/touch_head.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/touch_special.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/sounds/wedding.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/textures/texture_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/textures/texture_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/wuzang_3.moc3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/wuzang_3.model3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/live2d/wuzang_3/wuzang_3.physics3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/koa/koa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/koa/koa_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/motion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vue_live2d_index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vuepress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vuepress_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vuepress_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vuepress_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vuepress_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vuepress_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/markdown_img/vue/vuepress_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/FooterIndex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/HeaderIndex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/PromptAnimation/failSvg.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/PromptAnimation/successSvg.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/PromptBox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/Sidebar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/anime/GlobalCursor.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/anime/moeCounter.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/anime/userMouse.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/bigHeader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/colorchoose.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/deepseekcomponents/deepseekAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/deepseekcomponents/deepseekText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/deepseekcomponents/homeBody.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/deepseekcomponents/homeInput.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/deepseekcomponents/homeLeft.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/deepseekcomponents/homeTitle.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/deepseekcomponents/window.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/homeLinkBox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/homedown.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/layoutMarkdown.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/layoutTocSidebar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/returntop.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/rosourcebox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/userHead.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/userbox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/usertimebox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/bigHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/clientchoose.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/markdown_list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/mouserCursors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/newColor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/prompt_box.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/useDateTime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/func/user_box.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/layout/404.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/404.html-CLngr9pn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/about.html-DAaGs7zX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/app-DMoUDIOK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.html-BSngCI1e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/search.html-DTKNXru7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/style-D-hvKqWm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/从零构建自己的vuepress主题.html-BJsAZQGG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/如何在vue3引入live2d.html-DPkHqkdu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/background/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/background/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/header/124017298_p0.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/header/124017298_p0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/从零构建自己的vuepress主题.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/从零构建自己的vuepress主题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/如何在vue3引入live2d.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/如何在vue3引入live2d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownContent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Live2d.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/ThemeChoose.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/deepseek.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/resource.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/github-markdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/home_client.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/search-box.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/spring.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/themes-color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Issues/Issues.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Koa/koa.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Koa/从零配置koa.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Puppeteer/puppeteer.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Resource/deepseek.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Resource/live2d.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Resource/resource.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Resource/themeChoose.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Vue/vue.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Vue/从零构建自己的vuepress主题.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/posts/Vue/如何在vue3引入live2d.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patches/ani-cursor.js+1.0.2.patch" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -529,7 +126,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="npm.npx">
+  <component name="RunManager" selected="npm.docs:build">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -562,9 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.npx" />
         <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.docs:dev" />
+        <item itemvalue="npm.npx" />
       </list>
     </recent_temporary>
   </component>
@@ -634,6 +231,8 @@
       <workItem from="1756962203931" duration="6247000" />
       <workItem from="1756981345553" duration="15478000" />
       <workItem from="1757036888564" duration="18392000" />
+      <workItem from="1757081246936" duration="1747000" />
+      <workItem from="1757083902396" duration="1102000" />
     </task>
     <servers />
   </component>

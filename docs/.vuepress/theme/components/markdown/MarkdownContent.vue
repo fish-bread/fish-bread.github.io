@@ -3,10 +3,7 @@ import "../../styles/purple.css"
 import "../../styles/markdown.css"
 import {theme} from "../../func/themeChange";
 import { useClientData } from '@vuepress/client'
-
-const {
-  pageFrontmatter,
-} = useClientData()
+const {pageFrontmatter} = useClientData()
 console.log('页面', pageFrontmatter.value)
 </script>
 
