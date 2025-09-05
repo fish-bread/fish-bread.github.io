@@ -7,6 +7,9 @@ import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 import { seoPlugin } from '@vuepress/plugin-seo'
+import { usePagesPlugin } from 'vuepress-plugin-use-pages'
+import { cachePlugin } from '@vuepress/plugin-cache'
+//按需引入
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'fishbread的博客',
@@ -28,9 +31,9 @@ export default defineUserConfig({
   themeConfig: {
     // 你的自定义配置
     logo: '/images/logo/original2.png', // 建议使用相对路径
-    navbar: [
-      '/',// 首页链接（自动指向 README.md）
-      // 其他导航项
+    navbar: [// 首页链接（自动指向 README.md）目前没用
+        {text: '首页',link: '/'},
+        {text: '搜索', link: '/search'},
     ],
   },
   plugins: [
@@ -52,11 +55,7 @@ export default defineUserConfig({
       // 排除页面
       isSearchable: (page) => {
         const excludedPaths = [
-          '/',
-          '/posts/Resource/themeChoose.html',
-          '/posts/Resource/resource.html',
-          '/posts/Resource/deepseek.html',
-          '/posts/Resource/live2d.html'
+          '/', '/posts/search.html'
         ]
         return !excludedPaths.includes(page.path)
       },
@@ -64,7 +63,7 @@ export default defineUserConfig({
     }),
       //复制代码块
     copyCodePlugin({
-      selector:'.markdown-body div[class*="language-"] pre ',
+      selector:'.content-markdown div[class*="language-"] pre ',
       locales: {
         '/posts/Koa/koa.html': {
           copy: '复制',
@@ -78,8 +77,8 @@ export default defineUserConfig({
       codeBlockTitle: true,
       //主题
       themes: {
-        light: "rose-pine-dawn",
-        dark: 'rose-pine-moon'
+        light: "everforest-light",
+        dark: 'everforest-dark'
       }
     }),
       //站点地图
@@ -92,6 +91,16 @@ export default defineUserConfig({
       // 选项
       hostname: 'https://fishbread.net/'
     }),
+      //获取页面信息
+      usePagesPlugin({
+          startsWith: '/posts/markdown/',  // 只匹配以/posts/开头的路径
+          file: 'posts.js'        // 可选：指定生成的文件名
+      }),
+      //缓存
+      cachePlugin({
+          //缓存方式
+          type: "filesystem"
+      }),
   ],
   bundler: viteBundler(),
   //修改代码块

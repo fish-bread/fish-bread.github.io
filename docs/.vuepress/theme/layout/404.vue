@@ -1,5 +1,5 @@
 <script setup>
-import '../styles/font.css'
+import '../styles/index.css'
 import {ref} from "vue";
 import {RouterLink} from "vue-router";
 const is_flipped = ref(false)

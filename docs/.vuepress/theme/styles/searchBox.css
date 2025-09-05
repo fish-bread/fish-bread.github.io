@@ -1,0 +1,32 @@
+:root {
+    --search-input-width: 100% !important;
+    --search-suggestions-bg: #cbc0c0;
+    --search-suggestions-text: #ffffff;
+}
+.search-box {
+    box-sizing: border-box;
+    width: 70%;
+    height: 45px;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.search-box input {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+}
+.search-box .suggestions {
+    box-sizing: border-box;
+    background-color: var(--search-suggestions-bg) !important;
+    color: var(--search-suggestions-text) !important;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding:5px 0;
+}
+.search-box li {
+    color: var(--search-suggestions-text) !important;
+    transition: color 0.3s ease;
+}

@@ -305,24 +305,24 @@
      --source-cm-atom-color: #777777;
 }
 
-content #write {
+#write {
     background-color: var(--content-write-bg-color);
-    max-width: 90%;
-    margin: 0 auto;
+    /*max-width: 90%;
+    margin: 0 auto;*/
     padding-bottom: 7.5rem;
 }
 
-content #write p {
+#write p {
     word-spacing: 0.1rem;
     line-height: 1.9rem;
     margin: 3px;
 }
 
-content #write ol li {
+#write ol li {
     padding-left: 0.5rem;
 }
 
-content #write>h5.md-focus:before {
+#write h5.md-focus:before {
     top: 2px;
 }
 
@@ -330,7 +330,7 @@ content #write>h5.md-focus:before {
     background-color: var(--selection-color);
 }
 
-::selection {
+#write::selection {
     background-color: var(--selection-color);
 }
 
@@ -435,7 +435,7 @@ content #write>h5.md-focus:before {
 }
 
 /* image */
-img {
+#write img {
     border-radius: 10px;
     max-width: 100%;
     display: block;
@@ -443,40 +443,40 @@ img {
     transition: transform 0.15s ease, border-radius 0.15s ease;
 }
 
-img:hover {
+#write img:hover {
     transform: scale(calc(1 + 0.01 * var(--img-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(10px - 10px * var(--img-hover-effect) * var(--use-dynamic-effect));
 }
 
 /* paragraph */
-p {
+#write p {
     font-size: 1rem;
     padding: 0 0.3rem;
     transition: all 0.25s ease;
     border-radius: 5px;
 }
 
-p:not(:has(img)):hover {
+#write p:not(:has(img)):hover {
     background-color: var(--p-hover-bg-color);
 }
 
-p.md-toc-content:hover {
+#write p.md-toc-content:hover {
     padding-left: 20px;
 }
 
 /* ul ol */
-ul,
-ol {
+#write ul,
+#write ol {
     padding-left: 1.5rem;
 }
 
-ul:first-child,
-ol:first-child {
+#write ul:first-child,
+#write ol:first-child {
     margin-top: 0;
 }
 
-ul:last-child,
-ol:last-child {
+#write ul:last-child,
+#write ol:last-child {
     margin-bottom: 0;
 }
 
@@ -492,18 +492,18 @@ ol:last-child {
     }
 }
 
-ul .md-list-item::marker {
+#write ul .md-list-item::marker {
     list-style-type: disc;
     font-size: 27px !important;
     color: var(--ul-marker-color);
     transition: transform 0.3s;
 }
 
-ul .md-list-item:hover::marker {
+#write ul .md-list-item:hover::marker {
     animation: bounce 0.6s ease-in-out;
 }
 
-ul ul .md-list-item::marker {
+#write ul ul .md-list-item::marker {
     list-style-type: circle;
     font-size: 27px;
     color: var(--ulul-marker-color);
@@ -511,29 +511,29 @@ ul ul .md-list-item::marker {
     transition: transform 0.3s;
 }
 
-ul ul .md-list-item:hover::marker {
+#write ul ul .md-list-item:hover::marker {
     animation: bounce 0.6s ease-in-out;
 }
 
-ul ul ul .md-list-item::marker {
+#write ul ul ul .md-list-item::marker {
     list-style-type: square;
     font-size: 27px;
     color: var(--ululul-marker-color);
     transition: transform 0.3s;
 }
 
-ul ul ul .md-list-item:hover::marker {
+#write ul ul ul .md-list-item:hover::marker {
     animation: bounce 0.6s ease-in-out;
 }
 
-ol .md-list-item::marker {
+#write ol .md-list-item::marker {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     font-style: italic;
     transition: font-weight 0.2s ease, font-style 0.2s ease, color 0.2s ease, font-size 0.2s ease;
 }
 
-ol .md-list-item:hover::marker {
+#write ol .md-list-item:hover::marker {
     font-style: var(--list-ol-text-style);
     font-weight: calc(500 + 100 * var(--list-marker-effect) * var(--use-dynamic-effect));
     font-size: calc(20px + 3px * var(--list-marker-effect) * var(--use-dynamic-effect));
@@ -1085,25 +1085,25 @@ table tbody+tbody,
 }
 
 /* html block */
-.md-htmlblock .md-htmlblock-panel {
+#write .md-htmlblock .md-htmlblock-panel {
     border-radius: 10px;
     border-top-right-radius: 0;
     padding-left: 6px;
     padding-right: 6px;
 }
 
-.md-htmlblock .md-htmlblock-panel .md-rawblock-input {
+#write .md-htmlblock .md-htmlblock-panel .md-rawblock-input {
     padding-top: 14px;
     padding-bottom: 10px;
 }
 
-.md-htmlblock .md-htmlblock-panel .md-rawblock-input .cm-s-inner .CodeMirror-selected,
-.md-htmlblock .md-htmlblock-panel .md-rawblock-input .cm-s-inner .CodeMirror-selectedtext {
+#write .md-htmlblock .md-htmlblock-panel .md-rawblock-input .cm-s-inner .CodeMirror-selected,
+#write .md-htmlblock .md-htmlblock-panel .md-rawblock-input .cm-s-inner .CodeMirror-selectedtext {
     background-color: var(--math-html-rawblock-selected-bg-color2) !important;
 }
 
 /* strong */
-strong {
+#write strong {
     font-weight: bold;
     color: var(--strong-color);
     font-size: 1.05rem;
@@ -1112,13 +1112,13 @@ strong {
     margin: 0 2px;
 }
 
-strong:hover {
+#write strong:hover {
     font-size: calc(1.05rem + 0.05rem * var(--strong-hover-effect) * var(--use-dynamic-effect));
     padding: calc(0px + 3px * var(--strong-hover-effect) * var(--use-dynamic-effect));
 }
 
 /* emphasis */
-em {
+#write em {
     background-color: inherit;
     color: var(--em-color);
     transition: all 0.3s ease;
@@ -1126,7 +1126,7 @@ em {
     padding-right: 1px;
 }
 
-em:hover {
+#write em:hover {
     color: var(--em-hover-color);
     font-weight: calc(500 + 100 * var(--em-hover-effect) * var(--use-dynamic-effect));
     padding-left: calc(1px + 2px * var(--em-hover-effect) * var(--use-dynamic-effect));
@@ -1134,7 +1134,7 @@ em:hover {
 }
 
 /* underline */
-u {
+#write u {
     background-color: inherit;
     color: inherit;
     text-decoration: none;
@@ -1143,7 +1143,7 @@ u {
     transition: all 0.3s ease;
 }
 
-u:hover {
+#write u:hover {
     border: calc(2px * var(--u-hover-effect) * var(--use-dynamic-effect)) solid var(--u-border-color);
     padding: calc(0px + 4px * var(--u-hover-effect) * var(--use-dynamic-effect));
     margin: calc(0px + 4px * var(--u-hover-effect) * var(--use-dynamic-effect));
@@ -1182,7 +1182,7 @@ code:hover {
 }
 
 /* strike */
-del {
+#write del {
     color: var(--del-color);
     text-decoration: line-through;
     text-decoration-color: var(--del-text-decoration-color);
@@ -1192,14 +1192,14 @@ del {
     transition: color 0.3s ease, opacity 0.3s ease;
 }
 
-del:hover {
+#write del:hover {
     color: var(--del-hover-color);
     opacity: calc(0.8 + 0.2 * var(--del-hover-effect) * var(--use-dynamic-effect));
     text-decoration-color: var(--del-hover-text-decoration-color);
 }
 
 /* hightlight */
-mark {
+#write mark {
     font-weight: 500;
     background-color: var(--mark-bg-color);
     color: inherit;
@@ -1209,30 +1209,34 @@ mark {
     transition: all 0.3s ease
 }
 
-mark:hover {
+#write mark:hover {
     border-radius: calc(0px + 7px * var(--mark-hover-effect) * var(--use-dynamic-effect));
     background-color: var(--mark-hover-bg-color);
     padding: 3px 3px calc(2.5px + 1.5px * var(--mark-hover-effect) * var(--use-dynamic-effect));
 }
 
 /* hyperlink */
-a {
+#write a {
     background-color: inherit;
     color: var(--a-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-a:hover {
+#write a:hover {
     text-decoration: underline;
     color: var(--a-hover-color);
 }
 
-a img {
+#write a img {
     border: none;
 }
 /*h标签中的a标签静止*/
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+#write h1 a:hover,
+#write h2 a:hover,
+#write h3 a:hover,
+#write h4 a:hover, h5 a:hover,
+#write h6 a:hover {
     text-decoration: unset;
 }
 /* code fences */

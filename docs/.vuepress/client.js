@@ -2,24 +2,29 @@ import  { defineClientConfig } from 'vuepress/client'
 import Layout from "./theme/layout/Layout.vue";
 import NotFound from "./theme/layout/404.vue";
 import Home from "./theme/layout/Home.vue";
-import Resource from "./theme/layout/resource.vue";
-import ThemeChoose from "./theme/layout/ThemeChoose.vue";
-import DeepSeek from "./theme/layout/deepseek.vue";
+import Search from "./theme/layout/Search.vue";
+import About from "./theme/layout/About.vue";
 import "./theme/styles/index.css"
-import  './theme/styles/color.css'
-//调色盘样式
-import 'vue-color/style.css';
-import Live2d from "./theme/layout/Live2d.vue";
+import "./theme/styles/searchBox.css"
+import {searchLocalTheme} from "./theme/func/themeChange.js";
 import {onMounted} from "vue";
-import {all_watch} from "./theme/func/clientchoose.js";
+import naive from 'naive-ui'
 export default defineClientConfig({ 
-  enhance({ app, router}) {
+  enhance({app, router, siteData}) {
     console.log('注册客户端')
-    //注册全局组件
+      app.use(naive)
+      //备用方案
+      /*if (!__VUEPRESS_SSR__) {
+          // 同步导入而不是动态导入
+          import('naive-ui').then(module => {
+              const naive = module.default || module
+              app.use(naive)
+          })
+      }*/
   },
   setup() {
-      onMounted(async () => {
-          await all_watch()
+      onMounted(() => {
+          searchLocalTheme()
       })
   },
   //用于直接注册并启用在根组件
@@ -29,10 +34,8 @@ export default defineClientConfig({
   layouts: {
     Layout,
     NotFound,
-    Home,
-    Resource,
-    ThemeChoose,
-    Live2d,
-    DeepSeek
+    Home, 
+    Search,
+    About
   },
 })
