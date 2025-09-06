@@ -1,0 +1,22 @@
+/*字体*/  
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../public/font/JetBrainsMono-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.font_size {
+    font-family: 'CustomFont', 'Microsoft YaHei', sans-serif;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+}
+/*鼠标pointer*/
+.cursor-pointer {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
