@@ -1,15 +1,20 @@
 <script setup lang="ts">
 import HeaderList from './header/headerList.vue'
 import SidebarIndex from './SidebarIndex.vue'
-import {theme, whiteTheme} from "../func/themeChange"
-import {TextAlignJustify20Regular,WeatherSunny20Regular,WeatherMoon20Regular} from '@vicons/fluent'
+import SunOrMoon from './header/SunOrMoon.vue'
+import {theme } from "../func/themeChange"
+import {TextAlignJustify20Regular} from '@vicons/fluent'
 import {Github} from '@vicons/fa'
 import { routerOpen } from '../func/routerIndex'
-import { ref } from 'vue'
+import { ref, provide } from 'vue'
+import {headerListInter} from "../types/types";
 //列表
-const button_list:[{ title: string; href: string }, { title: string; href: string }, { title: string; href: string }] = [
+const button_list:headerListInter[] = [
   { title: '搜索', href: '/posts/search.html' }, { title: '下载社区', href: '/' }, { title :'关于', href: '/posts/about.html' },
 ]
+//依赖注入
+provide('buttonList',button_list)
+
 const isSidebar = ref<boolean>(false)
 //传值
 interface Props {
@@ -62,31 +67,7 @@ const props = withDefaults(defineProps<Props>(), {
             github
           </n-tooltip>
         </div>
-        <!--主题-->
-        <div style="display: flex; align-items: center;">
-          <!--白天-->
-          <div style="display: flex; align-items: center;" @click="whiteTheme(true)" v-show="theme === null">
-            <n-tooltip :show-arrow="false" trigger="hover">
-              <template #trigger>
-                <n-icon size="40" class="cursor-pointer">
-                  <WeatherSunny20Regular/>
-                </n-icon>
-              </template>
-              日间模式
-            </n-tooltip>
-          </div>
-          <!--夜晚-->
-          <div style="display: flex; align-items: center;" @click="whiteTheme(false)" v-show="theme !== null">
-            <n-tooltip  :show-arrow="false" trigger="hover">
-              <template #trigger>
-                <n-icon size="40" class="cursor-pointer">
-                  <WeatherMoon20Regular/>
-                </n-icon>
-              </template>
-              夜晚模式
-            </n-tooltip>
-          </div>
-        </div>
+        <SunOrMoon/>
       </div>
     </div>
   </div>
@@ -112,8 +93,8 @@ const props = withDefaults(defineProps<Props>(), {
   z-index: 10;
 }
 @media (max-width: 530px) {
-  .header {
-    height: 120px;
+  .head-right {
+    display: none;
   }
 }
 .head-left {

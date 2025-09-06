@@ -10,9 +10,13 @@
 </template>
 
 <style scoped>
-.num-box {
-}
 img {
   margin: 0;
+  width: 100%;
+}
+@media (max-width: 430px) {
+  .num-box {
+    width: 300px;
+  }
 }
 </style>

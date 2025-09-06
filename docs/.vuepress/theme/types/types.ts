@@ -6,3 +6,7 @@ export interface DiaryItem {
         data: string;
     };
 }
+export interface headerListInter {
+    title: string;
+    href: string;
+}

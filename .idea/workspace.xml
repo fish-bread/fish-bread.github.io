@@ -28,23 +28,28 @@
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/posts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/shiki/config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/404.html-CLngr9pn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/about.html-DAaGs7zX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/app-DMoUDIOK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.html-BSngCI1e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/search.html-DTKNXru7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/style-D-hvKqWm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/从零构建自己的vuepress主题.html-BJsAZQGG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/如何在vue3引入live2d.html-DPkHqkdu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/background/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/background/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/header/124017298_p0.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/header/124017298_p0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/404.html-Ce4vBqC5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/about.html-4_k-ecgw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/app-DH0mbTyM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.html-BpR24bsm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/search.html-CHJuEqQn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/style-C348jznJ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/从零构建自己的vuepress主题.html-BZvyv0h_.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/如何在vue3引入live2d.html-Crc6ebHd.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/从零构建自己的vuepress主题.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/从零构建自己的vuepress主题.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/如何在vue3引入live2d.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/如何在vue3引入live2d.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/posts/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/HeaderIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/HeaderIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/SidebarIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/SidebarIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/about/AboutBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/about/AboutBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/header/headerList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/header/headerList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/moeCounter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/moeCounter.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/layout/Search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/searchBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/styles/searchBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +237,8 @@
       <workItem from="1756981345553" duration="15478000" />
       <workItem from="1757036888564" duration="18392000" />
       <workItem from="1757081246936" duration="1747000" />
-      <workItem from="1757083902396" duration="1102000" />
+      <workItem from="1757083902396" duration="1655000" />
+      <workItem from="1757125008895" duration="2569000" />
     </task>
     <servers />
   </component>

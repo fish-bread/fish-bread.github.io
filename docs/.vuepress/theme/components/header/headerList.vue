@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import {headerListInter} from "../../types/types";
+
 defineProps<{
-  button_list: [{ title: string; href: string }, { title: string; href: string }, { title: string; href: string }];
+  button_list: headerListInter[];
 }>()
 </script>
 <template>

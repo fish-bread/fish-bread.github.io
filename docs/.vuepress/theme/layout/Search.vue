@@ -10,7 +10,7 @@ import {theme} from "../func/themeChange";
              backgroundColor: theme === null ? '#ffffff' : '#101014',
     }">
       <div class="search-big-box">
-        <div class="search-text" style="font-size: 70px; font-weight: bold">FISHBREAD</div>
+        <div class="search-text">FISHBREAD</div>
         <SearchComponents/>
       </div>
     </div>
@@ -32,5 +32,15 @@ import {theme} from "../func/themeChange";
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.search-text {
+  font-size: 70px;
+  font-weight: bold;
+  transition: font-size 0.3s ease;
+}
+@media (max-width: 600px) {
+  .search-text {
+    font-size: 50px;
+  }
 }
 </style>

@@ -38,6 +38,17 @@ import {theme} from "../../func/themeChange";
   width: 720px;
   height: 200px;
   border-radius: 10px;
+  transition: width 0.3s ease;
+}
+@media (max-width: 720px) {
+  .about-user-box {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .about-user-box {
+    width: 400px;
+  }
 }
 img {
   box-sizing: border-box;

@@ -17,6 +17,10 @@
     box-sizing: border-box;
     padding: 5px;
     margin: 0;
+    width: 100%;
+}
+.search-box input:hover {
+    width: 100%;
 }
 .search-box .suggestions {
     box-sizing: border-box;
