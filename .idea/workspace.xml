@@ -87,7 +87,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="npm.docs:build">
+  <component name="RunManager" selected="npm.npx">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -120,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.npx" />
+        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.docs:dev" />
       </list>
     </recent_temporary>
