@@ -1,4 +1,0 @@
----
-layout: Home
----
-# home
