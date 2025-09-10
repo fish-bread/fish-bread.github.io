@@ -1,0 +1,57 @@
+<template><div><h1 id="用electron代替pythongui" tabindex="-1"><a class="header-anchor" href="#用electron代替pythongui"><span>用electron代替pythongui</span></a></h1>
+<p>这是一篇关于如何借助electron-vite-vue来为python写gui的文档,尚未完结</p>
+<h1 id="为什么使用electron" tabindex="-1"><a class="header-anchor" href="#为什么使用electron"><span>为什么使用electron</span></a></h1>
+<p>我觉得pythongui的样式不够自定义,而且本身我也对vue和electron比较了解,并且可以结合puppeteer实现浏览器爬虫</p>
+<h1 id="为什么使用python-shell" tabindex="-1"><a class="header-anchor" href="#为什么使用python-shell"><span>为什么使用python-shell</span></a></h1>
+<blockquote>
+<p>在electron中运行python脚本有多种方式,构建python后端,直接在node子进程运行python文件,通过python-shell运行文件等等<br>
+由于我这里想使用python执行自动化操作,所以使用在node通过python-shell运行文件这种方法</p>
+</blockquote>
+<h1 id="使用技术" tabindex="-1"><a class="header-anchor" href="#使用技术"><span>使用技术</span></a></h1>
+<ol>
+<li><a href="https://github.com/alex8088/electron-vite" target="_blank" rel="noopener noreferrer">electron-vite</a></li>
+<li><a href="https://github.com/asweigart/pyautogui" target="_blank" rel="noopener noreferrer">pyautogui</a></li>
+<li><a href="https://github.com/extrabacon/python-shell" target="_blank" rel="noopener noreferrer">python-shell</a></li>
+<li><a href="https://www.naiveui.com/zh-CN/os-theme" target="_blank" rel="noopener noreferrer">naiveui</a>(非必要)</li>
+<li><a href="https://pptr.nodejs.cn/" target="_blank" rel="noopener noreferrer">puppeteer</a>(非必要)</li>
+</ol>
+<h1 id="electron-vite" tabindex="-1"><a class="header-anchor" href="#electron-vite"><span>electron-vite</span></a></h1>
+<p>适用node的v22.18.0版本<br>
+感谢<a href="https://github.com/alex8088" target="_blank" rel="noopener noreferrer">alex8088</a>的electron-vite库,让我们可以在electron的渲染层可以编写vue文件,这极大的方便了渲染层的编写</p>
+<h2 id="安装electron" tabindex="-1"><a class="header-anchor" href="#安装electron"><span>安装electron</span></a></h2>
+<ol>
+<li>运行以下命令或克隆该库<a href="https://github.com/alex8088/electron-vite-boilerplate" target="_blank" rel="noopener noreferrer">electron-vite模板</a></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#5c6a72;--shiki-dark:#d3c6aa;--shiki-light-bg:#fdf6e3;--shiki-dark-bg:#2d353b"><pre class="shiki shiki-themes everforest-light everforest-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#8DA101;--shiki-dark:#A7C080">npm</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> create</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> @quick-start/electron@latest</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ol start="2">
+<li>查询文档以快速适应electron-vite,<a href="https://cn.electron-vite.org/" target="_blank" rel="noopener noreferrer">electron-vite文档</a></li>
+</ol>
+<h1 id="pyautogui" tabindex="-1"><a class="header-anchor" href="#pyautogui"><span>pyautogui</span></a></h1>
+<p>适用python的v3.7以上版本</p>
+<h2 id="安装pyautogui" tabindex="-1"><a class="header-anchor" href="#安装pyautogui"><span>安装pyautogui</span></a></h2>
+<ol>
+<li>运行以下命令</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#5c6a72;--shiki-dark:#d3c6aa;--shiki-light-bg:#fdf6e3;--shiki-dark-bg:#2d353b"><pre class="shiki shiki-themes everforest-light everforest-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#8DA101;--shiki-dark:#A7C080">pip</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> install</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> pyautogui</span></span>
+<span class="line"><span style="--shiki-light:#8DA101;--shiki-dark:#A7C080">pip</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> install</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> pillow</span></span>
+<span class="line"><span style="--shiki-light:#8DA101;--shiki-dark:#A7C080">pip</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> install</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> opencv-python</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
+<li>查阅文档以了解pyautogui,<a href="https://pyautogui.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">pyautogui文档</a></li>
+</ol>
+<h1 id="python-shell" tabindex="-1"><a class="header-anchor" href="#python-shell"><span>python-shell</span></a></h1>
+<h2 id="安装python-shell" tabindex="-1"><a class="header-anchor" href="#安装python-shell"><span>安装python-shell</span></a></h2>
+<ol>
+<li>运行以下命令</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#5c6a72;--shiki-dark:#d3c6aa;--shiki-light-bg:#fdf6e3;--shiki-dark-bg:#2d353b"><pre class="shiki shiki-themes everforest-light everforest-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#8DA101;--shiki-dark:#A7C080">npm</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> install</span><span style="--shiki-light:#DFA000;--shiki-dark:#DBBC7F"> python-shell</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ol start="2">
+<li>查阅文档以了解python-shell,<a href="https://github.com/extrabacon/python-shell" target="_blank" rel="noopener noreferrer">python-shell文档</a></li>
+</ol>
+<h1 id="开始" tabindex="-1"><a class="header-anchor" href="#开始"><span>开始</span></a></h1>
+<h2 id="了解如何通信" tabindex="-1"><a class="header-anchor" href="#了解如何通信"><span>了解如何通信</span></a></h2>
+<p>electron的主进程和渲染进程通过中间脚本进行通信,python与electron主进程通过python-shell进行通信<br>
+所以我们可以用ipcRenderer.send和ipcMain.on在node主进程去发起python-shell的进程.然后在用pyshell.send向python-shell传输通信,使用pyshell.on('message')接收python进程的数据,用webContents.send和ipcRenderer.on向渲染进程持续发送python数据</p>
+<h2 id="具体实现的问题" tabindex="-1"><a class="header-anchor" href="#具体实现的问题"><span>具体实现的问题</span></a></h2>
+</div></template>
+
+

@@ -1,7 +1,7 @@
-import * as clientConfig0 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io_new/node_modules/@vuepress/plugin-search/lib/client/config.js'
-import * as clientConfig1 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io_new/node_modules/@vuepress/plugin-copy-code/lib/client/config.js'
-import * as clientConfig2 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io_new/docs/.vuepress/.temp/shiki/config.js'
-import * as clientConfig3 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io_new/docs/.vuepress/client.js'
+import * as clientConfig0 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/node_modules/@vuepress/plugin-search/lib/client/config.js'
+import * as clientConfig1 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/node_modules/@vuepress/plugin-copy-code/lib/client/config.js'
+import * as clientConfig2 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/.temp/shiki/config.js'
+import * as clientConfig3 from 'F:/workall/GitHub/vuepress-my-docs/fish-bread.github.io/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,

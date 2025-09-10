@@ -136,6 +136,49 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "用electron-vite为python写gui页面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "安装electron",
+        "slug": "安装electron",
+        "link": "#安装electron",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装pyautogui",
+        "slug": "安装pyautogui",
+        "link": "#安装pyautogui",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装python-shell",
+        "slug": "安装python-shell",
+        "link": "#安装python-shell",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "了解如何通信",
+        "slug": "了解如何通信",
+        "link": "#了解如何通信",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "具体实现的问题",
+        "slug": "具体实现的问题",
+        "link": "#具体实现的问题",
+        "children": []
+      }
+    ],
+    "path": "/posts/markdown/%E7%94%A8electron-vite%E4%B8%BApython%E5%86%99gui%E9%A1%B5%E9%9D%A2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
