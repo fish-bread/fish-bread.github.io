@@ -1,7 +1,7 @@
 <script setup lang="ts">
-
 import {theme, whiteTheme} from "../../func/themeChange";
-import {WeatherMoon20Regular, WeatherSunny20Regular} from "@vicons/fluent";
+import WeatherSunny20Regular from '@vicons/fluent/WeatherSunny20Regular'
+import WeatherMoon20Regular from '@vicons/fluent/WeatherMoon20Regular'
 </script>
 
 <template>

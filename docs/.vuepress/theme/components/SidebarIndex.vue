@@ -2,7 +2,7 @@
 import SunOrMoon from './header/SunOrMoon.vue'
 import {theme} from "../func/themeChange";
 import { animate } from 'animejs'
-import { Dismiss20Regular } from "@vicons/fluent"
+import Dismiss20Regular from '@vicons/fluent/Dismiss20Regular'
 import { watchThrottled } from "@vueuse/core";
 import {onMounted, inject} from "vue";
 import {headerListInter} from "../types/types";

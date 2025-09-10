@@ -3,8 +3,8 @@ import HeaderList from './header/headerList.vue'
 import SidebarIndex from './SidebarIndex.vue'
 import SunOrMoon from './header/SunOrMoon.vue'
 import {theme } from "../func/themeChange"
-import {TextAlignJustify20Regular} from '@vicons/fluent'
-import {Github} from '@vicons/fa'
+import TextAlignJustify20Regular from '@vicons/fluent/TextAlignJustify20Regular'
+import Github from '@vicons/fa/Github'
 import { routerOpen } from '../func/routerIndex'
 import { ref, provide } from 'vue'
 import {headerListInter} from "../types/types";

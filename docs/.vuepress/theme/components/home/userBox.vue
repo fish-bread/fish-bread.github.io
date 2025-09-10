@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {theme} from "../../func/themeChange";
-import {ArrowCircleDown20Regular} from '@vicons/fluent'
+import ArrowCircleDown20Regular from '@vicons/fluent/ArrowCircleDown20Regular'
 const homeDown = () => {
   const targetPosition = window.scrollY + window.innerHeight;
   window.scrollTo({
