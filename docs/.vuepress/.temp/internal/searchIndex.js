@@ -64,6 +64,57 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "使用puppeteer爬取pixiv图片",
+    "headers": [
+      {
+        "level": 2,
+        "title": "解决登录",
+        "slug": "解决登录",
+        "link": "#解决登录",
+        "children": [
+          {
+            "level": 3,
+            "title": "老旧的操作",
+            "slug": "老旧的操作",
+            "link": "#老旧的操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "获取cookie",
+            "slug": "获取cookie",
+            "link": "#获取cookie",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "通过pixivApi获取所有图片链接",
+        "slug": "通过pixivapi获取所有图片链接",
+        "link": "#通过pixivapi获取所有图片链接",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "自动化获取图片链接",
+        "slug": "自动化获取图片链接",
+        "link": "#自动化获取图片链接",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "获取图片原始链接数组",
+        "slug": "获取图片原始链接数组",
+        "link": "#获取图片原始链接数组",
+        "children": []
+      }
+    ],
+    "path": "/posts/markdown/%E4%BD%BF%E7%94%A8puppeteer%E7%88%AC%E5%8F%96pixiv%E5%9B%BE%E7%89%87.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "如何在vue3引入live2d",
     "headers": [
       {

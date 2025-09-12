@@ -57,11 +57,11 @@ console.log('页面', pageFrontmatter.value)
   box-sizing: border-box;
   padding-top: 1px;
   transition: margin 0.3s ease, width 0.3s ease;
-  margin: 0 20%;
+  margin: 0 25%;
 }
 @media (max-width:1200px ) {
   .markdown-body {
-    margin: 0 20%;
+    margin: 0 25%;
   }
 }
 @media (max-width: 760px) {
