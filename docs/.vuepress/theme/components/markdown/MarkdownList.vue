@@ -113,10 +113,9 @@ onUnmounted(() => {
           v-for="(item, index) in tocList"
           :key="index"
           :class="['toc-item', 'header-' + item.tag, { active: activeIndex === index }]"
-          :style="{ paddingLeft: `${(item.level - 1) * 16 + 5}px` }"
+          :style="{ paddingLeft: `${(item.level - 1) * 10 + 5}px` }"
           @click="scrollToAnchor(item.id, index)"
       >
-        <span class="item-bullet"></span>
         <span class="item-text">{{ item.text }}</span>
       </li>
     </ul>
@@ -126,40 +125,42 @@ onUnmounted(() => {
 <style scoped lang="scss">
 .markdown-list {
   box-sizing: border-box;
-  width: 300px;
-  padding: 20px 15px;
+  width: 280px;
+  padding: 16px 12px;
   position: fixed;
   left: 0;
   transition: top 0.2s ease;
-  backdrop-filter: blur(5px);
-  border-radius: 0 12px 12px 0;
-  max-height: 90vh;
+  backdrop-filter: blur(10px);
+  border-radius: 0 8px 8px 0;
+  max-height: 80vh;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #8064a9 transparent;
+  z-index: 100;
 
   &::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
   }
 
   &::-webkit-scrollbar-thumb {
     background-color: #8064a9;
-    border-radius: 3px;
+    border-radius: 2px;
   }
 }
 
 .markdown-list-header {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
   border-bottom: 1px solid rgba(128, 100, 169, 0.2);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
+  color: #555;
 
   .header-icon {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -175,48 +176,35 @@ li {
 }
 
 .toc-item {
-  margin: 6px 0;
-  padding: 6px 10px;
-  border-radius: 6px;
+  margin: 4px 0;
+  padding: 6px 8px;
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
-  gap: 8px;
   position: relative;
 
   &:hover {
-    background: rgba(128, 100, 169, 0.08);
-    color: #735a98;
-
-    .item-bullet {
-      opacity: 1;
-      transform: scale(1);
-    }
+    color: #8064a9;
   }
 
   &.active {
-    font-weight: bold;
+    font-weight: 600;
     color: #8064a9;
-    background: rgba(128, 100, 169, 0.1);
+    background: transparent;
 
-    .item-bullet {
-      opacity: 1;
-      transform: scale(1);
-      background: #8064a9;
+    // 左侧竖线标记 - 固定在容器最左侧
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0; // 固定在容器最左侧
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background-color: #8064a9;
+      border-radius: 0 2px 2px 0;
     }
-  }
-
-  .item-bullet {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #8064a9;
-    opacity: 0;
-    transform: scale(0.5);
-    transition: all 0.2s ease;
-    flex-shrink: 0;
   }
 
   .item-text {
@@ -228,31 +216,30 @@ li {
 
 // 不同层级的样式
 .header-h1 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
 }
 
 .header-h2 {
-  font-size: 15px;
+  font-size: 14px;
+  margin-top: 8px;
 }
 
 .header-h3 {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .header-h4 {
-  font-size: 13px;
-  color: #6c757d;
+  font-size: 12px;
 }
 
 .header-h5 {
   font-size: 12px;
-  color: #8c959d;
 }
 
 .header-h6 {
-  font-size: 12px;
-  color: #adb5bd;
+  font-size: 11px;
   font-style: italic;
 }
+
 </style>

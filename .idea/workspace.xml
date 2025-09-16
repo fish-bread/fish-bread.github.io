@@ -6,64 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68e1593a-84b3-467e-980d-92c3582e244e" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/blog/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/blog/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/blog/type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientConfigs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/searchIndex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/siteData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/about.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/about.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/从零构建自己的vuepress主题.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/从零构建自己的vuepress主题.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/如何在vue3引入live2d.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/如何在vue3引入live2d.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/用electron-vite为python写gui页面.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/用electron-vite为python写gui页面.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/search.html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/search.html.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/shiki/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/404.html-CRPYkgOS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/JetBrainsMono-Regular-Dh36KTnx.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/about.html-DLhnrRrM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/app-Cq7CaGpn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.html-p1MsnlVD.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/search.html-DQ2cNVtv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/style-B16EjJhg.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/从零构建自己的vuepress主题.html-_4g3gB_L.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/如何在vue3引入live2d.html-0vAGd4ab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/用electron-vite为python写gui页面.html-BsurhQ8C.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/background/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/font/JetBrainsMono-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/header/124017298_p0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/motion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vue_live2d_index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/markdown_img/vue/vuepress_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/从零构建自己的vuepress主题.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/如何在vue3引入live2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/markdown/用electron-vite为python写gui页面.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/posts/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/sitemap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/sitemap.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownContent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/markdown/MarkdownList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +203,7 @@
       <workItem from="1757466837793" duration="1419000" />
       <workItem from="1757513588866" duration="357000" />
       <workItem from="1757662141536" duration="11061000" />
-      <workItem from="1757673363454" duration="1549000" />
+      <workItem from="1757673363454" duration="3021000" />
     </task>
     <servers />
   </component>
