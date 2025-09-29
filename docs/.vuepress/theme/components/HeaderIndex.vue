@@ -10,7 +10,7 @@ import { ref, provide } from 'vue'
 import {headerListInter} from "../types/types";
 //列表
 const button_list:headerListInter[] = [
-  { title: '搜索', href: '/posts/search.html' }, { title: '下载社区', href: '/' }, { title :'关于', href: '/posts/about.html' },
+  { title: '搜索', href: '/posts/search.html' }, { title: '下载社区', href: '/posts/download.html' }, { title :'关于', href: '/posts/about.html' },
 ]
 //依赖注入
 provide('buttonList',button_list)

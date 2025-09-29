@@ -7,6 +7,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/posts/download.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "从零构建自己的vuepress主题",
     "headers": [
       {

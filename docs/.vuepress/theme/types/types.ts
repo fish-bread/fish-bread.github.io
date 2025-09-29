@@ -10,3 +10,13 @@ export interface headerListInter {
     title: string;
     href: string;
 }
+export interface AListInter {
+    title: string;
+    linkArray: linkInter[];
+}
+export interface linkInter {
+    href: string;
+    h2title: string;
+    hrefName: string;
+    note: string;
+}

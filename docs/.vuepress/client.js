@@ -4,6 +4,7 @@ import NotFound from "./theme/layout/404.vue";
 import Home from "./theme/layout/Home.vue";
 import Search from "./theme/layout/Search.vue";
 import About from "./theme/layout/About.vue";
+import Download from "./theme/layout/Download.vue";
 import "./theme/styles/index.css"
 import "./theme/styles/searchBox.css"
 import {searchLocalTheme} from "./theme/func/themeChange.js";
@@ -30,12 +31,12 @@ export default defineClientConfig({
   //用于直接注册并启用在根组件
   rootComponents: [
   ],
-  // we provide some blog layouts
   layouts: {
     Layout,
     NotFound,
     Home, 
     Search,
-    About
+    About,
+    Download
   },
 })
