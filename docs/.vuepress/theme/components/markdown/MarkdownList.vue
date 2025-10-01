@@ -21,7 +21,6 @@ const scrollToAnchor = (id: string, index: number) => {
   const element = document.getElementById(id);
   if (element) {
     element.scrollIntoView({
-      behavior: 'smooth',
       block: 'start'
     });
     activeIndex.value = index;

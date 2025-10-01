@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e1593a-84b3-467e-980d-92c3582e244e" name="更改" comment="" />
+    <list default="true" id="68e1593a-84b3-467e-980d-92c3582e244e" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +89,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="npm.docs:build">
+  <component name="RunManager" selected="npm.npx">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -120,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.npx" />
+        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.docs:dev" />
       </list>
     </recent_temporary>
@@ -209,7 +211,7 @@
       <workItem from="1758109008273" duration="323000" />
       <workItem from="1758157942886" duration="664000" />
       <workItem from="1758158633119" duration="7521000" />
-      <workItem from="1759115223495" duration="998000" />
+      <workItem from="1759115223495" duration="1397000" />
     </task>
     <servers />
   </component>
