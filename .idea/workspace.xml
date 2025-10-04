@@ -6,6 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="68e1593a-84b3-467e-980d-92c3582e244e" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/blog/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/blog/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/blog/type.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/blog/type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/searchIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/searchIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/siteData.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/siteData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/about.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/about.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/download.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/download.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/从零构建自己的vuepress主题.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/从零构建自己的vuepress主题.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/使用puppeteer爬取pixiv图片.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/使用puppeteer爬取pixiv图片.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/如何在vue3引入live2d.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/如何在vue3引入live2d.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/用electron-vite为python写gui页面.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/markdown/用electron-vite为python写gui页面.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/search.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/posts/search.html.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +92,7 @@
     &quot;npm.docs:build.executor&quot;: &quot;Debug&quot;,
     &quot;npm.docs:dev.executor&quot;: &quot;Debug&quot;,
     &quot;npm.npx.executor&quot;: &quot;Debug&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;F:\\workall\\c++all\\JetBrains Rider 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -89,7 +103,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="npm.npx">
+  <component name="RunManager" selected="npm.docs:build">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -122,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.npx" />
         <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.docs:dev" />
+        <item itemvalue="npm.npx" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +226,8 @@
       <workItem from="1758157942886" duration="664000" />
       <workItem from="1758158633119" duration="7521000" />
       <workItem from="1759115223495" duration="1397000" />
+      <workItem from="1759311170540" duration="196000" />
+      <workItem from="1759311490099" duration="308000" />
     </task>
     <servers />
   </component>
