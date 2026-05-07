@@ -14,6 +14,50 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "unity关于提取带有动画的模型的动画",
+    "headers": [
+      {
+        "level": 2,
+        "title": "准备工作",
+        "slug": "准备工作",
+        "link": "#准备工作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "步骤",
+        "slug": "步骤",
+        "link": "#步骤",
+        "children": []
+      }
+    ],
+    "path": "/posts/markdown/unity%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%B0%8F%E9%97%AE%E9%A2%98.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "unity对布料解析",
+    "headers": [
+      {
+        "level": 2,
+        "title": "unity插件",
+        "slug": "unity插件",
+        "link": "#unity插件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "步骤",
+        "slug": "步骤",
+        "link": "#步骤",
+        "children": []
+      }
+    ],
+    "path": "/posts/markdown/unity%E5%AF%B9%E5%B8%83%E6%96%99%E8%A7%A3%E6%9E%90.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "从零构建自己的vuepress主题",
     "headers": [
       {
@@ -118,6 +162,28 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/posts/markdown/%E4%BD%BF%E7%94%A8puppeteer%E7%88%AC%E5%8F%96pixiv%E5%9B%BE%E7%89%87.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于模之屋的mmd模型导入unity",
+    "headers": [
+      {
+        "level": 2,
+        "title": "blender插件",
+        "slug": "blender插件",
+        "link": "#blender插件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "步骤",
+        "slug": "步骤",
+        "link": "#步骤",
+        "children": []
+      }
+    ],
+    "path": "/posts/markdown/%E5%85%B3%E4%BA%8E%E6%A8%A1%E4%B9%8B%E5%B1%8B%E7%9A%84mmd%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%85%A5unity.html",
     "pathLocale": "/",
     "extraFields": []
   },
