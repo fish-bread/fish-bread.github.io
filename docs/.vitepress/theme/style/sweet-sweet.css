@@ -1,0 +1,512 @@
+/*
+* ----------------------------------------------------------------
+ * Buah - 适配 VitePress 的 Markdown 样式
+ * A dark theme for simplicity
+ * Author: Manu Panizo
+ * License: Apache-2.0
+ * ----------------------------------------------------------------
+*/
+
+/* ===================================================================
+   FONTS
+   =================================================================== */
+
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url('/LXGWWenKai-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url('/LXGWWenKai-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url('/LXGWWenKai-Regular.ttf') format('truetype');
+  font-weight: 600 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url('/LXGWWenKai-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* ===================================================================
+   CSS VARIABLES
+   =================================================================== */
+
+:root {
+  /* Primary colors */
+  --buah-light: #ebebf4;
+  --buah-dim: #bcbce3;
+  --buah-dark: #313647;
+  --buah-accent: #fff8d4;
+  --buah-pink: #d9c5ca;
+  --buah-green: #a3b087;
+
+  /* Background variations */
+  --buah-bg-medium: #434A60;
+  --buah-bg-variation: #314742;
+  --buah-bg-0: #313647;
+  --buah-bg-1: #434A60;
+  --buah-bg-2: #4d5f6f;
+  --buah-bg-3: #57687a;
+  --buah-bg-4: #617185;
+
+  /* UI */
+  --bg: #313647;
+  --bg-panel: #434A60;
+  --bg-soft: #4d5f6f;
+  --bg-muted: #57687a;
+  --text: #ebebf4;
+  --text-heading: #bcbce3;
+  --text-muted: #bcbce3;
+  --border: #ebebf4;
+  --accent: #fff8d4;
+  --selection: rgba(163, 176, 135, 0.3);
+
+  /* Typography */
+  --font-heading: "LXGWWenKai", "Noto Serif SC", serif;
+  --font-body: "LXGWWenKai", "Noto Sans SC", sans-serif;
+  --font-code: ui-monospace, "JetBrains Mono", "Zed Plex Mono", "SFMono-Regular",
+  Menlo, Consolas, monospace;
+  --font-size: 22px;
+  --line-height: 1.65;
+
+  --radius: 10px;
+  --radius-sm: 8px;
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --shadow-2: 0 10px 24px rgba(0, 0, 0, 0.35);
+  --gap-3: 1rem;
+
+  /* Callout colors */
+  --color-1: #a3b087;
+  --color-1-0-b: rgba(163, 176, 135, 0.12);
+  --color-2: #fff8d4;
+  --color-2-0-b: rgba(255, 248, 212, 0.14);
+  --color-3: #8fa5b8;
+  --color-3-0-b: rgba(143, 165, 184, 0.12);
+  --color-4: #b8a5c7;
+  --color-4-0-b: rgba(184, 165, 199, 0.14);
+  --color-5: #c7b5a5;
+  --color-5-0-b: rgba(199, 181, 165, 0.14);
+}
+
+/* ===================================================================
+   BASE STYLES
+   =================================================================== */
+
+
+.vp-doc {
+  max-width: 840px;
+  margin: 2.2rem auto;
+  padding: 0 var(--gap-3);
+}
+/* ===================================================================
+   HEADINGS
+   =================================================================== */
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-heading);
+  line-height: 1.25;
+  margin: 2.2rem 0 1rem;
+}
+
+.vp-doc h1 {
+  font-size: 3.5rem;
+  color: var(--buah-dim);
+}
+
+.vp-doc h2 {
+  font-size: 2.5rem;
+  padding-bottom: 0.35rem;
+  color: var(--buah-dim);
+}
+
+.vp-doc h3 {
+  font-size: 2.0rem;
+  padding-bottom: 0.25rem;
+}
+
+.vp-doc h4 {
+  font-size: 1.5rem;
+}
+
+.vp-doc h5 {
+  font-size: 1.25rem;
+}
+
+.vp-doc h6 {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+/* ===================================================================
+   TEXT ELEMENTS
+   =================================================================== */
+
+.vp-doc p {
+  margin: 0 0 1.05rem;
+}
+
+.vp-doc strong,
+.vp-doc b {
+  color: var(--buah-accent);
+  font-weight: 600;
+}
+
+.vp-doc em {
+  color: var(--buah-accent);
+  font-style: italic;
+}
+
+.vp-doc del {
+  color: var(--text-muted);
+}
+
+.vp-doc a {
+  color: var(--buah-accent);
+  text-decoration: none;
+}
+
+.vp-doc a:hover {
+  text-decoration: underline;
+}
+
+.vp-doc hr {
+  border: none;
+  border-top: 1px solid var(--buah-pink);
+  margin: 2rem 0;
+}
+
+/* ===================================================================
+   LISTS
+   =================================================================== */
+
+.vp-doc ul,
+.vp-doc ol {
+  margin: 0 0 1rem 1.5rem;
+}
+
+.vp-doc li {
+  margin: 0.3rem 0;
+}
+
+.vp-doc li > p {
+  margin: 0.2rem 0;
+}
+
+/* Custom bullet points */
+.vp-doc ul {
+  list-style-type: none;
+  padding-left: 0.75em;
+}
+
+.vp-doc ul li {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.vp-doc ul > li::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-family: "LXGWWenKai", monospace;
+  color: var(--buah-dim);
+  font-size: 1.1em;
+  line-height: inherit;
+}
+
+.vp-doc ul > li > ul > li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-family: "LXGWWenKai", monospace;
+  color: var(--buah-dim);
+}
+
+.vp-doc ul > li > ul > li > ul > li::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-family: "LXGWWenKai", monospace;
+  color: var(--buah-dim);
+}
+
+/* Task lists */
+.vp-doc li.task-list-item {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0;
+}
+
+.vp-doc li.task-list-item > p {
+  display: inline;
+}
+
+.vp-doc li.task-list-item::before {
+  content: none !important;
+  display: none;
+}
+
+.vp-doc li.task-list-item > input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  width: 1.1em;
+  height: 1.1em;
+  border: 2px solid var(--buah-dim);
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, var(--buah-dim), var(--buah-dim));
+  background-size: 100% 0%;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -1.39em;
+  top: 0.25em;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  transition: background-size 0.5s ease, border-color 0.2s ease;
+}
+
+.vp-doc li.task-list-item > input[type="checkbox"]:not(:checked):hover,
+.vp-doc li.task-list-item > input[type="checkbox"]:not(:checked):focus {
+  border-color: var(--buah-accent);
+}
+
+.vp-doc li.task-list-item > input[type="checkbox"]:checked {
+  background-size: 100% 100%;
+}
+
+.vp-doc li.task-list-item > input[type="checkbox"]:checked:hover,
+.vp-doc li.task-list-item > input[type="checkbox"]:checked:focus {
+  border-color: var(--buah-accent);
+  background-image: linear-gradient(to bottom, var(--buah-accent), var(--buah-accent));
+}
+
+.vp-doc li.task-list-item.checked {
+  text-decoration: line-through;
+  text-decoration-color: var(--buah-dim);
+}
+
+/* ===================================================================
+   BLOCKQUOTE
+   =================================================================== */
+
+.vp-doc blockquote {
+  margin: 1.25rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 4px solid var(--buah-accent);
+  background: var(--buah-bg-1);
+  color: var(--text);
+  border-radius: var(--radius-sm);
+}
+
+/* ===================================================================
+   TABLES
+   =================================================================== */
+
+.vp-doc table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 1.2rem 0;
+  background: var(--bg-panel);
+  box-shadow: var(--shadow-1);
+  border: 1px solid var(--buah-pink);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.vp-doc th,
+.vp-doc td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--buah-bg-3);
+}
+
+.vp-doc thead th {
+  background: var(--buah-bg-medium);
+  color: var(--text);
+  text-align: left;
+}
+
+.vp-doc tbody tr {
+  background: var(--buah-dark);
+}
+
+.vp-doc tbody tr:hover {
+  background: var(--buah-bg-variation);
+}
+
+/* ===================================================================
+   CODE
+   =================================================================== */
+
+/* Inline code */
+.vp-doc code,
+.vp-doc tt {
+  font-family: var(--font-code);
+  font-size: 0.76em;
+  font-weight: 500;
+  background: var(--bg-panel);
+  color: var(--text);
+  border: 1px solid var(--buah-pink);
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+}
+
+/* Code blocks */
+.vp-doc pre {
+  background: var(--bg-panel);
+  border: 1px solid var(--buah-pink);
+  border-radius: var(--radius);
+  padding: 1rem;
+  overflow: auto;
+  box-shadow: var(--shadow-1);
+}
+
+.vp-doc pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 0.76em;
+}
+
+/* ===================================================================
+   MARK / HIGHLIGHT
+   =================================================================== */
+
+.vp-doc mark {
+  background: var(--buah-pink) !important;
+  background-color: var(--buah-pink) !important;
+  color: var(--buah-dark) !important;
+}
+
+/* ===================================================================
+   IMAGES
+   =================================================================== */
+
+.vp-doc img {
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-2);
+}
+
+.vp-doc figcaption {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* ===================================================================
+   CALL OUTS / ALERTS
+   =================================================================== */
+
+.vp-doc .custom-block {
+  margin: 14px 0;
+  padding: 16px;
+  background: var(--color-2-0-b);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-2);
+}
+
+/* 如果使用 VitePress 默认的提示块，可以自定义颜色 */
+.vp-doc .custom-block.tip {
+  border-left-color: var(--color-1);
+  background: var(--color-1-0-b);
+}
+
+.vp-doc .custom-block.warning {
+  border-left-color: var(--color-2);
+  background: var(--color-2-0-b);
+}
+
+.vp-doc .custom-block.danger {
+  border-left-color: var(--color-3);
+  background: var(--color-3-0-b);
+}
+/* ===================================================================
+   CODE BLOCK: 复制按钮 + 语言标签
+   =================================================================== */
+
+/* 让代码块容器相对定位，以便内部绝对定位元素参照它 */
+.vp-doc div[class*='language-'] {
+  position: relative;
+  margin: 1rem 0;
+}
+
+/* 复制按钮样式 */
+.vp-doc div[class*='language-'] .copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+  background: var(--bg-panel);
+  border: 1px solid var(--buah-pink);
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.2s;
+  /* 使用图标背景，如果默认没有可以自定义 */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23ebebf4'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+}
+
+/* 悬停时显示复制按钮 */
+.vp-doc div[class*='language-']:hover .copy {
+  opacity: 1;
+}
+
+/* 复制按钮悬停效果 */
+.vp-doc div[class*='language-'] .copy:hover {
+  background-color: var(--buah-accent);
+  border-color: var(--buah-accent);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23313647'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+/* 复制成功后的临时反馈（可选） */
+.vp-doc div[class*='language-'] .copy.copied {
+  background-color: var(--buah-green);
+  border-color: var(--buah-green);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23313647'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 13l4 4L19 7'%3E%3C/path%3E%3C/svg%3E");
+}
+
+/* 语言标签样式 */
+.vp-doc div[class*='language-'] .lang {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  z-index: 10;
+  font-size: 0.75rem;
+  font-family: var(--font-code);
+  color: var(--text-muted);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 4px 8px;
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+  pointer-events: none;  /* 让语言标签不干扰点击 */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}.vp-doc .shiki {
+  padding: 30px;
+ }

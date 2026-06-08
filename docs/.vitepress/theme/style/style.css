@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'LXGWWenKai';
+  /*noinspection CssUnknownTarget*/
+  src: url('/LXGWWenKai-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html, body {
+  font-family:'LXGWWenKai', Arial, Helvetica, emoji;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  all: unset;
+}
+input {
+  all: unset;
+}
