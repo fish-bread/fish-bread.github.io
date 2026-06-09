@@ -10,7 +10,26 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6118c2e4-f921-4060-9c9f-eb949224c43a" name="更改" comment="" />
+    <list default="true" id="6118c2e4-f921-4060-9c9f-eb949224c43a" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/Layout/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/Layout/Markdown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/Layout/MarkdownSearchClassification.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/Layout/MarkdownSearchClassification.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/Script/HeaderTheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/Script/HeaderTheme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/Script/Markdown.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/Script/Markdown.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/BackToTop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/BackToTop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/FooterIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/FooterIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/HeaderIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/HeaderIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/iconBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/IconBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/moeCounter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/MoeCounter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/style/sweet-sweet.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/style/sweet-sweet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/unity中的各种小问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/unity中的各种小问题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/unity对布料解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/unity对布料解析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/从零构建自己的vuepress主题.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/从零构建自己的vuepress主题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/使用puppeteer爬取pixiv图片.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/使用puppeteer爬取pixiv图片.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/关于模之屋的mmd模型导入unity.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/关于模之屋的mmd模型导入unity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/如何在vue3引入live2d.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/如何在vue3引入live2d.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,11 +38,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="Vue Composition API Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fish-bread&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fish-bread/fish-bread.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;c9072020-20dd-46ee-9172-c03257c7ba2b&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -39,33 +73,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.docs:dev.executor&quot;: &quot;Debug&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\workall\\c++all\\JetBrains Rider 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.docs:build.executor": "Run",
+    "npm.docs:dev.executor": "Debug",
+    "npm.docs:preview.executor": "Debug",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "F:\\workall\\c++all\\JetBrains Rider 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="npm.docs:preview">
+    <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -76,8 +124,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="docs:preview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.docs:preview" />
+        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.docs:dev" />
       </list>
     </recent_temporary>
@@ -97,6 +157,11 @@
       <workItem from="1780894344560" duration="8398000" />
       <workItem from="1780902858385" duration="12110000" />
       <workItem from="1780924369972" duration="2483000" />
+      <workItem from="1780931255506" duration="5480000" />
+      <workItem from="1780937007523" duration="117000" />
+      <workItem from="1780996367261" duration="8238000" />
+      <workItem from="1781006297269" duration="37000" />
+      <workItem from="1781006350727" duration="1012000" />
     </task>
     <servers />
   </component>

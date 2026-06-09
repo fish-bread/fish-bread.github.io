@@ -2,7 +2,7 @@
 layout: markdown
 outline: deep
 title: unity关于提取带有动画的模型的动画
-category: 未分类
+category: unity
 tags: ["unity", "blender"]
 writtenDate: 2026/05/07
 updatedDate: 2026/05/07

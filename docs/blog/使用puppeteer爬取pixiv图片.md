@@ -2,7 +2,7 @@
 layout: markdown
 outline: deep
 title: 使用puppeteer爬取pixiv图片
-category: 未分类
+category: TS
 tags: ["puppeteer"]
 writtenDate: 2025/09/12
 updatedDate: 2025/09/12

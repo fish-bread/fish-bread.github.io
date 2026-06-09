@@ -2,7 +2,7 @@
 layout: markdown
 outline: deep
 title: 如何在vue3引入live2d
-category: 未分类
+category: TS
 tags: ["vue3","live2d"]
 writtenDate: 2025/08/22
 updatedDate: 2025/08/22

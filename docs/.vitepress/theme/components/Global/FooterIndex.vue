@@ -1,5 +1,5 @@
 <script setup>
-import MoeCounter from "./moeCounter.vue";
+import MoeCounter from "./MoeCounter.vue";
 </script>
 
 <template>

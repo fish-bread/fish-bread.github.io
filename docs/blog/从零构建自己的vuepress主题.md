@@ -2,7 +2,7 @@
 layout: markdown
 outline: deep
 title: 从零构建自己的vuepress主题
-category: 未分类
+category: TS
 tags: ["vuepress2"]
 writtenDate: 2025/08/21
 updatedDate: 2025/08/21

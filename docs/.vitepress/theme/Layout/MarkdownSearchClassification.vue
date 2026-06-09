@@ -6,7 +6,7 @@ import MarkdownSearchLayout from "../components/Global/MarkdownSearchLayout.vue"
 const markdownChooseList: Ref<MarkdownListInterface[]> = ref([])
 const markdownChooseCategory: Ref<CategoryInterface> = ref('未分类')
 const markdownChooseCategoryList: Ref<CategoryInterface[]> = ref([
-  "未分类", "游戏", "网页", "unity",
+  "TS", "unity", "未分类",
 ])
 onMounted(() => {
   markdownChooseList.value = markdownList.filter((item: MarkdownListInterface) => item.Category === markdownChooseCategory.value)

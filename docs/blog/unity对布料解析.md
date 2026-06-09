@@ -2,7 +2,7 @@
 layout: markdown
 outline: deep
 title: unity对布料解析
-category: 未分类
+category: unity
 tags: ["unity", "blender"]
 writtenDate: 2026/05/07
 updatedDate: 2026/05/07

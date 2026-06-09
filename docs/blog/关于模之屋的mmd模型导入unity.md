@@ -1,7 +1,11 @@
 ---
-layout: Layout
+layout: markdown
+outline: deep
 title: 关于模之屋的mmd模型导入unity
-data: 2026/05/07
+category: unity
+tags: ["mmd", 'blender' ,'unity']
+writtenDate: 2026/05/07
+updatedDate: 2026/05/07
 description: 关于模之屋的mmd模型导入unity
 ---
 # blender插件
