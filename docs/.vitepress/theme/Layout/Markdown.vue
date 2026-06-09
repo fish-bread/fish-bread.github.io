@@ -205,6 +205,7 @@ const scrollToHeading = (element: HTMLElement) => {
     top: 5px;
     left: 5px;
     color: #cf1322;
+    font-weight: bold;
   }
 }
 

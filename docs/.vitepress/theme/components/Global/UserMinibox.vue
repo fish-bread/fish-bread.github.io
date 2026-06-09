@@ -6,6 +6,7 @@ import userHeadImg from '/userHead.png';
   <div class="home-user-minibox">
     <img class="home-user-minibox-img" :src="userHeadImg" alt="头像"/>
     <h1>FISHBREAD</h1>
+    <h3>fishbread的博客</h3>
     <h3>what can i say?</h3>
   </div>
 </template>

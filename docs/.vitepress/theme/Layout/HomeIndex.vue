@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import MarkdownMinibox from "../components/Markdown/MarkdownMinibox.vue";
-import UserMinibox from "../components/Home/UserMinibox.vue";
+import UserMinibox from "../components/Global/UserMinibox.vue";
 import {data as markdownList} from '../Script/Markdown.data';
 import HomeIndexLayout from "../components/Global/HomeIndexLayout.vue";
 </script>
