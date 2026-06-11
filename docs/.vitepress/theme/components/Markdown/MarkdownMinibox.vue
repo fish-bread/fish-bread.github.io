@@ -285,9 +285,8 @@ const pageNumbers = computed(() => {
 
 .pagination-btn {
   padding: 8px 16px;
-  border: 1px solid #ddd;
-  background-color: white;
-  color: #333;
+  border: 1px solid var(--markDownMiniBackgroundColor);
+  background-color: var(--markDownMiniBackgroundColor);
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s;

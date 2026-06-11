@@ -7,7 +7,7 @@ import MoeCounter from "./MoeCounter.vue";
   <div class="footer-page">
     <moe-counter></moe-counter>
     <div class="footer-box">
-      <div>© Renovamen 2026</div>
+      <div>© fishbread 2026</div>
       <div>Powered by VitePress & fishbread</div>
       </div>
   </div>
