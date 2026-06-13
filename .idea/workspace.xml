@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6118c2e4-f921-4060-9c9f-eb949224c43a" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/解包的叶瞬光blender模型如何导入unity.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/解包的叶瞬光blender模型如何导入unity.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +74,8 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.docs:build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.docs:dev.executor&quot;: &quot;Debug&quot;,
+    &quot;npm.docs:build.executor&quot;: &quot;Debug&quot;,
+    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
     &quot;npm.docs:preview.executor&quot;: &quot;Run&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;F:\\workall\\c++all\\JetBrains Rider 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
@@ -145,6 +146,12 @@
       <workItem from="1780996367261" duration="8238000" />
       <workItem from="1781006297269" duration="37000" />
       <workItem from="1781006350727" duration="3126000" />
+      <workItem from="1781190687487" duration="2905000" />
+      <workItem from="1781194109466" duration="537000" />
+      <workItem from="1781271572404" duration="204000" />
+      <workItem from="1781271982630" duration="3495000" />
+      <workItem from="1781352061694" duration="1750000" />
+      <workItem from="1781367641165" duration="308000" />
     </task>
     <servers />
   </component>
