@@ -50,5 +50,16 @@ import BackToTop from "./BackToTop.vue";
   @include flex-between-center;
   gap: 10px;
   padding: 0 20%;
+  transition: all 0.3s ease;
+}
+@media (max-width: 1230px) {
+  .home-page-list {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 768px) {
+  .home-page-list {
+    padding: 0 20px;
+  }
 }
 </style>

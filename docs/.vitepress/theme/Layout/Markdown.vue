@@ -156,11 +156,21 @@ const scrollToHeading = (element: HTMLElement) => {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 15% 0 15%;
+  padding: 0 15% 0 15%;
   border-radius: 10px;
   gap: 20px;
+  transition: all 0.3s ease;
 }
-
+@media (max-width: 1230px) {
+  .markdown-body-all {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 768px) {
+  .markdown-body-all {
+    padding: 0 20px;
+  }
+}
 .markdown-body-Sidebar {
   position: sticky;
   top: 80px;
@@ -173,6 +183,7 @@ const scrollToHeading = (element: HTMLElement) => {
   align-self: flex-start;
   gap: 10px;
   background-color: var(--markDownMiniBackgroundColor);
+  transition: all 0.3s ease;
 
   .cursorPointer {
     cursor: pointer;
@@ -182,8 +193,7 @@ const scrollToHeading = (element: HTMLElement) => {
     &:hover {
       color: var(--primaryColor);
     }
-
-    // 活跃状态样式
+    
     &.active-heading {
       color: var(--primaryColor);
       border-left: 3px solid var(--primaryColor);
@@ -191,7 +201,11 @@ const scrollToHeading = (element: HTMLElement) => {
     }
   }
 }
-
+@media (max-width: 768px) {
+  .markdown-body-Sidebar {
+    display: none;
+  }
+}
 .markdown-body-text {
   position: relative;
   display: flex;

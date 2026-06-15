@@ -85,6 +85,7 @@ const handleClick = (url: string) => {
   justify-content: space-between;
   width: 100%;
   margin: 0 13vw;
+  transition: all 0.3s ease;
   .header-component-box-minibox {
     @include flex-between-center;
     gap: 10px;
@@ -97,12 +98,22 @@ const handleClick = (url: string) => {
     .header-component-box-minibox-tab {
       @include flex-between-center;
       gap: 10px;
-      
+      transition: all 0.3s ease;
     }
     .header-component-box-minibox-a {
       font-weight: bold;
       font-size: 30px;
     }
+    @media (max-width: 500px) {
+      .header-component-box-minibox-tab {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 986px) {
+  .header-component-box {
+    margin: 0 10px;
   }
 }
 </style>

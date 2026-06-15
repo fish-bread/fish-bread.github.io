@@ -127,7 +127,7 @@ const pageNumbers = computed(() => {
             flex: item.titleBackground !== null ? null : 1,
             height: item.titleBackground !== null ? null : '100%'
           }">&nbsp;&nbsp;&nbsp;&nbsp;{{ item.description }}</div>
-
+      <!--底部-->
       <div class="home-page-markdown-minibox-bottom">
         <div class="home-page-markdown-minibox-bottom-box">
           <MarkdownMiniboxTags :title="'标签'">
@@ -230,11 +230,18 @@ const pageNumbers = computed(() => {
   padding: 30px 30px;
   border-radius: 10px;
   margin-bottom: 20px;
+  transition: all 0.3s ease;
 
   .home-page-markdown-minibox-h1 {
     color: var(--primaryColor);
     font-weight: bold;
     font-size: 30px;
+    transition: all 0.3s ease;
+  }
+  @media (max-width: 768px) {
+    .home-page-markdown-minibox-h1 {
+      font-size: 20px;
+    }
   }
 
   .home-page-markdown-minibox-title {
@@ -272,8 +279,14 @@ const pageNumbers = computed(() => {
       font-weight: bold;
     }
   }
+  @media (max-width: 986px) {
+    .home-page-markdown-minibox-bottom {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
 }
-
 .pagination {
   display: flex;
   justify-content: center;

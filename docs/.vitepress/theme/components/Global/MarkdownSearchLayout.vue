@@ -43,10 +43,11 @@ defineProps<{
 .markdown-body-content {
   display: flex;
   flex-direction: column;
-  margin: 0 20% 0 20%;
-  width: 60%;
+  padding: 0 20%;
+  width: 100%;
   border-radius: 10px;
   gap: 20px;
+  transition: all 0.3s ease;
 
   .markdown-body-content-box {
     display: flex;
@@ -65,6 +66,16 @@ defineProps<{
     flex-direction: row;
     justify-content: center;
     margin: 0;
+  }
+}
+@media (max-width: 1230px) {
+  .markdown-body-content {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 768px) {
+  .markdown-body-content {
+    padding: 0 20px;
   }
 }
 </style>

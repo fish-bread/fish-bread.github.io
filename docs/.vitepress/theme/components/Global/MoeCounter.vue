@@ -12,15 +12,16 @@
 <style scoped lang="scss">
 img {
   margin: 0;
-  width: 500px;
+  width: 100%;
 }
 .num-box {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: 40%;
+  height: 40%;
   padding: 20px;
 }
+
 </style>
