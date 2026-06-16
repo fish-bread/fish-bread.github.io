@@ -12,14 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6118c2e4-f921-4060-9c9f-eb949224c43a" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/Layout/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/Layout/Markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/HeaderIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/HeaderIndex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/HomeIndexLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/HomeIndexLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/MarkdownSearchLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/MarkdownSearchLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/MoeCounter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Global/MoeCounter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/Markdown/MarkdownMinibox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/components/Markdown/MarkdownMinibox.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/解包的叶瞬光blender模型如何导入unity.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/解包的叶瞬光blender模型如何导入unity.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,37 +56,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.docs:build.executor": "Run",
-    "npm.docs:dev.executor": "Debug",
-    "npm.docs:preview.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "F:\\workall\\c++all\\JetBrains Rider 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.docs:build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.docs:preview.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\workall\\c++all\\JetBrains Rider 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="npm.docs:dev">
+}</component>
+  <component name="RunManager" selected="npm.docs:build">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -127,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
+        <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:preview" />
       </list>
     </recent_temporary>
@@ -159,7 +151,7 @@
       <workItem from="1781271982630" duration="3495000" />
       <workItem from="1781352061694" duration="1750000" />
       <workItem from="1781367641165" duration="374000" />
-      <workItem from="1781532655232" duration="2677000" />
+      <workItem from="1781532655232" duration="3140000" />
     </task>
     <servers />
   </component>

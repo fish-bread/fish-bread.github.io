@@ -22,7 +22,7 @@ description: 个人基于zzz解包的人物动画导入unity的记录
 4. 用Better FBX插件进行导出,插件设置如图(**其他配置默认即可** ),导出后在unity的坐标系就是正确的**注意检测根骨骼位置是否为零**
 5. ![motion图片](/markdown_img/unity/Pasted_image_20260611221855.png 'motion图片')
 6. ![motion图片](/markdown_img/unity/Pasted_image_20260611221912.png 'motion图片')
-> 战斗的模型要和武器匣一起导出
+> 模型要和武器匣分别导出
 > (贴图导出可选可不选,不选需要你直接复制一份贴图在unity中)
 ## 动作模型处理
 1. 动作模型处理于之前的处理**类似但有不同** ,但此时导出的模型是用于在unity充当animeclip载体的fbx
@@ -32,7 +32,6 @@ description: 个人基于zzz解包的人物动画导入unity的记录
 4. 全选该模型层级**从根空物体**(内部模型是否显示不重要),使用Better FBX插件导出,插件配置如图(**其他配置默认即可** )
 5. ![motion图片](/markdown_img/unity/Pasted_image_20260611223515.png 'motion图片')
 6. ![motion图片](/markdown_img/unity/Pasted_image_20260611223524.png 'motion图片')
-> 战斗动画文件要和武器匣一起导出
 # unity相关
 来到unity,现在我们已经拥有了原模型和一个动作模型,此时我们还需要一些配置.
 ## 模型处理
